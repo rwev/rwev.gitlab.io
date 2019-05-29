@@ -34,6 +34,16 @@ SOCIAL = (
     ("Another social link", "#"),
 )
 
+MENUITEMS = (
+    ("Home", "/pages/home.html"),
+    ("About", "/pages/about.html"),
+    ("Writings", "/pages/writings.html"),
+    ("Projects", "/pages/projects.html"),
+    ("Contact", "/pages/contact.html"),
+    # ("Resume", "")
+)
+
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing

@@ -6,18 +6,12 @@ html {
         text-rendering: optimizeLegibility;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300');
+
 @font-face {
         font-family: Bahnschrift;
         src: url('./font/bahnschrift.ttf');
 }
-
-html {
-        font-family: Bahnschrift;
-        font-size: 14pt;
-}
-
-
-/* HTML5 tag defaults. */
 
 /* @import "nord.css"; */
 :root {
@@ -39,7 +33,13 @@ html {
         --nord15: #b48ead;
 }
 
-html {
+
+body {
+        font-family: 'Fira Sans', sans-serif;
+        line-height: 1.5;
+        max-width: 40rem;
+        padding: 2rem;
+        margin: auto;
         background: var(--nord6);
         color: var(--nord0);
 }
@@ -59,10 +59,16 @@ h4,
 h5 {
         font-weight: normal;
         text-align: left;
+        font-family: Bahnschrift;
+        color: var(--nord14);
 }
 
 h1 {
         color: var(--nord3);
+}
+
+h2 {
+        color: var(--nord9);
 }
 
 
@@ -109,6 +115,10 @@ td {
         border-width: thin;
 }
 
+a {
+        color: inherit;
+}
+
 a:link,
 a:visited {
         text-decoration: none;
@@ -124,4 +134,18 @@ hr {
         color: #000;
         height: 3px;
         background-color: #000;
+}
+
+img {
+        max-width: 100%;
+
+}
+
+#menu {
+        font-family: Bahnschrift;
+}
+
+#menu a {
+        text-decoration: underline;
+        color: var(--nord12);
 }

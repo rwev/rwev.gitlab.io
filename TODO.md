@@ -1,0 +1,6 @@
+-   Add "Categories" to nav in base template
+-   Put the tags somewhere too
+-   Default to home page?
+-   Use slug: instead of save_as: in /pages
+-   Put site title somewhere else
+-
