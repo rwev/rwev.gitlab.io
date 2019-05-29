@@ -16,6 +16,7 @@ html {
         font-size: 14pt;
 }
 
+
 /* HTML5 tag defaults. */
 
 /* @import "nord.css"; */
@@ -38,6 +39,11 @@ html {
         --nord15: #b48ead;
 }
 
+html {
+        background: var(--nord6);
+        color: var(--nord0);
+}
+
 header,
 footer,
 aside,
@@ -55,25 +61,17 @@ h5 {
         text-align: left;
 }
 
-h1>a {
-        color: var(--nord0);
+h1 {
+        color: var(--nord3);
 }
+
 
 body {
         max-width: 40em;
         margin: auto;
         text-align: left;
-        background: var(--nord4);
-        color: var(--nord0);
 }
 
-/* Use a thin border around all images. */
-img {
-        border: 1px solid;
-        max-width: 40em;
-}
-
-/* Navigation bar. */
 nav {
         padding-bottom: 1ex;
         margin-bottom: 1em;
@@ -90,7 +88,6 @@ nav ul li {
         display: inline;
         float: left;
         margin-right: 1em;
-        /* How far between items. */
         margin-top: .2em;
 }
 
@@ -99,10 +96,6 @@ nav ul li a {
         margin: 0;
 }
 
-/*
- * Use a border around tables, but don't draw lines around individual
- * cells.
- */
 table {
         border-style: solid;
         border-collapse: collapse;
@@ -116,25 +109,16 @@ td {
         border-width: thin;
 }
 
-/* for unvisited links: blue */
-a:link {
-        color: var(--nord4);
-        text-decoration: none;
-}
-
-/* for visited links: purple */
+a:link,
 a:visited {
-        color: var(--nord1);
         text-decoration: none;
 }
 
-/* when mouse is over link or the link is active*/
 a:hover,
 a:active {
         text-decoration: underline;
 }
 
-/* Very clean ruler with no shadows. */
 hr {
         border: none;
         color: #000;

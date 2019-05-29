@@ -11,12 +11,23 @@ html {
         src: url('./font/bahnschrift.ttf');
 }
 
-html {
-        font-family: Bahnschrift;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300');
+
+body {
+        font-family: 'Fira Sans', sans-serif;
+        line-height: 1.6;
         font-size: 14pt;
+        max-width: 40rem;
+        padding: 2rem;
+        margin: auto;
+        background: var(--nord6);
+        color: var(--nord0);
+
 }
 
-/* HTML5 tag defaults. */
+
+
+
 
 /* @import "nord.css"; */
 :root {
@@ -38,6 +49,8 @@ html {
         --nord15: #b48ead;
 }
 
+html {}
+
 header,
 footer,
 aside,
@@ -51,29 +64,22 @@ h2,
 h3,
 h4,
 h5 {
+        font-family: Bahnschrift;
         font-weight: normal;
         text-align: left;
 }
 
-h1>a {
-        color: var(--nord0);
+h1 {
+        color: var(--nord3);
 }
+
 
 body {
         max-width: 40em;
         margin: auto;
         text-align: left;
-        background: var(--nord4);
-        color: var(--nord0);
 }
 
-/* Use a thin border around all images. */
-img {
-        border: 1px solid;
-        max-width: 40em;
-}
-
-/* Navigation bar. */
 nav {
         padding-bottom: 1ex;
         margin-bottom: 1em;
@@ -90,7 +96,6 @@ nav ul li {
         display: inline;
         float: left;
         margin-right: 1em;
-        /* How far between items. */
         margin-top: .2em;
 }
 
@@ -99,10 +104,6 @@ nav ul li a {
         margin: 0;
 }
 
-/*
- * Use a border around tables, but don't draw lines around individual
- * cells.
- */
 table {
         border-style: solid;
         border-collapse: collapse;
@@ -116,28 +117,23 @@ td {
         border-width: thin;
 }
 
-/* for unvisited links: blue */
-a:link {
-        color: var(--nord4);
-        text-decoration: none;
-}
-
-/* for visited links: purple */
+a:link,
 a:visited {
-        color: var(--nord1);
         text-decoration: none;
 }
 
-/* when mouse is over link or the link is active*/
 a:hover,
 a:active {
         text-decoration: underline;
 }
 
-/* Very clean ruler with no shadows. */
 hr {
         border: none;
         color: #000;
         height: 3px;
         background-color: #000;
+}
+
+img {
+        max-width: 100%;
 }
