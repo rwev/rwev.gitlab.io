@@ -1,4 +1,5 @@
 Title: Contact Information
-Save_as: pages/contact.html
+Save_as: contact.html
+Slug: contact 
 
-Here's a markdown table of some different ways to contact me...
+Here's a markdown table of some different ways to contact us...

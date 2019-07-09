@@ -1,4 +1,5 @@
 Title: Home
-Save_as: pages/home.html
+Save_as: home.html
+Slug: home
 
-Welcome to my site!
+Welcome to our site!

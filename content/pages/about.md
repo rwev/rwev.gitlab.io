@@ -1,3 +1,5 @@
-Title: About rwev
-Save_as: pages/about.html
-I'm a new user. That's all about me.
+Title: About Us  
+Save_as: about.html
+Slug: about
+
+We're new to this life.

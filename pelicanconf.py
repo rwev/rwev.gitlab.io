@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = "rwev"
-SITENAME = "Ein Sieben"
+SITENAME = "Delma"
 SITEURL = ""
 
 PATH = "content"
@@ -35,16 +35,15 @@ SOCIAL = (
 )
 
 MENUITEMS = (
-    ("Home", "/pages/home.html"),
-    ("About", "/pages/about.html"),
-    ("Writings", "/pages/writings.html"),
-    ("Projects", "/pages/projects.html"),
-    ("Contact", "/pages/contact.html"),
+    ("Home", "home.html"),
+    ("About", "about.html"),
+    ("Writings", "writings.html"),
+    ("Projects", "projects.html"),
+    ("Contact", "contact.html"),
     # ("Resume", "")
 )
 
-
 DEFAULT_PAGINATION = 10
-
+DISPLAY_CATEGORIES_ON_MENU = True
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True

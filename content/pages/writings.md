@@ -1,5 +1,7 @@
 Title: Some Writings
-Save_as: pages/writings.html
+Save_as: writings.html
+Slug: writings
 
--   Link 1
+Our highlight reel.
+-   Link to first article
 -   Here's another

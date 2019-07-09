@@ -3,18 +3,14 @@
 ## Setup
 
 ```shell
-python -m pip install pelican markdown
+python -m pip install pelican markdown invoke
 apt-get install entr
 ```
 
 ## Development
 
-### Generate site on file change
+### Generate site and serve on file change
 ```shell
-fd --full-path ./ | entr pelican content -t ./theme -s pelicanconf.py
+fd '.*\.(py|html|md)$' | entr -r invoke rebuild serve
 ```
 
-### Restart server on file change
-```shell
-fd --full-path ./ | entr -r pelican --listen
-```
