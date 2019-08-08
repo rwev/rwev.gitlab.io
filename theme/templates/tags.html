@@ -1,10 +1,15 @@
 {% extends "base.html" %}
-
-{% block title %}{{ SITENAME }} - Tags{% endblock %}
+{% block title %} {{ VERTSEPCHARS }} {{ TAGS_MENU_TITLE }} {% endblock %}
 
 {% block content %}
-    <h1>Tags for {{ SITENAME }}</h1>
-    {%- for tag, articles in tags|sort %}
-        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
-    {% endfor %}
+<h1>{{ TAGS_MENU_TITLE }}</h2>
+<article>
+  <div class="article_text">
+    <ul>
+      {%- for tag, articles in tags|sort %}
+      <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower}}</a> [{{ articles|count }}]</li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
 {% endblock %}

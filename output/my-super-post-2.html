@@ -1,65 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <title>Delma</title>
-        <meta charset="utf-8" />
-        <link href="./theme/local.css" rel="stylesheet">
-        <link href="./theme/pygments.css" rel="stylesheet">
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="./theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="./theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="./theme/css/local.css">
+  <link rel="stylesheet" type="text/css" href="./theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="rwev">
+  <meta name="description" content="Posts and writings by rwev">
 
 
+<meta name="keywords" content="static, python, web, technology">
 
-<meta name="tags" contents="static" />
-<meta name="tags" contents="python" />
-<meta name="tags" contents="web" />
-<meta name="tags" contents="technology" />
+  <title>
+    sieben
+  //  His Second Article  </title>
 
 </head>
 
-<body id="index" class="home">
-        <nav id="menu"><ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="writings.html">Writings</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            
-            
-        </ul></nav><!-- /#menu -->
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href=".">
+        <img src="./theme/images/logo.png" alt="logo">
+      </a>
+      <h2><a href=".">sieben</a></h2>
+      <p></p>
 
-        <header id="banner" class="body">
-                <h1><a href="./">Delma <strong></strong></a></h1>
-        </header><!-- /#banner -->
+      <ul>
+      </ul>   
+     
+        <h3>pages</h3>
+      <ul>
+        <li><a href="./pages/about-us.html">about us</a></li>
+        <li><a href="./pages/contact.html">contact</a></li>
+        <li><a href="./pages/home.html">home</a></li>
+        <li><a href="./pages/projects.html">projects</a></li>
+        <li><a href="./pages/writings.html">writings</a></li>
+      </ul>
+
+      <h3>links</h3>
+      <ul>
+        <li><a href="https://github.com/rwev" target="_blank">github</a></li>
+        <li><a href="https://gitlab.com/rwev" target="_blank">gitlab</a></li>
+      </ul>
+
+      <h3>categories</h3>
+      <ul>  
+        <li><a href="./category/auxiliary.html">auxiliary [1]</a></li>
+        <li><a href="./category/core.html">core [1]</a></li>
+      </ul>
         
-<section id="content" class="body">
-        <header>
-                <h2 class="entry-title">
-                        <a href="./my-super-post-2.html" rel="bookmark"
-                                                                  title="Permalink to His Second Article">His Second Article</a></h2>
-                
-        </header>
-        <footer class="post-info">
-                <b class="published" title="2019-05-03T10:20:00-06:00">
-                        Fri 03 May 2019
-                </b>
-                <i class="modified" title="2019-05-05T19:30:00-06:00">
-                        Sun 05 May 2019
-                </i>
-                <address class="vcard author">
-                        By                         <b>
-                                <a class="url fn" href="./author/rwev.html">rwev</a>
+      <!-- TODO move along bottom edge of sidebar - add icons -->
+      <h3>social</h3>
+      <ul>
+      </ul>
 
-                        </b>
-                        <b>
-                                <a class="url fn" href="./author/rev.html">rev</a>
+    </div>
+  </aside>
 
-                        </b>
-                </address>
-        </footer><!-- /.post-info -->
-        <div class="entry-content">
-                <p>I know it hasn't been long since my first blog post, but...</p>
-        </div><!-- /.entry-content -->
-</section>
+  <main>
+    <header>
+      <p>
+              <a href=".">home</a>  // <a href="./archives.html">archives</a>
+      </p>
+    </header>
 
-        
+<article>
+  <div class="article_title">
+    <h2><a href="./my-super-post-2.html">His Second Article</a></h2>
+  </div>
+  <div class="article_text">
+    <p>I know it hasn't been long since my first blog post, but...</p>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: 2019.05.03</p>
+    <!-- TODO put category / tag info before content? -->
+    <p>Category: <a href="./category/auxiliary.html">Auxiliary</a>
+    </p>
+    <p>
+ Tags:
+      <a href="./tag/static.html">static</a>,      <a href="./tag/python.html">python</a>,      <a href="./tag/web.html">web</a>,      <a href="./tag/technology.html">technology</a>    </p>
+  </div>
+
+
+</article>
+
+
+    <div id="ending_message">
+            <p>&copy; rwev. Built using <a href="https://python.org">Python</a> and <a href="https://getpelican.com" target="_blank">Pelican</a>. Theme inspired by <a href="https://nordtheme.com" target="_blank">Nord</a>.</p>
+    </div>
+  </main>
 </body>
 </html>

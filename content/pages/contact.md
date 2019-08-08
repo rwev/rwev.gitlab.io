@@ -1,5 +1,3 @@
-Title: Contact Information
-Save_as: contact.html
-Slug: contact 
+Title: Contact 
 
 Here's a markdown table of some different ways to contact us...

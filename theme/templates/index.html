@@ -1,24 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
-<section id="content">
-{% block content_title %}
+{% for article in articles_page.object_list %}
+<article>
+  <div class="article_title">
+   
+          
+          <!-- {{ VERTSEPCHARS }} <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> -->
+
+          <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+          <h4> {{ article.locale_date }} </h4>
+  </div>
+  <div class="article_text">
+    {{ article.summary }}
+  </div>
+</article>
+{% if not loop.last %}
+<hr />
+{% endif %}
+{% endfor %}
 {% endblock %}
 
-{% for article in articles_page.object_list %}
-<article class="hentry">
-  <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-  <footer class="post-info">
-    <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-    <address class="vcard author">By
-      {% for author in article.authors %}
-      <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-      {% endfor %}
-    </address>
-  </footer><!-- /.post-info -->
-  <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
-</article>
-{% endfor %}
-
-{% include 'pagination.html' %}
-</section><!-- /#content -->
-{% endblock content %}
+{% block footer %}
+<footer>
+  {% include "modules/pagination.html" %}
+</footer>
+{% endblock %}

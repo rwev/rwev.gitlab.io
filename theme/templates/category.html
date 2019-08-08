@@ -1,5 +1,21 @@
 {% extends "index.html" %}
-{% block content_title %}
-<h2>Articles in the {{ category }} category</h2>
+{% block title %}{{ VERTSEPCHARS }} {{ CATEGORY }} {{VERTSEPCHARS}} {{ category | lower }}{% endblock %}
+
+{% block head %}
+{% if CATEGORY_FEED_ATOM %}
+<link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|replace("{slug}", category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ category }} Category Atom" />
+{% endif %}
+{% if CATEGORY_FEED_RSS %}
+<link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|replace("{slug}", category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} {{ category }} Category RSS" />
+{% endif %}
 {% endblock %}
 
+{% block header %}
+&gt; {{CATEGORY}}: {{ category | lower }}
+{% if CATEGORY_FEED_ATOM %}
+{{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|replace("{slug}", category.slug) }}"> {{ ATOM }}</a>
+{% endif %}
+{% if CATEGORY_FEED_RSS %}
+{{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|replace("{slug}", category.slug) }}"> {{ RSS }}</a>
+{% endif %}
+{% endblock %}

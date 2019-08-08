@@ -1,15 +1,16 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{%endblock%}
+{% block title %}{{ VERTSEPCHARS }} {{ page.title }}{% endblock %}
+
 {% block content %}
-    <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
-
+<article>
+  <div class="article_title">
+    <h2><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h2>
+  </div>
+  <div class="article_text">
     {{ page.content }}
-
-	{% if page.modified %}
-		<p>
-		Last updated: {{ page.locale_modified }}
-		</p>
-	{% endif %}
+  </div>
+  <div class="article_meta">
+    <p>Updated on: {{ page.locale_date }}</p>
+  </div>
+</article>
 {% endblock %}

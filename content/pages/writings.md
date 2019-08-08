@@ -1,6 +1,4 @@
-Title: Some Writings
-Save_as: writings.html
-Slug: writings
+Title: Writings
 
 Our highlight reel.
 -   Link to first article
