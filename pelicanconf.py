@@ -86,7 +86,8 @@ PLUGIN_PATHS = ["./pelican-plugins"]
 PLUGINS=[
     "autopages",
     "similar_posts",
-    "neighbors"
+    "neighbors",
+    "section_number"
 ]
 
 # autopages
