@@ -45,6 +45,10 @@ CATEGORY = "category"
 TAG = "tag"
 TAGS = "tags"
 
+PREVIOUS = "prev"
+NEXT = "next"
+
+
 DATE = "date" # posted on
 
 ATOM="atom"
@@ -81,7 +85,8 @@ VERTSEPCHARS = " // "
 PLUGIN_PATHS = ["./pelican-plugins"]
 PLUGINS=[
     "autopages",
-    "similar_posts"
+    "similar_posts",
+    "neighbors"
 ]
 
 # autopages

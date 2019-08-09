@@ -14,8 +14,27 @@
     {{ article.content }}
   </div>
   <div class="article_meta">
-        <p>
+        <div class="article_neighbors">
+
+        {% if article.prev_article %}
+        <p class="article_prev">
+        &lt; {{ PREVIOUS }} <a href="{{SITEURL}}/{{ article.prev_article.url }}">
+                {{ article.prev_article.title }}
+        </a>
+        </p>
+        {% endif %}
+
+        {% if article.next_article %}
+        <p class="article_next">
+          {{ NEXT }} <a href="{{SITEURL}}/{{ article.next_article.url }}">
+                {{ article.next_article.title }}
+         </a>&gt; 
+        </p>
+         {% endif %}
+        </div>
+
                 {% if article.similar_posts %}
+        <p>
                 {{ SIMILAR_ARTICLES }}:
                 <ul>
                         {% for similar in article.similar_posts %}
@@ -26,9 +45,9 @@
                         </li>
                         {% endfor %}
                 </ul>
+        </p>
                 {% endif %}
         
-        </p>
 
 
 

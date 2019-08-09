@@ -164,11 +164,14 @@ img {
 
 }
 
-#menu {
-        font-family: Bahnschrift;
+div.article_neighbors {
+        display: inline-block;
+        width: 100%
+}
+p.article_prev {
+        float: left;
+} 
+p.article_next {
+        float: right;
 }
 
-#menu a {
-        text-decoration: underline;
-        color: var(--nord12);
-}
