@@ -87,7 +87,8 @@ PLUGINS=[
     "autopages",
     "similar_posts",
     "neighbors",
-    "section_number"
+    "section_number",
+    "encrypt_content"
 ]
 
 # autopages
@@ -99,3 +100,8 @@ TAG_PAGE_PATH = "{0}/tags".format(_AUTOPAGES)
 # similar_posts
 SIMILAR_POSTS_MAX_COUNT = 3
 
+# encrypt_content
+ENCRYPT_CONTENT={
+    'title_prefix': '[Encrypted]',
+    'summary': 'This content is password protected.'
+}
