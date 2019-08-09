@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = "rwev"
+OWNER = "rwev"
 SITENAME = "sieben"
 SITEURL = ""
 
@@ -39,16 +39,22 @@ SOCIAL = (
 ARCHIVES = "archives"
 HOME = "home"
 
+AUTHOR = "author"
 CATEGORY = "category"
 TAG = "tag"
+TAGS = "tags"
+
+DATE = "date" # posted on
 
 ATOM="atom"
 RSS="rss"
 
 DEFAULT_DATE_FORMAT="%Y.%m.%d"# big
 
-CATEGORY_FEED_ATOM="{slug}.atom"
-CATEGORY_FEED_RSS="{slug}.rss"
+TAG_FEED_ATOM="tag.{slug}.atom"
+TAG_FEED_RSS="tag.{slug}.rss"
+CATEGORY_FEED_ATOM="category.{slug}.atom"
+CATEGORY_FEED_RSS="category.{slug}.rss"
 
 DISPLAY_CATEGORIES_ON_MENU = True
 CATEGORIES_MENU_TITLE = "categories"
@@ -70,4 +76,15 @@ RELATIVE_URLS = True
 
 VERTSEPCHARS = " // "
 
+### PLUGINS ###
+PLUGIN_PATHS = ["./pelican-plugins"]
+PLUGINS=[
+    "autopages"
+]
+
+# autopages
+_AUTOPAGES = "./content/autopages"
+AUTHOR_PAGE_PATH = "{0}/authors".format(_AUTOPAGES)
+CATEGORY_PAGE_PATH = "{0}/categories".format(_AUTOPAGES)
+TAG_PAGE_PATH = "{0}/tags".format(_AUTOPAGES)
 

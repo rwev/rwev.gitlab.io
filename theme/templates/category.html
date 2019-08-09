@@ -2,6 +2,7 @@
 {% block title %}{{ VERTSEPCHARS }} {{ CATEGORY }} {{VERTSEPCHARS}} {{ category | lower }}{% endblock %}
 
 {% block head %}
+
 {% if CATEGORY_FEED_ATOM %}
 <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|replace("{slug}", category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ category }} Category Atom" />
 {% endif %}
@@ -18,4 +19,10 @@
 {% if CATEGORY_FEED_RSS %}
 {{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|replace("{slug}", category.slug) }}"> {{ RSS }}</a>
 {% endif %}
+
+<hr>
+<h1>{{ CATEGORY }}: {{ category | lower }}</h1>
+{{ category.page.content }}
+<hr>
+
 {% endblock %}

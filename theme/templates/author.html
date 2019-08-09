@@ -1,6 +1,7 @@
 {% extends "index.html" %}
-{% block title %}&ndash; Posts by: {{ author }}{% endblock %}
+{% block title %} {{ VERTSEPCHARS }}{{ AUTHOR }} {{ author }}{% endblock %}
 
 {% block header %}
-&gt; Author: {{ author }}
+&gt; {{ AUTHOR }}: {{ author }}
+{{ author.page.content }}
 {% endblock %}

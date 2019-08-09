@@ -101,10 +101,10 @@
       <p>
               <a href="{{ SITEURL }}">{{ HOME }}</a> {{ VERTSEPCHARS }}<a href="{{ SITEURL }}/archives.html">{{ ARCHIVES }}</a>
       {% if FEED_ALL_ATOM %}
-      {{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">Atom</a>
+      {{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">{{ ATOM }}</a>
       {% endif %}
       {% if FEED_ALL_RSS %}
-      {{ VERSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}">RSS</a>
+      {{ VERSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}">{{ RSS }}</a>
       {% endif %}
       {% block header %}
       {% endblock header %}
@@ -118,7 +118,7 @@
     {% endblock %}
 
     <div id="ending_message">
-            <p>&copy; {{ AUTHOR }}. Built using <a href="https://python.org">Python</a> and <a href="https://getpelican.com" target="_blank">Pelican</a>. Theme inspired by <a href="https://nordtheme.com" target="_blank">Nord</a>.</p>
+            <p>&copy; {{ OWNER }}. Built using <a href="https://python.org">Python</a> and <a href="https://getpelican.com" target="_blank">Pelican</a>. Theme inspired by <a href="https://nordtheme.com" target="_blank">Nord</a>.</p>
     </div>
   </main>
   {% include "modules/idl.html" %}

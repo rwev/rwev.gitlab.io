@@ -14,14 +14,14 @@
     {{ article.content }}
   </div>
   <div class="article_meta">
-    <p>Posted on: {{ article.locale_date }}</p>
+          <p>{{ DATE }}: {{ article.locale_date }}</p>
     <!-- TODO put category / tag info before content? -->
-    <p>Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+    <p> {{ CATEGORY }}: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category | lower }}</a>
     </p>
     <p>
-      {% if article.tags %} Tags:
+            {% if article.tags %} {{ TAGS }}:
       {% for tag in article.tags %}
-      <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+      <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower }}</a>{% if not loop.last %},{% endif %}
       {% endfor %}
       {% endif %}
     </p>
