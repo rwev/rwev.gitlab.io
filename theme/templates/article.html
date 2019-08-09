@@ -14,6 +14,24 @@
     {{ article.content }}
   </div>
   <div class="article_meta">
+        <p>
+                {% if article.similar_posts %}
+                {{ SIMILAR_ARTICLES }}:
+                <ul>
+                        {% for similar in article.similar_posts %}
+                        <li>
+                                <a href="{{ SITEURL }}/{{ similar.url }}">
+                                        {{ similar.title }}
+                                </a>
+                        </li>
+                        {% endfor %}
+                </ul>
+                {% endif %}
+        
+        </p>
+
+
+
           <p>{{ DATE }}: {{ article.locale_date }}</p>
     <!-- TODO put category / tag info before content? -->
     <p> {{ CATEGORY }}: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category | lower }}</a>

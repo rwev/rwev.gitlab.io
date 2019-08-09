@@ -38,6 +38,7 @@ SOCIAL = (
 
 ARCHIVES = "archives"
 HOME = "home"
+SIMILAR_ARTICLES = "similar articles"
 
 AUTHOR = "author"
 CATEGORY = "category"
@@ -79,7 +80,8 @@ VERTSEPCHARS = " // "
 ### PLUGINS ###
 PLUGIN_PATHS = ["./pelican-plugins"]
 PLUGINS=[
-    "autopages"
+    "autopages",
+    "similar_posts"
 ]
 
 # autopages
@@ -87,4 +89,7 @@ _AUTOPAGES = "./content/autopages"
 AUTHOR_PAGE_PATH = "{0}/authors".format(_AUTOPAGES)
 CATEGORY_PAGE_PATH = "{0}/categories".format(_AUTOPAGES)
 TAG_PAGE_PATH = "{0}/tags".format(_AUTOPAGES)
+
+# similar_posts
+SIMILAR_POSTS_MAX_COUNT = 3
 

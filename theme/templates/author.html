@@ -1,7 +1,12 @@
 {% extends "index.html" %}
-{% block title %} {{ VERTSEPCHARS }}{{ AUTHOR }} {{ author }}{% endblock %}
+{% block title %} {{ VERTSEPCHARS }} {{ AUTHOR }}: {{ author }}{% endblock %}
 
 {% block header %}
 &gt; {{ AUTHOR }}: {{ author }}
+
+<hr>
+<h1> {{ AUTHOR }}: {{ author }} </h1>
 {{ author.page.content }}
+<hr>
+
 {% endblock %}

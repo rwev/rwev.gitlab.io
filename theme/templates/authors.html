@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ VERTSEPCHARS }}uthors{% endblock %}
+{% block title %}{{ VERTSEPCHARS }} authors{% endblock %}
 
 {% block content %}
 <article>
@@ -9,6 +9,5 @@
       <li><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> [{{ articles|count }}]</li>
       {% endfor %}
     </ul>
-  </div>
-</article>
+  </div</article>
 {% endblock %}
