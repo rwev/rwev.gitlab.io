@@ -3,8 +3,10 @@
 from __future__ import unicode_literals
 
 OWNER = "rwev"
-SITENAME = "sieben"
+SITENAME = "einsieben"
 SITEURL = ""
+TAGLINE = "Type 7. Dynamic generalist. Under-specialized, over-versatile. Robust \
+    in many environments. Variety is spice of life."
 
 PATH = "content"
 THEME = "./theme"
@@ -29,11 +31,9 @@ LINKS = (
 )
 
 # Social widget
-DISPLAY_SOCIAL_ON_MENU = True
+DISPLAY_SOCIAL_ON_MENU = False
 SOCIAL_MENU_TITLE = "social"
 SOCIAL = (
-   #  ("You can add links in your config file", "#"),
-   #  ("Another social link", "#"),
 )
 
 ARCHIVES = "archives"

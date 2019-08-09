@@ -10,7 +10,9 @@
     {{ page.content }}
   </div>
   <div class="article_meta">
-    <p>Updated on: {{ page.locale_date }}</p>
+          {% if page.locale_date %}
+    <p>Updated on: {{ page.locale_date }}</p>i
+    {% endif %}
   </div>
 </article>
 {% endblock %}
