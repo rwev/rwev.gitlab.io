@@ -23,16 +23,18 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
+
+BLOG = "blog"
 DISPLAY_LINKS_ON_MENU = True
-LINKS_MENU_TITLE = "links"
-LINKS = (
+LINKS = "links"
+LINK_ITEMS = (
     ("GitHub", "https://github.com/rwev"),
     ("GitLab", "https://gitlab.com/rwev"),
 )
 
 # Social widget
 DISPLAY_SOCIAL_ON_MENU = False
-SOCIAL_MENU_TITLE = "social"
+SOCIAL= "social"
 SOCIAL = (
 )
 
@@ -40,14 +42,22 @@ ARCHIVES = "archives"
 HOME = "home"
 SIMILAR_ARTICLES = "similar articles"
 
+ARTICLES = "articles"
+
+PAGE = "page"
+PAGES = "pages"
+
 AUTHOR = "author"
+AUTHORS = "authors"
+
 CATEGORY = "category"
+CATEGORIES = "categories"
+
 TAG = "tag"
 TAGS = "tags"
 
 PREVIOUS = "prev"
 NEXT = "next"
-
 
 DATE = "date" # posted on
 
@@ -61,20 +71,9 @@ TAG_FEED_RSS="tag.{slug}.rss"
 CATEGORY_FEED_ATOM="category.{slug}.atom"
 CATEGORY_FEED_RSS="category.{slug}.rss"
 
-DISPLAY_CATEGORIES_ON_MENU = True
-CATEGORIES_MENU_TITLE = "categories"
-TAGS_MENU_TITLE = "tags"
+DISPLAY_CATEGORIES_ON_MENU = False
 
 DISPLAY_PAGES_ON_MENU = True
-PAGES_MENU_TITLE = "pages"
-# MENUITEMS = (
-   # ("Home", "home.html"),
-   # ("About", "about.html"),
-   # ("Writings", "writings.html"),
-   # ("Projects", "projects.html"),
-   # ("Contact", "contact.html"),
-   #  ("Resume", "")
-# )
 
 DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True

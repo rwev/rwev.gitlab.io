@@ -1,13 +1,18 @@
 {% extends "base.html" %}
-{% block title %} {{ VERTSEPCHARS }} {{ CATEGORIES_MENU_TITLE }}{% endblock %}
+{% block title %} {{ VERTSEPCHARS }} {{ CATEGORIES }}{% endblock %}
 
 {% block content %}
-<h1>{{ CATEGORIES_MENU_TITLE }}</h1>
+<h1>{{ CATEGORIES }}</h1>
 <article>
   <div class="article_text">
     <ul>
       {% for category, articles in categories|sort %}
-      <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category | lower}}</a> [{{ articles|count }}]</li>
+      <li>
+              <a href="{{ SITEURL }}/{{ category.url }}">{{ category | lower}}</a>
+              <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+                
+                <p>{{ category.page.content }}</p>
+      </li>
       {% endfor %}
     </ul>
   </div>
