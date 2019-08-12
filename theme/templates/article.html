@@ -51,8 +51,9 @@
 
 
 
-          <p>{{ DATE }}: {{ article.locale_date }}</p>
     <!-- TODO put category / tag info before content? -->
+    <p>{{ POSTED }}: {{ article.locale_date}}</p>
+          <p>{{ MODIFIED }}: {{ article.locale_modified  }}</p>
     <p> {{ CATEGORY }}: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category | lower }}</a>
 
             

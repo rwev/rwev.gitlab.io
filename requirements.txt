@@ -3,3 +3,4 @@ gensim>=3.5.0
 pycrypto>=2.6.0
 markdown>=3.1.1
 invoke>=1.2.0
+gitpython>=2.1.0

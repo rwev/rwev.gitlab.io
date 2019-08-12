@@ -56,12 +56,13 @@ TAGS = "tags"
 PREVIOUS = "prev"
 NEXT = "next"
 
-DATE = "date" # posted on
+POSTED = "posted" # posted on
+MODIFIED = "modified"
 
 ATOM="atom"
 RSS="rss"
 
-DEFAULT_DATE_FORMAT="%Y.%m.%d"# big
+DEFAULT_DATE_FORMAT="%Y.%m.%d %H:%M" # big
 
 FEED_ALL_ATOM = None
 FEED_ALL_ATOM = None
@@ -97,7 +98,9 @@ PLUGINS=[
     "neighbors",
     "section_number",
 #    "encrypt_content",
-    "subcategory"
+    "subcategory",
+    "filetime_from_git",
+    "gzip_cache"
 ]
 
 # autopages
