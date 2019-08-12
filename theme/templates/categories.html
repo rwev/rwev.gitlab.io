@@ -10,8 +10,10 @@
       <li>
               <a href="{{ SITEURL }}/{{ category.url }}">{{ category | lower}}</a>
               <span>[{{ articles|count }} {{ ARTICLES }}]</span>
-                
-                <p>{{ category.page.content }}</p>
+              {% if category.page %}
+
+              <p>{{ category.page.content }}</p>
+              {% endif %}
       </li>
       {% endfor %}
     </ul>

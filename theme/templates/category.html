@@ -22,7 +22,11 @@
 
 <hr>
 <h1>{{ CATEGORY }}: {{ category | lower }}</h1>
+{% if category.page %}
+
 {{ category.page.content }}
+
+{% endif %}
 <hr>
 
 {% endblock %}

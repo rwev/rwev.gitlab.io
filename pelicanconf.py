@@ -78,9 +78,6 @@ TAG_FEED_RSS="feeds/tag.{slug}.rss.xml"
 CATEGORY_FEED_ATOM="feeds/category.{slug}.atom.xml"
 CATEGORY_FEED_RSS="feeds/category.{slug}.rss.xml"
 
-SUBCATEGORY_FEED_ATOM="feeds/%s.atom.xml"
-SUBCATEGORY_FEED_RSS="feeds/%s..rss.xml"
-
 DISPLAY_CATEGORIES_ON_MENU = False
 
 DISPLAY_PAGES_ON_MENU = True
@@ -98,7 +95,7 @@ PLUGINS=[
     "neighbors",
     "section_number",
 #    "encrypt_content",
-    "subcategory",
+    "more_categories",
     "filetime_from_git",
     "gzip_cache"
 ]

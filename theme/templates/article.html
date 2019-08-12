@@ -54,24 +54,12 @@
     <!-- TODO put category / tag info before content? -->
     <p>{{ POSTED }}: {{ article.locale_date}}</p>
           <p>{{ MODIFIED }}: {{ article.locale_modified  }}</p>
-    <p> {{ CATEGORY }}: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category | lower }}</a>
 
-            
-        {% if article.subcategories %} 
-        {% for subcategory in article.subcategories %}
-        &gt; <a href="{{ SITEURL }}/{{subcategory.url}}">{{ subcategory.shortname | lower }}
-        </a>
-        {% endfor %}
-        {% endif %}
-
-            <!--
-        {% if article.subcategories %} 
-        {{ SUBCATEGORIES }}: 
-        {% for subcategory in article.subcategories %}
-        <a href="{{ SITEURL }}/{{subcategory.url}}">{{ subcategory.shortname }}
-        </a>
-        {% endfor %}
-        {% endif %}-->
+          <p> {{ CATEGORY }}: 
+          
+                  {% for category in article.category.ancestors or [article.category] %}
+          <a href="{{ SITEURL }}/{{ category.url }}">{{ category.shortname or category | lower }}</a>{{ '&gt;' if not loop.last }}
+          {% endfor %} 
     </p>
 
 
