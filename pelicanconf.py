@@ -15,12 +15,6 @@ TIMEZONE = "America/Denver"
 
 DEFAULT_LANG = "en"
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
 
 # Blogroll
 
@@ -53,6 +47,9 @@ AUTHORS = "authors"
 CATEGORY = "category"
 CATEGORIES = "categories"
 
+SUBCATEGORY = "subcategory"
+SUBCATEGORIES = "subcategories"
+
 TAG = "tag"
 TAGS = "tags"
 
@@ -66,10 +63,22 @@ RSS="rss"
 
 DEFAULT_DATE_FORMAT="%Y.%m.%d"# big
 
-TAG_FEED_ATOM="tag.{slug}.atom"
-TAG_FEED_RSS="tag.{slug}.rss"
-CATEGORY_FEED_ATOM="category.{slug}.atom"
-CATEGORY_FEED_RSS="category.{slug}.rss"
+FEED_ALL_ATOM = None
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+
+AUTHOR_FEED_ATOM = "feeds/author.{slug}.atom.xml"
+AUTHOR_FEED_RSS = "feeds/author.{slug}.rss.xml"
+
+TAG_FEED_ATOM="feeds/tag.{slug}.atom.xml"
+TAG_FEED_RSS="feeds/tag.{slug}.rss.xml"
+
+CATEGORY_FEED_ATOM="feeds/category.{slug}.atom.xml"
+CATEGORY_FEED_RSS="feeds/category.{slug}.rss.xml"
+
+SUBCATEGORY_FEED_ATOM="feeds/%s.atom.xml"
+SUBCATEGORY_FEED_RSS="feeds/%s..rss.xml"
 
 DISPLAY_CATEGORIES_ON_MENU = False
 
@@ -87,7 +96,8 @@ PLUGINS=[
     "similar_posts",
     "neighbors",
     "section_number",
-    "encrypt_content"
+#    "encrypt_content",
+    "subcategory"
 ]
 
 # autopages

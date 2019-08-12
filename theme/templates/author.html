@@ -1,6 +1,16 @@
 {% extends "index.html" %}
 {% block title %} {{ VERTSEPCHARS }} {{ AUTHOR }}: {{ author }}{% endblock %}
 
+
+{% block head %}
+{% if AUTHOR_FEED_ATOM %}
+<link href="{{ FEED_DOMAIN }}/{{ AUTHOR_FEED_ATOM | replace("{slug}", author.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ author }} Author Atom" />
+{% endif %}
+{% if AUTHOR_FEED_RSS %}
+<link href="{{ FEED_DOMAIN }}/{{ AUTHOR_FEED_RSS | replace("{slug}", author.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} {{ author }} Author RSS" />
+{% endif %} 
+{% endblock %}
+
 {% block header %}
 &gt; {{ AUTHOR }}: {{ author }}
 

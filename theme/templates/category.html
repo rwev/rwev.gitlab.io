@@ -1,8 +1,8 @@
 {% extends "index.html" %}
 {% block title %}{{ VERTSEPCHARS }} {{ CATEGORY }}: {{ category | lower }}{% endblock %}
 
-{% block head %}
 
+{% block head %}
 {% if CATEGORY_FEED_ATOM %}
 <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|replace("{slug}", category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} {{ category }} Category Atom" />
 {% endif %}
