@@ -98,11 +98,12 @@ PLUGINS=[
     "more_categories",
     "filetime_from_git",
     "gzip_cache",
-    "read_more_link"
+    "read_more_link",
+    "pelican-page-hierarchy"
 ]
 
 # autopages
-_AUTOPAGES = "./content/autopages"
+_AUTOPAGES = "/content/autopages"
 AUTHOR_PAGE_PATH = "{0}/authors".format(_AUTOPAGES)
 CATEGORY_PAGE_PATH = "{0}/categories".format(_AUTOPAGES)
 TAG_PAGE_PATH = "{0}/tags".format(_AUTOPAGES)
@@ -121,3 +122,4 @@ SUMMARY_MAX_LENGTH = 5
 READ_MORE_LINK = '<span>continue &gt;</span>'
 READ_MORE_LINK_FORMAT = '<a class="read-more-link" href="/{url}">{text}</a>'
 
+# pelican-page-hierarchy
