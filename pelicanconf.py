@@ -97,7 +97,8 @@ PLUGINS=[
 #    "encrypt_content",
     "more_categories",
     "filetime_from_git",
-    "gzip_cache"
+    "gzip_cache",
+    "read_more_link"
 ]
 
 # autopages
@@ -114,3 +115,9 @@ ENCRYPT_CONTENT={
     'title_prefix': '[Encrypted]',
     'summary': 'This content is password protected.'
 }
+
+# read_more_link
+SUMMARY_MAX_LENGTH = 5
+READ_MORE_LINK = '<span>continue &gt;</span>'
+READ_MORE_LINK_FORMAT = '<a class="read-more-link" href="/{url}">{text}</a>'
+
