@@ -21,7 +21,18 @@
 {% endif %}
 
 <hr>
-<h1>{{ CATEGORY }}: {{ category | lower }}</h1>
+<h1>{{ CATEGORY }}:
+        
+                {% for ancestor_category in category.ancestors[:-1] %}
+              <span>{{ ancestor_category.shortname | lower}}</span>
+              &gt;
+              {% endfor %} 
+
+              <span>{{ category.shortname | lower}}</span>
+
+</h1>
+
+
 {% if category.page %}
 
 {{ category.page.content }}
