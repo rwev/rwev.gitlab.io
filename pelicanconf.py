@@ -11,6 +11,8 @@ TAGLINE = "Type 7. Dynamic generalist. Under-specialized, over-versatile. Robust
 PATH = "content"
 THEME = "./theme"
 
+OUTPUT_PATH = "./public" # for gitlab page
+
 TIMEZONE = "America/Denver"
 
 DEFAULT_LANG = "en"
