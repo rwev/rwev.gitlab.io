@@ -1,28 +1,25 @@
-# delma
-
-## Setup
-
+# rwev [gitlab](https://rwev.gitlab.io) [github](https://rwev.github.io)
+## development
+### installation
 ```shell
 python -m pip install -r requirements.txt
 apt-get install entr
 ```
-
-## Development
-
-### Generate site and serve on file change
+### generate site and serve on file change
 ```shell
 fd '.*\.(py|html|md|css|less)$' | entr -r invoke rebuild serve
 ```
+### gitlab user site 
+a gitlab continuous integration file (`.gitlab-ci.yml`) is included in the repo. pushing to a user site repo (`<user>.gitlab.io`) run the build and deployment process.
 
-### Push to GitLab/Hub user site repository
-Create branch `ghl-pages` called where `output` directory is root
+### github user site 
+using `ghp-import`: create branch `gh-pages` where `public` directory is root with command
 ```shell
-ghp-import ./output -b ghl-pages 
+ghp-import ./public -b gh-pages 
 ```
-Push `ghl-pages` branch to repository.
+and push `gh-pages` branch to repository.
 ```shell
-git push https://github.com/rwev/rwev.github.io.git ghl-pages:master --force
-git push https://gitlab.com/rwev/rwev.gitlab.io.git ghl-pages:master --force
+git push https://github.com/rwev/rwev.github.io.git gh-pages:gh-pages --force
 ```
 
 
