@@ -32,6 +32,11 @@ def build(c):
     c.run('pelican -s pelicanconf.py')
 
 @task
+def styles(c):
+    """Transpile less -> css"""
+    c.run('lesscpy theme/static/css/style.less theme/static/css/style.css')
+
+@task
 def rebuild(c):
     """`build` with the delete switch"""
     c.run('pelican -d -s pelicanconf.py')
