@@ -1,18 +1,19 @@
 {% extends "base.html" %}
-{% block title %}{{ VERTSEPCHARS }} authors{% endblock %}
+{% block title %}{{ VERTSEPCHARS }} {{ AUTHORS }}{% endblock %}
 
 {% block content %}
-<h1>{{ AUTHORS }}</h1>
 <article>
-  <div class="article_text">
-    <ul>
-      {% for author, articles in authors|sort %}
-      <li>
-              <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> 
-              <span>[{{ articles|count }} {{ ARTICLES }}]</span>  
-              <p>{{ author.page.content }}</p>
-      </li>
-      {% endfor %}
-    </ul>
-  </div</article>
+        <h1>{{ AUTHORS }}</h1>
+        <div class="article_text">
+                <ul>
+                        {% for author, articles in authors|sort %}
+                        <li>
+                                <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                                <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+                                <p>{{ author.page.content }}</p>
+                        </li>
+                        {% endfor %}
+                </ul>
+        </div>
+</article>
 {% endblock %}

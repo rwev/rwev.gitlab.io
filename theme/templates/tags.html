@@ -2,19 +2,19 @@
 {% block title %} {{ VERTSEPCHARS }} {{ TAGS }} {% endblock %}
 
 {% block content %}
-<h1>{{ TAGS }}</h2>
 <article>
-  <div class="article_text">
-    <ul>
-      {%- for tag, articles in tags|sort %}
-      <li>
-              <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower}}</a> 
-              <span>[{{ articles|count }} {{ ARTICLES }}]</span>
-                <p>{{ tag.page.content }}</p>
-      
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+        <h1>{{ TAGS }}</h2>
+        <div class="article_text">
+                <ul>
+                        {%- for tag, articles in tags|sort %}
+                        <li>
+                                <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower}}</a>
+                                <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+                                <p>{{ tag.page.content }}</p>
+
+                        </li>
+                        {% endfor %}
+                </ul>
+        </div>
 </article>
 {% endblock %}

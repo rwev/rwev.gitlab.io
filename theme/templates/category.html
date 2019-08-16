@@ -12,7 +12,14 @@
 {% endblock %}
 
 {% block header %}
-&gt; {{CATEGORY}}: {{ category | lower }}
+{{ VERTSEPCHARS }} {{CATEGORY}}:
+{% for ancestor_category in category.ancestors[:-1] %}
+<a href="{{ SITEURL }}/{{ ancestor_category.url }}">{{ ancestor_category.shortname | lower}}</a>
+&gt;
+{% endfor %}
+
+<span>{{ category.shortname | lower}}</span>
+
 {% if CATEGORY_FEED_ATOM %}
 {{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|replace("{slug}", category.slug) }}"> {{ ATOM }}</a>
 {% endif %}
@@ -21,17 +28,7 @@
 {% endif %}
 
 <hr>
-<h1>{{ CATEGORY }}:
-        
-                {% for ancestor_category in category.ancestors[:-1] %}
-              <span>{{ ancestor_category.shortname | lower}}</span>
-              &gt;
-              {% endfor %} 
-
-              <span>{{ category.shortname | lower}}</span>
-
-</h1>
-
+<h1>{{ CATEGORY }}: {{ category.shortname }} </h1>
 
 {% if category.page %}
 

@@ -2,26 +2,18 @@
 {% block content %}
 {% for article in articles_page.object_list %}
 <article>
-  <div class="article_title">
-   
-          
-          <!-- {{ VERTSEPCHARS }} <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> -->
-
-          <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-          <h4> {{ article.locale_date }} </h4>
-  </div>
-  <div class="article_text">
-    {{ article.summary }}
-  </div>
+        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+        </div>
+        <!-- TODO add category, time, tags --> 
+        <div class="article_text">
+                {{ article.summary }}
+        </div>
 </article>
-{% if not loop.last %}
-<hr>
-{% endif %}
 {% endfor %}
 {% endblock %}
 
 {% block footer %}
 <footer>
-  {% include "modules/pagination.html" %}
+        {% include "modules/pagination.html" %}
 </footer>
 {% endblock %}

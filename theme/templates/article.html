@@ -7,84 +7,67 @@
 
 {% block content %}
 <article>
-  <div class="article_title">
-    <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
-  </div>
-  <div class="article_text">
-    {{ article.content }}
-  </div>
-  <div class="article_meta">
-        <div class="article_neighbors">
-
-        {% if article.prev_article %}
-        <p class="article_prev">
-        &lt; {{ PREVIOUS }} <a href="{{SITEURL}}/{{ article.prev_article.url }}">
-                {{ article.prev_article.title }}
-        </a>
-        </p>
-        {% endif %}
-
-        {% if article.next_article %}
-        <p class="article_next">
-          {{ NEXT }} <a href="{{SITEURL}}/{{ article.next_article.url }}">
-                {{ article.next_article.title }}
-         </a>&gt; 
-        </p>
-         {% endif %}
+        <div class="article_title">
+                <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
         </div>
+        <div class="article_text">
+                {{ article.content }}
+        </div>
+        <div class="article_meta">
+                <div class="article_neighbors">
+
+                        {% if article.prev_article %}
+                        <p class="article_prev">
+                                &lt; {{ PREVIOUS }} <a href="{{SITEURL}}/{{ article.prev_article.url }}">
+                                        {{ article.prev_article.title }}
+                                </a>
+                        </p>
+                        {% endif %}
+
+                        {% if article.next_article %}
+                        <p class="article_next">
+                                {{ NEXT }} <a href="{{SITEURL}}/{{ article.next_article.url }}">
+                                        {{ article.next_article.title }}
+                                </a>&gt;
+                        </p>
+                        {% endif %}
+                </div>
 
                 {% if article.similar_posts %}
-        <p>
-                {{ SIMILAR_ARTICLES }}:
-                <ul>
-                        {% for similar in article.similar_posts %}
-                        <li>
-                                <a href="{{ SITEURL }}/{{ similar.url }}">
-                                        {{ similar.title }}
-                                </a>
-                        </li>
-                        {% endfor %}
-                </ul>
-        </p>
+                <p>
+                        {{ SIMILAR_ARTICLES }}:
+                        <ul>
+                                {% for similar in article.similar_posts %}
+                                <li>
+                                        <a href="{{ SITEURL }}/{{ similar.url }}">
+                                                {{ similar.title }}
+                                        </a>
+                                </li>
+                                {% endfor %}
+                        </ul>
+                </p>
                 {% endif %}
+
+                <!-- TODO put category / tag info before content? -->
+                <p>{{ POSTED }}: {{ article.locale_date}}</p>
+                <p>{{ MODIFIED }}: {{ article.locale_modified  }}</p>
+
+                <p> {{ CATEGORY }}:
+
+                        {% for category in article.category.ancestors or [article.category] %}
+                        <a href="{{ SITEURL }}/{{ category.url }}">{{ category.shortname or category | lower }}</a>{{ '&gt;' if not loop.last }}
+                        {% endfor %}
+                </p>
+
+
+                <p>
+                        {% if article.tags %} {{ TAGS }}:
+                        {% for tag in article.tags %}
+                        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower }}</a>{% if not loop.last %},{% endif %}
+                        {% endfor %}
+                        {% endif %}
+                </p>
+        </div>
         
-
-
-
-    <!-- TODO put category / tag info before content? -->
-    <p>{{ POSTED }}: {{ article.locale_date}}</p>
-          <p>{{ MODIFIED }}: {{ article.locale_modified  }}</p>
-
-          <p> {{ CATEGORY }}: 
-          
-                  {% for category in article.category.ancestors or [article.category] %}
-          <a href="{{ SITEURL }}/{{ category.url }}">{{ category.shortname or category | lower }}</a>{{ '&gt;' if not loop.last }}
-          {% endfor %} 
-    </p>
-
-
-    <p>
-            {% if article.tags %} {{ TAGS }}:
-      {% for tag in article.tags %}
-      <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower }}</a>{% if not loop.last %},{% endif %}
-      {% endfor %}
-      {% endif %}
-    </p>
-  </div>
-
-  {% if DISQUS_SITENAME %}
-  <div id="article_comments">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        var disqus_identifier = "{{ article.url }}";
-        (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-         })();
-    </script>
-  </div>
-  {% endif %}
-
 </article>
 {% endblock %}

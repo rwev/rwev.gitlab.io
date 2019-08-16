@@ -2,28 +2,28 @@
 {% block title %} {{ VERTSEPCHARS }} {{ CATEGORIES }}{% endblock %}
 
 {% block content %}
-<h1>{{ CATEGORIES }}</h1>
 <article>
-  <div class="article_text">
-    <ul>
-      {% for category, articles in categories|sort %}
-      <li>
-              
-                {% for ancestor_category in category.ancestors[:-1] %}
-              <span>{{ ancestor_category.shortname | lower}}</span>
-              &gt;
-              {% endfor %} 
+        <h1>{{ CATEGORIES }}</h1>
+        <div class="article_text">
+                <ul>
+                        {% for category, articles in categories|sort %}
+                        <li>
 
-              <a href="{{ SITEURL }}/{{ category.url }}">{{ category.shortname | lower}}</a>
+                                {% for ancestor_category in category.ancestors[:-1] %}
+                                <span>{{ ancestor_category.shortname | lower}}</span>
+                                &gt;
+                                {% endfor %}
 
-              <span>[{{ articles|count }} {{ ARTICLES }}]</span>
-              
-              {% if category.page %}
-              <p>{{ category.page.content }}</p>
-              {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+                                <a href="{{ SITEURL }}/{{ category.url }}">{{ category.shortname | lower}}</a>
+
+                                <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+
+                                {% if category.page %}
+                                <p>{{ category.page.content }}</p>
+                                {% endif %}
+                        </li>
+                        {% endfor %}
+                </ul>
+        </div>
 </article>
 {% endblock %}
