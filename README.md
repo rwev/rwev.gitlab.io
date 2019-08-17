@@ -4,6 +4,7 @@
 ```shell
 python -m pip install -r requirements.txt
 apt-get install entr
+git clone --recursive https://github.com/getpelican/pelican-plugins
 ```
 ### generate site and serve on file change
 ```shell
