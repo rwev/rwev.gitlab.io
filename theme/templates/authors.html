@@ -10,7 +10,9 @@
                         <li>
                                 <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
                                 <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+                                {% if author.page %}
                                 <p>{{ author.page.content }}</p>
+                                {% endif %}
                         </li>
                         {% endfor %}
                 </ul>

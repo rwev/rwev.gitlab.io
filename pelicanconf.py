@@ -2,13 +2,17 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os.path as path
+
 OWNER = "rwev"
 SITENAME = "einsieben"
-SITEURL = ""
+SITEURL = "rwev.dev"
 TAGLINE = "Type 7. Dynamic generalist. Under-specialized, over-versatile. Robust \
     in many environments. Variety is spice of life."
 
 PATH = "content"
+PAGE_PATHS = ["pages"]
+ARTICLE_PATHS = ["articles"]
 THEME = "./theme"
 
 OUTPUT_PATH = "./public" # for gitlab page
@@ -90,7 +94,7 @@ RELATIVE_URLS = True
 VERTSEPCHARS = " // "
 
 ### PLUGINS ###
-PLUGIN_PATHS = ["./pelican-plugins"]
+PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS=[
     "autopages",
     "similar_posts",
@@ -101,14 +105,15 @@ PLUGINS=[
     "filetime_from_git",
     "gzip_cache",
     "read_more_link",
-    "pelican-page-hierarchy"
+    # "pelican-page-hierarchy"
 ]
 
 # autopages
-_AUTOPAGES = "/content/autopages"
-AUTHOR_PAGE_PATH = "{0}/authors".format(_AUTOPAGES)
-CATEGORY_PAGE_PATH = "{0}/categories".format(_AUTOPAGES)
-TAG_PAGE_PATH = "{0}/tags".format(_AUTOPAGES)
+_AUTOPAGES = path.join("content", "autopages")
+
+AUTHOR_PAGE_PATH = path.join(_AUTOPAGES, "authors")
+CATEGORY_PAGE_PATH = path.join(_AUTOPAGES, "categories")
+TAG_PAGE_PATH = path.join(_AUTOPAGES, "tags")
 
 # similar_posts
 SIMILAR_POSTS_MAX_COUNT = 3

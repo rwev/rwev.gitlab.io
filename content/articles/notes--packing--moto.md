@@ -1,6 +1,7 @@
 Title: Motorcycle Packing List
+Author: rwev
 Category: notes
-Tags: moto,4x4,backcountry,adventure,gear
+Tags: moto,4x4,backcountry,adventure,gear, python
 
 Gear list for specific overnight motorcycle trips. To be considered in addition to normal camping / travel packing list. (link TODO).
 

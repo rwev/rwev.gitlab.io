@@ -21,7 +21,9 @@
 
 <hr>
 <h1>{{ TAG }}: {{ tag | lower }}</h1>
+{% if tag.page %}
 {{ tag.page.content }}
+{% endif %}
 <hr>
 
 {% endblock %}

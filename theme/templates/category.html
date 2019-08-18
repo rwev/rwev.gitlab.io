@@ -13,10 +13,12 @@
 
 {% block header %}
 {{ VERTSEPCHARS }} {{CATEGORY}}:
+{% if category.ancestors %}
 {% for ancestor_category in category.ancestors[:-1] %}
 <a href="{{ SITEURL }}/{{ ancestor_category.url }}">{{ ancestor_category.shortname | lower}}</a>
 &gt;
 {% endfor %}
+{% endif %}
 
 <span>{{ category.shortname | lower}}</span>
 

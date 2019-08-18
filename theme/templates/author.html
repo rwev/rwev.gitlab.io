@@ -8,7 +8,7 @@
 {% endif %}
 {% if AUTHOR_FEED_RSS %}
 <link href="{{ FEED_DOMAIN }}/{{ AUTHOR_FEED_RSS | replace("{slug}", author.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} {{ author }} Author RSS" />
-{% endif %} 
+{% endif %}
 {% endblock %}
 
 {% block header %}
@@ -16,7 +16,9 @@
 
 <hr>
 <h1> {{ AUTHOR }}: {{ author }} </h1>
+{% if author.page %}
 {{ author.page.content }}
+{% endif %}
 <hr>
 
 {% endblock %}

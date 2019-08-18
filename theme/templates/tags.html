@@ -10,7 +10,9 @@
                         <li>
                                 <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower}}</a>
                                 <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+                                {% if tag.page %}
                                 <p>{{ tag.page.content }}</p>
+                                {% endif %}
 
                         </li>
                         {% endfor %}
