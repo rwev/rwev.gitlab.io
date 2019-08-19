@@ -1,15 +1,14 @@
 Title: Motorcycle Packing List
 Author: rwev
-Category: notes
-Tags: moto,4x4,backcountry,adventure,gear, python
+Category: notes/packing
+Tags: moto,4x4,backcountry,adventure,gear,adv
 
-Gear list for specific overnight motorcycle trips. To be considered in addition to normal camping / travel packing list. (link TODO).
+Gear list for specific overnight motorcycle trips. To be considered in addition to normal camping / travel packing lists.
 
 # maintenance / repairs
 
 ## tool roll
 - lubricant (multi-use, wd-40 choice, 3 oz. can)
-- extra cable
 - notepad + pen (for records, notes, tire pressures, oil changes, mileages, etc.)
 - cable ties 
 - gasket maker (permatex red rtv high-temp choice)
@@ -37,6 +36,7 @@ Gear list for specific overnight motorcycle trips. To be considered in addition 
 - tire irons (2)
 - tube inflation canisters
 - tire patch kit 
+- fuel hose (replacements, siphoning)
 
 ## spare parts
 - spark plug
@@ -45,16 +45,41 @@ Gear list for specific overnight motorcycle trips. To be considered in addition 
 - brake lever
 - clutch lever
 - tube 
+- extra cable (clutch, throttle, brake)
 - master links
 - front / drive sprockets (+ brackets)
 
 ## fluids 
-- engine oil (shell rotella 15w-40 )
+- engine oil (shell rotella 15w-40, 1 qt)
 - air filter oil TODO 
 - gasoline (if applicable, use old oil container)
 
-## documentation
+# documentation
 - proof of insurance
 - proof of registration
+
+# riding gear
+- adv pants (motonation)
+- adv jacket (motonation)
+- riding gloves (motonation)
+- helmet (LS2 pioneer w face shield, built-in sun visor)
+- earplugs (+ extras)
+- riding boots (thor)
+- watch
+
+# mounted gear
+- tank bags
+- luggage cinch straps
+- phone clamp / holder
+- 12v socket / outlet + USB cables
+- extra ignition key
+
+# navigation / comms
+- map downloads (trekarta)
+- gmx files (if relevant)
+- printed maps
+- safety satellite beacon (borrow)
+- extra battery cell / portable charger
+
 
 

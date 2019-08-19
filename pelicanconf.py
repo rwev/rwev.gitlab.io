@@ -105,7 +105,7 @@ PLUGINS=[
     "filetime_from_git",
     "gzip_cache",
     "read_more_link",
-    # "pelican-page-hierarchy"
+#     "pelican-page-hierarchy"
 ]
 
 # autopages
