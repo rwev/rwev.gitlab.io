@@ -6,6 +6,7 @@ pages:
   - apk update && apk add make
   - pip install -r requirements.txt
   - git clone https://github.com/getpelican/pelican-plugins.git
+  - invoke styles
   - make publish
   artifacts:
     paths:

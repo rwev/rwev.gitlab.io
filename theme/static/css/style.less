@@ -107,7 +107,6 @@ main {
         }
 
         article {
-                max-width: 640px;
 
                 div.article_meta {
 
@@ -116,7 +115,12 @@ main {
 
                         display: inline-block;
                         width: 100%;
-                        
+
+                        div.neighbors {
+                                display: inline-block;
+                                width: 100%;
+                                margin: 20px 0 0 0;
+                        }
                         div.dates,
                         div.neighbors_next {
                                 float: right;
@@ -126,7 +130,7 @@ main {
                                 float: left;
                         }
                         div.similar {
-                                display: inline-block;
+                                margin: 20px 0 0 0;
                         }
                 }
 
@@ -166,9 +170,10 @@ table {
                 position: absolute;
 
                 top: 0;
-                left: 25%;
+                right: 32%;
 
-                width: 40%;
+                max-width: 768px;
+                margin: 0 0 0 1rem;
 
                 article {
                         margin: 0 0 0 20px;
