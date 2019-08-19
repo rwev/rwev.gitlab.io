@@ -14,11 +14,10 @@
 {% block header %}
 &gt; {{ AUTHOR }}: {{ author }}
 
-<hr>
 <h1> {{ AUTHOR }}: {{ author }} </h1>
+
 {% if author.page %}
 {{ author.page.content }}
 {% endif %}
-<hr>
 
 {% endblock %}

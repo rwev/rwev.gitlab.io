@@ -49,6 +49,7 @@ PAGES = "pages"
 
 AUTHOR = "author"
 AUTHORS = "authors"
+AUTHOR_S = "author(s)"
 
 CATEGORY = "category"
 CATEGORIES = "categories"
@@ -105,7 +106,6 @@ PLUGINS=[
     "filetime_from_git",
     "gzip_cache",
     "read_more_link",
-#     "pelican-page-hierarchy"
 ]
 
 # autopages
@@ -129,4 +129,3 @@ SUMMARY_MAX_LENGTH = 5
 READ_MORE_LINK = '<span>continue &gt;</span>'
 READ_MORE_LINK_FORMAT = '<a class="read-more-link" href="/{url}">{text}</a>'
 
-# pelican-page-hierarchy

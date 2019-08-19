@@ -51,7 +51,7 @@ Gear list for specific overnight motorcycle trips. To be considered in addition 
 
 ## fluids 
 - engine oil (shell rotella 15w-40, 1 qt)
-- air filter oil TODO 
+- air filter oil
 - gasoline (if applicable, use old oil container)
 
 # documentation

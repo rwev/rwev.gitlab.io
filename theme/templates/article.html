@@ -10,64 +10,78 @@
         <div class="article_title">
                 <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
         </div>
+
+        <div class="article_meta">
+                <div class="non_date">
+                        <p>{{ AUTHOR_S }}:
+                                {% for author in article.authors %}
+                                <a href="{{ SITEURL }}/{{ author.url }}">{{ author
+                                        }}</a>
+                                {% if not loop.last %}
+                                ,
+                                {% endif %}
+                                {% endfor %}
+                        </p>
+
+                        <p> {{ CATEGORY }}:
+
+                                {% for category in article.category.ancestors or [article.category] %}
+                                <a href="{{ SITEURL }}/{{ category.url }}">{{ category.shortname or category | lower }}</a>{{ ' &gt;' if not loop.last }}
+                                {% endfor %}
+                        </p>
+
+
+                        <p>
+                                {% if article.tags %} {{ TAGS }}:
+                                {% for tag in article.tags %}
+                                <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower }}</a>{% if not loop.last %},{% endif %}
+                                {% endfor %}
+                                {% endif %}
+                        </p>
+                </div>
+                <div class="dates">
+                        <p>{{ POSTED }}: {{ article.locale_date}}</p>
+                        <p>{{ MODIFIED }}: {{ article.locale_modified  }}</p>
+                </div>
+        </div>
+
         <div class="article_text">
                 {{ article.content }}
         </div>
+
+
         <div class="article_meta">
-                <div class="article_neighbors">
 
                         {% if article.prev_article %}
-                        <p class="article_prev">
+                        <div class="neighbors_prev">
                                 &lt; {{ PREVIOUS }} <a href="{{SITEURL}}/{{ article.prev_article.url }}">
                                         {{ article.prev_article.title }}
                                 </a>
-                        </p>
+                        </div>
                         {% endif %}
 
                         {% if article.next_article %}
-                        <p class="article_next">
+                        <div class="neighbors_next">
                                 {{ NEXT }} <a href="{{SITEURL}}/{{ article.next_article.url }}">
                                         {{ article.next_article.title }}
                                 </a>&gt;
-                        </p>
+                        </div>
                         {% endif %}
-                </div>
-
-                {% if article.similar_posts %}
-                <p>
+                        
+                        {% if article.similar_posts %}
+                        <div class="similar">
                         {{ SIMILAR_ARTICLES }}:
-                        <ul>
-                                {% for similar in article.similar_posts %}
-                                <li>
-                                        <a href="{{ SITEURL }}/{{ similar.url }}">
-                                                {{ similar.title }}
-                                        </a>
-                                </li>
-                                {% endfor %}
-                        </ul>
-                </p>
-                {% endif %}
-
-                <!-- TODO put category / tag info before content? -->
-                <p>{{ POSTED }}: {{ article.locale_date}}</p>
-                <p>{{ MODIFIED }}: {{ article.locale_modified  }}</p>
-
-                <p> {{ CATEGORY }}:
-
-                        {% for category in article.category.ancestors or [article.category] %}
-                        <a href="{{ SITEURL }}/{{ category.url }}">{{ category.shortname or category | lower }}</a>{{ '&gt;' if not loop.last }}
-                        {% endfor %}
-                </p>
-
-
-                <p>
-                        {% if article.tags %} {{ TAGS }}:
-                        {% for tag in article.tags %}
-                        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower }}</a>{% if not loop.last %},{% endif %}
-                        {% endfor %}
+                                <ul>
+                                        {% for similar in article.similar_posts %}
+                                        <li>
+                                                <a href="{{ SITEURL }}/{{ similar.url }}">
+                                                        {{ similar.title }}
+                                                </a>
+                                        </li>
+                                        {% endfor %}
+                                </ul>
+                        </div>
                         {% endif %}
-                </p>
         </div>
-        
 </article>
 {% endblock %}

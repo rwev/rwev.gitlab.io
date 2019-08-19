@@ -108,23 +108,28 @@ main {
 
         article {
                 max-width: 640px;
-                div.article_meta {
-                        font-size: .7rem;
-                        color: @nord3;
-                }
 
-                div.article_neighbors {
+                div.article_meta {
+
+                        font-size: .75rem;
+                        color: @nord10;
+
                         display: inline-block;
                         width: 100%;
-
-                        .article_prev {
-                                float: left;
-                        }
-                        .article_next {
+                        
+                        div.dates,
+                        div.neighbors_next {
                                 float: right;
                         }
-
+                        div.non_date,
+                        div.neighbors_prev {
+                                float: left;
+                        }
+                        div.similar {
+                                display: inline-block;
+                        }
                 }
+
         }
 
         footer {
@@ -132,8 +137,9 @@ main {
         }
 
         div.credits {
-                color: @nord3;
-                font-size: .7rem;
+                margin: 40px 0 0 0; 
+                color: @nord10;
+                font-size: .65rem;
         }
 }
 

@@ -29,14 +29,10 @@
 {{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|replace("{slug}", category.slug) }}"> {{ RSS }}</a>
 {% endif %}
 
-<hr>
 <h1>{{ CATEGORY }}: {{ category.shortname }} </h1>
 
 {% if category.page %}
-
 {{ category.page.content }}
-
 {% endif %}
-<hr>
 
 {% endblock %}

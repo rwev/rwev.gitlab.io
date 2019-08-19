@@ -19,11 +19,12 @@
 {{ VERTSEPCHARS }} <a href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|replace("{slug}", tag.slug) }}">{{ RSS }}</a>
 {% endif %}
 
-<hr>
+
 <h1>{{ TAG }}: {{ tag | lower }}</h1>
+
 {% if tag.page %}
 {{ tag.page.content }}
 {% endif %}
-<hr>
+
 
 {% endblock %}
