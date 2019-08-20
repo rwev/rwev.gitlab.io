@@ -7,14 +7,23 @@ An overnight backcountry adventure motorcycle trip. Approximately 1000 miles off
 
 Here is our planned route. We'll be departing from St. George, UT in AM August 24. The forks in the route designate a split of the group: one way will be more difficult terrain (rocky, steep trails, generally inaccessible by 4x4) and the other more accessible to beginners and our support vehicle. 
 
-[![Leaflet + OSM + GPX Route]({static}/assets/images/utah-bdr-route-moto.png)]({static}/assets/images/utah-bdr-route-moto.png)
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
+<div style="height: 500px;" id="map"></div>
+<script>
+var map = L.map("map").setView([43.37, -116.12], 13); L.tileLayer("https://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png", {attributionControl: false, zoomControl: false}).addTo(map); var gpx = "assets/files/utah-bdr-route.gpx"; new L.GPX(gpx, {async: true, marker_options: {startIconUrl: "assets/dependencies/leaflet-gpx/pin-icon-start.png", endIconUrl: "assets/dependencies/leaflet-gpx/pin-icon-end.png", shadowUrl:"assets/dependencies/leaflet-gpx/pin-shadow.png", wptIconUrls:{ "" :"assets/dependencies/leaflet-gpx/pin-icon-wpt.png"}}}).on("loaded", function (e) { map.fitBounds(e.target.getBounds());}).addTo(map);</script>
 
-For higher precision and interactivity, download the [GPX file]({static}/assets/files/utah-bdr-route.gpx) for the motorcycle group, and the [other]({static}/assets/files/utah-bdr-route-support.gpx) for the support vehicle. Load it into the highly recommended [Trekarta](https://f-droid.org/en/packages/mobi.maptrek/) from F-Droid, for following the route.
+[Motorcycle GPX Route]({static}/assets/files/utah-bdr-route.gpx)
+
+[Support Vehicle GPX Route]({static}/assets/files/utah-bdr-route-support.gpx)
+
+I'll be loading these files into the highly recommended [Trekarta](https://f-droid.org/en/packages/mobi.maptrek/) on [F-Droid](https://f-droid.org), for following the route.
 
 We will be camping a few nights and staying in rented forest service or AirBnB'd cabins the rest. Our itinerary:
 
 | Day | Date | Mileage (approx.) | Description | 
-|-----|------|-------------------|-------------|
+|:---:|:----:|:-----------------:|: -------------|
 | 0 | 8/23/19| 0 |  Meet in St. George at the Moto Mansion. |
 | 1 | 8/24/19| 60|  Depart St George around 8-9 am and travel to Kolob Reservoir. Hit Tocqueville Twister and possible swimming spot. |
 | 2 | 8/25/19 |140 | Depart Kolob Reservoir and travel to Jones Corral Guard Station.|

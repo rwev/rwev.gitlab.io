@@ -12,6 +12,7 @@ TAGLINE = "Type 7. Dynamic generalist. Under-specialized, over-versatile. Robust
 
 PATH = "content"
 PAGE_PATHS = ["pages"]
+STATIC_PATHS = ["assets"]
 ARTICLE_PATHS = ["articles"]
 THEME = "./theme"
 
