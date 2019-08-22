@@ -8,7 +8,7 @@ An overnight backcountry adventure motorcycle trip. Approximately 1000 miles off
 Here is our planned route. We'll be departing from St. George, UT in AM August 24. The forks in the route designate a split of the group: one way will be more difficult terrain (rocky, steep trails, generally inaccessible by 4x4) and the other more accessible to beginners and our support vehicle. 
 
 <div style="height: 500px;" id="map"></div>
-<script>embedGpxMap("map", "utah-bdr-route.gpx")</script>
+<script>embedGpxMap("map", "assets/files/utah-bdr-route.gpx")</script>
 
 [Full-Size]({static}/assets/pages/gpx-map.html?file=utah-bdr-route.gpx)
 

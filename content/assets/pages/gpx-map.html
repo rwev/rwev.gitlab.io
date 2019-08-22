@@ -6,9 +6,8 @@
 
                 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
 
-                <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
-
+                <script src="../files/load-script.js"></script>
+                <script src="../files/embed-gpx-map.js"></script>
         </head>
 
         <body style="padding: 0; margin: 0;">
@@ -16,43 +15,11 @@
                 <div style="height: 100%; width: 100%;" id="map"></div>
 
                 <script>
-                        var map = L.map("map").setView([43.37, -116.12], 13);
-
-                        var osmAttribution = 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
-                        var leafletGpxAttribution = '<a href="https://github.com/mpetazzoni/leaflet-gpx">GPX</a>';
-
-                        L.tileLayer(
-                                "https://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png",
-                                { attribution: [osmAttribution, leafletGpxAttribution].join(" | ")
-                                }        
-                        
-                        ).addTo(map);
 
                         const urlParams = new URLSearchParams(window.location.search);
                         const file = "../files/" + urlParams.get("file");
-
-                        new L.GPX(
-                                file,
-                                {
-                                        async: true,
-                                        marker_options: {
-                                                startIconUrl: "https://raw.githubusercontent.com/mpetazzoni/leaflet-gpx/master/pin-icon-start.png",
-                                                endIconUrl: "https://raw.githubusercontent.com/mpetazzoni/leaflet-gpx/master/pin-icon-end.png",
-                                                shadowUrl:"https://raw.githubusercontent.com/mpetazzoni/leaflet-gpx/master/pin-shadow.png",
-                                                wptIconUrls:{ "" :"https://raw.githubusercontent.com/mpetazzoni/leaflet-gpx/master/pin-icon-wpt.png"}
-                                        }
-                                }).on("loaded",
-                                        function (e) {
-                                                map.fitBounds(e.target.getBounds());
-                                        }
-                                ).addTo(map);
+                        embedGpxMap("map", file);
 
                 </script>
-
-
-
-
         </body>
-
-
 </html>
