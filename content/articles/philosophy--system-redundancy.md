@@ -3,15 +3,24 @@ Author: rwev
 Category: philosophy
 Series: redundancy
 
-The modern economy is overspecialized, and therefore overfragile. Fragility and Overspecialization are one in the same. Specialization implies that an entity is very good at performing its actions in a static environment with a set of predictable, replicable factors that exhibit [ergodic](https://en.wikipedia.org/wiki/Ergodicity) behavior.
+The enabler of the modern economy is specialization. Only specialization, and the levels of efficiency it offers, is capable of mass production of our day. 
 
-Specialization begets efficiency - an entity must only be prepared for what it will experience, and in the case of a ergodicity, what will be experienced is known, and so that entity must only "invest" in what will prepare it best. In fact, it doesn't _need_ to be prepared at all. Further, in this condition the entity has the ability to optimize - when assumptions can be made, the yields of optimization are much greater.
+Specialization implies that an entity is very good at performing its actions in a static environment with a set of predictable, replicable factors that exhibit [ergodic](https://en.wikipedia.org/wiki/Ergodicity) behavior. A drastic example of this is on the assembly line: for one operator to apply her operation at an industrial level of efficiency, the state of the input object is strictly controlled.
 
-This is the concept that the modern economy fails to understand. When profit is the motive, efficiency is the chorus. Efficiency _enables_ profit. Profits cannot be increased without efficiency. This is the essence of capitalism and laissez-faire economics. 
+Specialization and its relationship with efficiency, though economic concepts, can extend to any space in which entities interact with their environment, an environment offering differing levels of certainty. 
 
-What does this produce? Entities in the modern economy become overspecialized and oversensible. They can't adapt. As soon as their set of assumptions their business model is built on fall apart, so do they, also bringing down the networks with a domino effect, propigating to their neighbors. 
+More broadly, an entity must only be prepared for what it will experience, and in the case of a ergodicity, what will be experienced is known, and so that entity must only "invest" in what will prepare it best. In fact, it doesn't _need_ to be prepared at all. Further, in this condition the entity has the ability to optimize - when assumptions can be made, the yields of optimization are much greater. This means the neglect of the extraneous: unless a tangible or intangible asset can be applied for profit to the task, it is forgotten. 
 
-As they said, you don't need it until you need it (replace "it" with any form of preparation).
+Specialization is the naive way of preparing for the unknown, in general.  
+
+But with specialization comes fragility - entities that perform only in the space of the known, the static, the predictable - over-invested in their current environment and unable to adapt when the necessary assumptions become untrue. 
+
+# Fragileconomics 
+When profit is the motive, efficiency is the chorus. Efficiency _enables_ profit. Profits cannot be increased without efficiency. This is the essence of capitalism and laissez-faire economics. 
+
+What does this produce? Entities in the modern economy become overspecialized and oversensitive. They can't adapt. As soon as their set of assumptions their business model is built on fall apart, so do they, also bringing down the networks with a domino effect, propigating to their neighbors. 
+
+As they said, you don't need it until you need it (replace "it" with any form of preparation, anything seen as extraneous, unnecessary, frivilous given the profit motive - for example, downside insurance. It only costs money in the short run!).
 
 So what is the solution? Entities in the market could become more aware of downside, and make themselves more adaptable. This involves investing in assets, both intellectual and infrastructural, that don't immediately boost the bottoms line. Although increasing the wisdom / foresight / prudence of the entities is the place to start, this would require an overhaul of how the modern economy operates - an impractical consideration for now. 
 

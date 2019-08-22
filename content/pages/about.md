@@ -17,4 +17,7 @@ There is obviously a lot one has already experienced by the time he gets to the 
 ### Informal, Uncensored, Grammatically Questionable, and sans Citations
 This site will be a thought repository - _not_ a scientific journal, formal debate stage, or politically correct publication. I plan to move fast, and add content insofar as it satisfies my desire to put the thoughts onto paper. This does not involve grammatical knit-picking or appeals to authority via citations. Think colloquial. 
 
+### Personal
+Content will be the culmination of personal thoughts, both deep and shallow, and everything in between, and all brought together into a consistent weave. It may seem scattered and distracted, but at the end of the day, it's for my own sanity and quest to freedom from cognitive dissonance. This is not work, this is joy. As soon as I'm no longer intrigued by an idea or topic, I'll move on. I want this project to last, and thus it must be sustainable, and forcing myself to do something I'm not motivated by in my spare time is _not_ sustainable. Expect half-baked work. 
+
 
