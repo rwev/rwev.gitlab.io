@@ -7,12 +7,11 @@ An overnight backcountry adventure motorcycle trip. Approximately 1000 miles off
 
 Here is our planned route. We'll be departing from St. George, UT in AM August 24. The forks in the route designate a split of the group: one way will be more difficult terrain (rocky, steep trails, generally inaccessible by 4x4) and the other more accessible to beginners and our support vehicle. 
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
 <div style="height: 500px;" id="map"></div>
-<script>
-var map = L.map("map").setView([43.37, -116.12], 13); L.tileLayer("https://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png", {attributionControl: false, zoomControl: false}).addTo(map); var gpx = "assets/files/utah-bdr-route.gpx"; new L.GPX(gpx, {async: true, marker_options: {startIconUrl: "assets/dependencies/leaflet-gpx/pin-icon-start.png", endIconUrl: "assets/dependencies/leaflet-gpx/pin-icon-end.png", shadowUrl:"assets/dependencies/leaflet-gpx/pin-shadow.png", wptIconUrls:{ "" :"assets/dependencies/leaflet-gpx/pin-icon-wpt.png"}}}).on("loaded", function (e) { map.fitBounds(e.target.getBounds());}).addTo(map);</script>
+<script>embedGpxMap("map", "utah-bdr-route.gpx")</script>
+
+[Full-Size]({static}/assets/pages/gpx-map.html?file=utah-bdr-route.gpx)
+
 
 [Motorcycle GPX Route]({static}/assets/files/utah-bdr-route.gpx)
 

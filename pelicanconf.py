@@ -99,14 +99,14 @@ VERTSEPCHARS = " // "
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS=[
     "autopages",
-    "similar_posts",
+#    "similar_posts", 
     "neighbors",
     "section_number",
 #    "encrypt_content",
     "more_categories",
     "filetime_from_git",
-    "gzip_cache",
-    "read_more_link",
+#    "gzip_cache",
+#    "read_more_link",
 ]
 
 # autopages

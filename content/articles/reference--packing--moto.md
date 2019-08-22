@@ -1,6 +1,6 @@
-Title: Motorcycle Packing List
+Title: ADV Motorcycle Packing List
 Author: rwev
-Category: notes/packing
+Category: reference/packing
 Tags: moto,4x4,backcountry,adventure,gear,adv
 
 Gear list for specific overnight motorcycle trips. To be considered in addition to normal camping / travel packing lists.

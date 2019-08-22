@@ -16,11 +16,21 @@ A mix of public / shared notes, projects, learning experiments, and deep dives i
 There are some standards on plan to follow with the content of this site. 
 
 ### Current and Prospective
-There is obviously a lot one has already experienced by the time he gets to the point to start writing about it and sharing it on the inter-webs. Although there is lots I would like to add regarding past experiences, I will not do so on this site. All post will be current experiences,  or in the case of notes and reference materials, things that provide ongoing tangible value in my life. The past is the past, and this site didn't exist in the past; therefore retrospective content won't exist on this site. 
+There is obviously a lot one has already experienced by the time he gets to the point to start writing about it and sharing it on the inter-webs. Although there is lots I would like to add regarding past experiences, I will not do so on this site. All post will be current experiences, or in the case of notes and reference materials, things that provide ongoing tangible value-add or are of on going interest. 
+
+The past is the past, and this site didn't exist in the past; therefore retrospective content won't exist on this site. I will not add any former works or writings to this site "for the record." This project is foremost a personal one, not to prove anything to anyone else. 
 
 ### Informal, Uncensored, Grammatically Questionable, and sans Citations
 This site will be a thought repository - _not_ a scientific journal, formal debate stage, or politically correct publication. I plan to move fast, and add content insofar as it satisfies my desire to put the thoughts onto paper. This does not involve grammatical knit-picking or appeals to authority via citations. Think colloquial. 
 
 ### Personal
-Content will be the culmination of personal thoughts, both deep and shallow, and everything in between, and all brought together into a consistent weave. It may seem scattered and distracted, but at the end of the day, it's for my own sanity and quest to freedom from cognitive dissonance. This is not work, this is joy. As soon as I'm no longer intrigued by an idea or topic, I'll move on. I want this project to last, and thus it must be sustainable, and forcing myself to do something I'm not motivated by in my spare time is _not_ sustainable. Expect half-baked work. 
+Content will be the culmination of personal thoughts, both deep and shallow, and everything in between, and all brought together into a consistent weave. It may seem scattered and distracted, but at the end of the day, it's for my own fulfillment and quest to freedom from cognitive dissonance. 
+
+This is not work, this is leisure activity. As soon as I'm no longer intrigued by an idea or topic, I'll move on. I want this project to last, and thus it must be sustainable, and forcing myself to do something I'm not motivated by in my spare time is _not_ sustainable. Expect half-baked work. 
+
+### Original and Additive
+I will make an effort _not_ to duplicate knowledge or repeat or refactor the works or words of others. Duplication and reproduction is not only unproductive, but also contradicts principles of open work and knowledge. If the works of another have been particularly interesting or impactful to me and I wish to further explore and discuss, I will _build upon_ them, as an expansion, not rebuild them. 
+
+
+
 
