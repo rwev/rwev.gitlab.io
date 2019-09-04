@@ -7,3 +7,5 @@ gitpython>=2.1.0
 lxml>=4.4.0
 ghp-import>=0.5.5
 lesscpy>=0.13.0
+pillow>=6.1.0
+piexif>=1.1.3

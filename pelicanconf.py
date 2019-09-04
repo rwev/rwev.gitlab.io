@@ -110,6 +110,7 @@ PLUGINS=[
     "filetime_from_git",
 #    "gzip_cache",
 #    "read_more_link",
+    "photos"
 ]
 
 # autopages
@@ -133,3 +134,18 @@ SUMMARY_MAX_LENGTH = 5
 READ_MORE_LINK = '<span>continue &gt;</span>'
 READ_MORE_LINK_FORMAT = '<a class="read-more-link" href="/{url}">{text}</a>'
 
+# photos
+PHOTO_LIBRARY = './content/assets/images' # must be absolute?
+
+PHOTO_GALLERY = (1024, 768, 80) # width, height, quality % of max
+PHOTO_ARTICLE = (760, 506, 80)
+PHOTO_THUMB = (192, 144, 60)
+
+PHOTO_SQUARE_THUMB = True
+PHOTO_RESIZE_JOBS = 5
+PHOTO_WATERMARK = False
+
+PHOTO_EXIF_KEEP = False
+PHOTO_EXIF_REMOVE_GPS = True
+PHOTO_EXIF_COPYRIGHT = 'CC-BY-NC-ND'
+PHOTO_EXIF_COPYRIGHT_AUTHOR = 'Ryan William'
