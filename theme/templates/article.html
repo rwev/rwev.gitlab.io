@@ -47,6 +47,19 @@
 
         <div class="article_text">
                 {{ article.content }}
+
+                {% if article.photo_gallery %}
+                <div class="gallery">
+                        {% for title, gallery in article.photo_gallery %}
+                                {% for name, photo, thumb, exif, caption in
+                                gallery %}
+                                <a href="{{SITEURL}}/{{ photo }}" title="{{ name }}" caption="{{ caption }}">
+                                        <img src="{{ SITEURL}}/{{ thumb }}">
+                                </a>
+                                {% endfor %}
+                        {% endfor %}
+                </div>
+                {% endif %}
         </div>
 
 
