@@ -5,8 +5,11 @@ from __future__ import unicode_literals
 import os.path as path
 
 OWNER = "rwev"
-SITENAME = "einsieben"
+SITENAME = "rwev"
 SITEURL = "rwev.dev"
+
+USER_LOGO_URL = "assets/images/valknut-nord7.png"
+
 TAGLINE = "Type 7. Dynamic generalist. Under-specialized, over-versatile. Robust \
     in many environments. Variety is spice of life."
 

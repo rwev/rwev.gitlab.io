@@ -40,16 +40,9 @@
         <body>
                 <aside>
                         <div class="user-meta">
-                                {% if not HIDE_USER_LOGO %}
                                 <a href="{{ SITEURL }}">
-                                        {% if USER_LOGO_URL %}
-                                        <img src="{{ USER_LOGO_URL }}" alt="logo"
-                                                                       {%- if ROUND_USER_LOGO %} class="round-img"{% endif %}>
-                                        {% else %}
-                                        <img src="{{ SITEURL }}/theme/images/logo.png" alt="logo">
-                                        {% endif %}
+                                        <img src="{{ USER_LOGO_URL }}" alt="logo" id="logo">
                                 </a>
-                                {% endif %}
                                 <h2><a href="{{ SITEURL }}">{{ SITENAME }}</a></h2>
                                 <p>{{ TAGLINE }}</p>
 
