@@ -137,9 +137,9 @@ READ_MORE_LINK_FORMAT = '<a class="read-more-link" href="/{url}">{text}</a>'
 # photos
 PHOTO_LIBRARY = './content/assets/images' # must be absolute?
 
-PHOTO_GALLERY = (1024, 768, 80) # width, height, quality % of max
-PHOTO_ARTICLE = (760, 506, 80)
-PHOTO_THUMB = (192, 144, 60)
+PHOTO_GALLERY = (1024, 768, 90) # width, height, quality % of max
+PHOTO_ARTICLE = (760, 506, 90)
+PHOTO_THUMB = (192, 144, 70)
 
 PHOTO_SQUARE_THUMB = True
 PHOTO_RESIZE_JOBS = 5

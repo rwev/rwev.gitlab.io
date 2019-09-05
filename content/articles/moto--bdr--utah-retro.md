@@ -10,7 +10,7 @@ I started the trip riding down to Ogden, UT, where the group met and loaded the 
 
 Once in St. George, the dirt began. The variety of landscape was incredible. I don't know of another place that offers a comparable contrast in scenery just hundreds of feet of distance or elevation apart.
 
-We took a few detours from the route in the last BDR post. Firstly, we took Mesa Road of Hwy. 150 North near La Verkin, UT onto the Smith Plateau. It was a steep climb out of barren desert onto Smith Plateau / Mesa, which offered lush meadows, Aspen forests, and expansive views of the valleys below, and lead us into some lesser traveled roads in Zion National Park.
+We took a few detours from the route in the last BDR post. Firstly, we took Mesa Road of Hwy. 150 North near La Verkin, UT onto the Smith Plateau. It was a steep climb out of barren desert onto Smith Plateau / Mesa, which offered open ranges, Aspen forests, and expansive views of the valleys below, with the opposing mountain range as the backdrop. Mesa Road lead us into some lesser traveled roads in Zion National Park.
 
 Second, we skipped Duck Creek Village, and instead headed north to Cedar City, UT from our camp on the Kolob Reservoir. Then we road Cedar Canyon Road southeast, turned left and headed north/east on State Routes 148 and 143 up to Panguitch, UT. This took us through Cedar Breaks National Monument and Dixie National Forest. Clear blue skies and strong sun. Thin, biting air at this elevation (topping 10,000 feet) took a toll on Rhonda's power (carburated). Evergreen forests and stark rolling grass meadows decorated with yellow blooms. 
 
