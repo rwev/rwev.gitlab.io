@@ -25,3 +25,8 @@ git push https://github.com/rwev/rwev.github.io.git gh-pages:gh-pages --force
 
 
 
+export COUNT=0; for f in *.jpg
+do { 
+mv -- img_8133.jpg 16.jpg
+export COUNT=17
+} done
