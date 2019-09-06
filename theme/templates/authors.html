@@ -4,18 +4,16 @@
 {% block content %}
 <article>
         <h1>{{ AUTHORS }}</h1>
-        <div class="article_text">
-                <ul>
-                        {% for author, articles in authors|sort %}
-                        <li>
-                                <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                                <span>[{{ articles|count }} {{ ARTICLES }}]</span>
-                                {% if author.page %}
-                                <p>{{ author.page.content }}</p>
-                                {% endif %}
-                        </li>
-                        {% endfor %}
-                </ul>
-        </div>
+        <ul>
+                {% for author, articles in authors|sort %}
+                <li>
+                        <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                        <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+                        {% if author.page %}
+                        <p>{{ author.page.content }}</p>
+                        {% endif %}
+                </li>
+                {% endfor %}
+        </ul>
 </article>
 {% endblock %}

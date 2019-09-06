@@ -2,11 +2,25 @@
 {% block content %}
 {% for article in articles_page.object_list %}
 <article>
-        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-        </div>
-        <!-- TODO add category, time, tags --> 
-        <div class="article_text">
-                {{ article.summary }}
+        <div class="article_listing">
+                <h2>
+                        <a href="{{ SITEURL }}/{{ article.url }}">
+                                {{ article.title }}
+                        </a>
+                </h2>
+
+                <div class="article_list_meta">
+                        {{ article.locale_date }}
+                        {{ VERTSEPCHARS }}
+                        <!-- only show first author and most specific category for cleanliness -->
+                        {{ AUTHOR }}: {{ article.author }}
+                        {{ VERTSEPCHARS }}
+                        {{ CATEGORY }}: {{ article.category }}
+                </div>
+
+                <div>
+                        {{ article.summary }}
+                </div>
         </div>
 </article>
 {% endfor %}

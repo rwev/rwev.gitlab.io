@@ -11,7 +11,7 @@
                 <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
         </div>
 
-        <div class="article_meta">
+        <div class="article_full_meta">
                 <div class="non_date">
                         <p>{{ AUTHOR_S }}:
                                 {% for author in article.authors %}
@@ -45,7 +45,7 @@
                 </div>
         </div>
 
-        <div class="article_text">
+        <div>
                 {{ article.content }}
 
                 {% if article.photo_gallery %}

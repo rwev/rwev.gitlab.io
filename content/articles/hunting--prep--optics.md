@@ -4,7 +4,9 @@ Category: hunting
 Tags: outdoor,self-reliance,harvest
 Series: Heeding the Hunt
 
+<!-- PELICAN_BEGIN_SUMMARY -->
 Getting the glasses ready for the hunt. 
+<!-- PELICAN_END_SUMMARY -->
 
 # Scopes 
 

@@ -111,7 +111,14 @@ main {
 
         article {
 
-                div.article_meta {
+                div.article_list_meta {
+                        color: @nord3;
+                        font-size: 0.75rem;
+                        opacity: 0.5;
+                        margin: 0 0 1rem 0;
+                }
+
+                div.article_full_meta {
 
                         font-size: .75rem;
                         color: @nord10;
@@ -141,6 +148,17 @@ main {
 
         footer {
                 margin: 40px 0 0 0;
+                div.paginations {
+                        display: inline-block;
+                        width: 100%;
+                        a.pagination_older {
+                                float: left;
+                        }
+                        a.pagination_newer {
+                                float: right;
+                        }
+                }
+                
         }
 
         div.credits {
@@ -175,7 +193,7 @@ table {
                 top: 0;
                 right: 32%;
 
-                max-width: 768px;
+                width: 768px;
                 margin: 0 0 0 1rem;
 
                 article {

@@ -67,6 +67,9 @@ TAGS = "tags"
 PREVIOUS = "prev"
 NEXT = "next"
 
+NEWER = "newer"
+OLDER = "older"
+
 POSTED = "posted" # posted on
 MODIFIED = "modified"
 
@@ -102,15 +105,16 @@ VERTSEPCHARS = " // "
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS=[
     "autopages",
-#    "similar_posts", 
+    "similar_posts",
     "neighbors",
     "section_number",
 #    "encrypt_content",
     "more_categories",
     "filetime_from_git",
-#    "gzip_cache",
-#    "read_more_link",
-    "photos"
+    "gzip_cache",
+    "photos",
+    "summary",
+    "clean_summary"
 ]
 
 # autopages
@@ -129,13 +133,8 @@ ENCRYPT_CONTENT={
     'summary': 'This content is password protected.'
 }
 
-# read_more_link
-SUMMARY_MAX_LENGTH = 5
-READ_MORE_LINK = '<span>continue &gt;</span>'
-READ_MORE_LINK_FORMAT = '<a class="read-more-link" href="/{url}">{text}</a>'
-
 # photos
-PHOTO_LIBRARY = './content/assets/images' # must be absolute?
+PHOTO_LIBRARY = './content/assets/images'
 
 PHOTO_GALLERY = (1024, 768, 90) # width, height, quality % of max
 PHOTO_ARTICLE = (760, 506, 90)
@@ -147,5 +146,13 @@ PHOTO_WATERMARK = False
 
 PHOTO_EXIF_KEEP = False
 PHOTO_EXIF_REMOVE_GPS = True
+
 PHOTO_EXIF_COPYRIGHT = 'CC-BY-NC-ND'
 PHOTO_EXIF_COPYRIGHT_AUTHOR = 'Ryan William'
+
+# summary
+SUMMARY_MAX_LENGTH = 1000 # use whole summary
+SUMMARY_USE_FIRST_PARAGRAPH = True
+CLEAR_SUMMARY_MAXIMUM = 0
+CLEAN_SUMMARY_MINIMUM_ONE = False
+

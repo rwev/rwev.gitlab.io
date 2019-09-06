@@ -4,12 +4,10 @@
 {% block content %}
 <article>
         <h1>{{ ARCHIVES }} </h1>
-        <div class="article_text">
-                {% for article in dates %}
-                <p>
-                        {{ article.locale_date }} {{ VERTSEPCHARS }} <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-                </p>
-                {% endfor %}
-        </div>
+        {% for article in dates %}
+        <p>
+                {{ article.locale_date }} {{ VERTSEPCHARS }} <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+        </p>
+        {% endfor %}
 </article>
 {% endblock %}

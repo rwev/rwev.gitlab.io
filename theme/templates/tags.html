@@ -4,19 +4,17 @@
 {% block content %}
 <article>
         <h1>{{ TAGS }}</h2>
-        <div class="article_text">
-                <ul>
-                        {%- for tag, articles in tags|sort %}
-                        <li>
-                                <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower}}</a>
-                                <span>[{{ articles|count }} {{ ARTICLES }}]</span>
-                                {% if tag.page %}
-                                <p>{{ tag.page.content }}</p>
-                                {% endif %}
+        <ul>
+                {%- for tag, articles in tags|sort %}
+                <li>
+                        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | lower}}</a>
+                        <span>[{{ articles|count }} {{ ARTICLES }}]</span>
+                        {% if tag.page %}
+                        <p>{{ tag.page.content }}</p>
+                        {% endif %}
 
-                        </li>
-                        {% endfor %}
-                </ul>
-        </div>
+                </li>
+                {% endfor %}
+        </ul>
 </article>
 {% endblock %}
