@@ -1,4 +1,4 @@
-# rwev [gitlab](https://rwev.gitlab.io) [github](https://rwev.github.io)
+# [gitlab user page](https://rwev.gitlab.io) 
 ## development
 ### installation
 ```shell
@@ -10,19 +10,8 @@ git clone --recursive https://github.com/getpelican/pelican-plugins
 ```shell
 fd '.*\.(py|html|md|less)$' | entr -r invoke rebuild serve
 ```
-### gitlab user site 
+### deployment
 a gitlab continuous integration file (`.gitlab-ci.yml`) is included in the repo. pushing to a user site repo (`<user>.gitlab.io`) run the build and deployment process.
-
-### github user site 
-using `ghp-import`: create branch `gh-pages` where `public` directory is root with command
-```shell
-ghp-import ./public -b gh-pages 
-```
-and push `gh-pages` branch to repository.
-```shell
-git push https://github.com/rwev/rwev.github.io.git gh-pages:gh-pages --force
-```
-
 
 
 export COUNT=0; for f in *.jpg
