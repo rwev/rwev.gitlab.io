@@ -9,7 +9,7 @@ Components of good rifle shooting:
 3. *Natural breathing*: focus finishing trigger pull within respiratory pause.
 4. *Trigger control*: slow, steady, deliberate _squeeze_
 
-## Dry Fire Practice
+# Dry Fire Practice
 It is possible to exercise all of the above, albeit without feedback, without any ammunition at all. Emphasize solid, repeatable, simple, supported shooting positions. 
 
 _Slow is smooth, smooth is fast_
