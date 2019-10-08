@@ -15,11 +15,24 @@
 @nord14: #a3be8c;
 @nord15: #b48ead;
 
+@bible-paper: #ece0d1;
+@bible-ink: #634832;
+
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300');
 
 @font-face {
         font-family: Bahnschrift;
         src: url('./font/bahnschrift.ttf');
+}
+
+@font-face {
+        font-family: Enriqueta;
+        src: url('./font/enriqueta.ttf');
+}
+
+@font-face {
+        font-family: FiraSans;
+        src: url('./font/fira-sans.ttf');
 }
 
 html {
@@ -31,7 +44,7 @@ html {
 
 
 body {
-        font-family: 'Fira Sans', sans-serif;
+        font-family: FiraSans;
         font-size: 1rem;
 
         padding: 2rem;
@@ -157,6 +170,20 @@ main {
                         pre {
                                 white-space: inherit;
                                 color: @nord10;
+                        }
+                }
+
+                div.bible {
+                        background-color: @bible-paper;
+                        color: @bible-ink;
+                        padding: 2px 15px 2px 15px;
+                        font-family: Enriqueta;
+                        
+                        p.content {
+                                
+                        }
+                        p.annotation {
+                                font-weight: bold;
                         }
                 }
 
