@@ -120,6 +120,7 @@ PLUGINS=[
 #    "photos",
 #    "summary",
 #    "clean_summary"
+#    "series" # instead of series, use subcategories
 ]
 
 # autopages
