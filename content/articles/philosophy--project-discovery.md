@@ -1,5 +1,4 @@
 Title: Discovery and the Hydra of TODOs
-Author: rwev
 Category: philosophy
 
 _*Adventurer*: one who ventures into the unknown, pushes and expands the boundaries of the known. Although they may possess maps and sketches, the adapt and adjust to new information.Unable to give up when the map is wrong, or there approach or assumptions become invalid._

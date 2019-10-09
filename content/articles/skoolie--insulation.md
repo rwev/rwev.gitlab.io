@@ -1,5 +1,4 @@
 Title: Insulation
-Author: rwev
 Category: skoolie
 
 One issue with buying a skoolie that was already partially converted (relatively speaking), one issue that arises is retrofitting it. 

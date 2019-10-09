@@ -1,5 +1,4 @@
 Title: Free Trade's Hidden Devils
-Author: rwev
 Category: philosophy
 Tags: economics
 

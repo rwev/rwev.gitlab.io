@@ -1,5 +1,4 @@
 Title: Exterior Electonics
-Author: rwev
 Category: skoolie
 Tags: electronics
 

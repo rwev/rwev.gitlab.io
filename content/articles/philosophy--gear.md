@@ -1,5 +1,4 @@
 Title: A Comprehensive Gearing-Up Philosophy
-Author: rwev
 Category: philosophy
 Tags: gear,versatility,dynamism,adaptability,diy
 

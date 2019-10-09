@@ -1,5 +1,4 @@
 Title: Brakes
-Author: rwev
 Category: skoolie
 
 Bus was in the shop for 3 days last week.

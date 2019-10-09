@@ -1,5 +1,4 @@
 Title: Skoolie - Initial Post
-Author: rwev
 Category: skoolie
 Tags: adventure,self-reliance,projects
 Gallery: {photo}skoolie-initial

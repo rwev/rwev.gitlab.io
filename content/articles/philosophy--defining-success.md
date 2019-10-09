@@ -1,5 +1,4 @@
 Title: On the Quest for Success, Transcend Envy
-Author: rwev
 Category: spirituality
 Tags: bible,work
 

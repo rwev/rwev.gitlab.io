@@ -1,5 +1,4 @@
 Title: On System Redundancy
-Author: rwev
 Category: philosophy
 Series: redundancy
 

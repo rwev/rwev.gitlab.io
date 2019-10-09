@@ -1,5 +1,4 @@
 Title: Skoolie Why
-Author: rwev
 Category: skoolie
 Tags: why,resiliency,self-reliance,redundancy
 

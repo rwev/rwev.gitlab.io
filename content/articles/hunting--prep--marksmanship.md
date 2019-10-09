@@ -1,5 +1,4 @@
 Title: Marksmanship
-Author: rwev
 Category: hunting
 Tags: target,outdoor
 

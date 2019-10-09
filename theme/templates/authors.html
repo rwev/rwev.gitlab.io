@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-{% block title %}{{ VERTSEPCHARS }} {{ AUTHORS }}{% endblock %}
+{% block title %}{{ VERTSEPCHARS }} {{ AUTHOR_S }}{% endblock %}
 
 {% block content %}
 <article>
-        <h1>{{ AUTHORS }}</h1>
+        <h1>{{ AUTHOR_S }}</h1>
         <ul>
                 {% for author, articles in authors|sort %}
                 <li>

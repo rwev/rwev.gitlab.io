@@ -38,10 +38,10 @@ function embedGpxMap(divId, gpxFile, loadScripts = false) {
                         .addTo(map);
         }
 
-        loadStylesheet("https://unpkg.com/leaflet@1.5.1/dist/leaflet.css");
-        loadScript("https://unpkg.com/leaflet@1.5.1/dist/leaflet.js", () =>
+        loadStylesheet("assets/files/deps/leaflet.css");
+        loadScript("assets/files/deps/leaflet.js", () =>
                 loadScript(
-                        "https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js",
+                        "assets/files/leaflet-gpx.js",
                         () => make()
                 )
         );

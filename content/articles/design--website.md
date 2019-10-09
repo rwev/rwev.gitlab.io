@@ -1,5 +1,4 @@
 Title: this.design(): How This Site Was Built
-Author: rwev
 Category: design
 Tags: web,nord,practicality,versatility
 

@@ -1,5 +1,4 @@
 Title: Engine Cooling System
-Author: rwev
 Category: skoolie
 
 After the drive and resulting pressure, the coolant leak manifested itself

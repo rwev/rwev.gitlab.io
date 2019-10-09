@@ -4,9 +4,15 @@ from __future__ import unicode_literals
 
 import os.path as path
 
+### GENERATION VARS
+
 OWNER = "rwev"
 SITENAME = "rwev"
 SITEURL = "rwev.dev"
+DEFAULT_METADATA = {
+    "author": OWNER,
+    "status": "draft" # status: published,draft,hidden
+}
 
 USER_LOGO_URL = "assets/images/valknut-nord7.png"
 
@@ -25,7 +31,7 @@ TIMEZONE = "America/Denver"
 
 DEFAULT_LANG = "en"
 
-
+### TEMPLATE VARS TODO cleanup
 # Blogroll
 
 BLOG = "blog"
@@ -52,7 +58,6 @@ PAGE = "page"
 PAGES = "pages"
 
 AUTHOR = "author"
-AUTHORS = "authors"
 AUTHOR_S = "author(s)"
 
 CATEGORY = "category"
@@ -105,16 +110,16 @@ VERTSEPCHARS = " // "
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS=[
     "autopages",
-    "similar_posts",
+#    "similar_posts", TODO check in to pelican-plugins fork
     "neighbors",
     "section_number",
-#    "encrypt_content",
+#    "encrypt_content", TODO
     "more_categories",
     "filetime_from_git",
     "gzip_cache",
-    "photos",
-    "summary",
-    "clean_summary"
+#    "photos",
+#    "summary",
+#    "clean_summary"
 ]
 
 # autopages

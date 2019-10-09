@@ -1,5 +1,4 @@
 Title: Out of (Corporate) Office, Forever
-Author: rwev
 Category: philosophy
 Tags: spirituality,economics,work,money
 

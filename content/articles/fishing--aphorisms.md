@@ -1,5 +1,4 @@
 Title: Fishing Aphorisms
-Author: rwev
 Category: fishing
 Tags: alive, aphorisms
 

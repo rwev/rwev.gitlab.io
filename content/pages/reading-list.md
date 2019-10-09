@@ -1,5 +1,4 @@
 Title: Reading List
-Author: rwev
 
 Curated list of choice works of words in the form of books, essays, white papers, or academic research, and other formats, like lexicons or collections.
 

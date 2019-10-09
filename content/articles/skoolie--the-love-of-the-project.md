@@ -1,5 +1,4 @@
 Title: For the Love of the Project
-Author: rwev
 Category: skoolie
 Tags: projects
 

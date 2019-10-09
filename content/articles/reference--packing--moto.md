@@ -1,5 +1,4 @@
 Title: ADV Motorcycle Packing List
-Author: rwev
 Category: reference/packing
 Tags: moto,4x4,backcountry,adventure,gear,adv
 

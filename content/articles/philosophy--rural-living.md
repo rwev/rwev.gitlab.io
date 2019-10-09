@@ -1,5 +1,4 @@
 Title: Rural Living
-Author: rwev
 Category: philosophy
 Tags: rural,life,outdoors,peace
 

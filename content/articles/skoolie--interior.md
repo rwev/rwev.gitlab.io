@@ -1,5 +1,4 @@
 Title: The Living Space
-Author: rwev
 Category: skoolie
 
 We took an inventory of what we'd like to do to the interior of the

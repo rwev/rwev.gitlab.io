@@ -1,5 +1,4 @@
 Title: D.I.Why?
-Author: rwev
 Category: philosophy
 Tags: pragmatism,environmentalism,self-sufficiency,anti-consumption
 

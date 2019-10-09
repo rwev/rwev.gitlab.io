@@ -1,8 +1,8 @@
 Title: Utah BDR Retrospective
-Author: rwev
 Category: moto
 Tags: 4x4,adventure,adv,bdr,west
 Gallery: {photo}utah-bdr
+Status: published
 
 After 1500+ miles on Rhonda, I'm exhausted. 
 

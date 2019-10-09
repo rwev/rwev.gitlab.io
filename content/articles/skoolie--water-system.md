@@ -1,5 +1,4 @@
 Title: Water System
-Author: rwev
 Category: skoolie
 
 On delivery, we charged the auxiliary battery and it held power. Interior lights lit right up,

@@ -1,5 +1,4 @@
 Title: Blood Tracking
-Author: rwev
 Category: hunting
 
 ### Blood Identification
