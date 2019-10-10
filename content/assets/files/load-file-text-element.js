@@ -1,8 +1,10 @@
-
 async function loadFileTextElement(elementId, fileUrl) {
+        let el = document.getElementById(elementId);
+        el.innerText = `Loading ${fileUrl}`;
 
-        responseText = await fetch(fileUrl).then(res => res.text());
+        let res = await fetch(fileUrl);
+        let text = await res.text();
 
-        // start/end line count? sections only?
-        document.getElementById(elementId).innerText = responseText;
+        el.innerText = text;
+        hljs.highlightBlock(el);
 }

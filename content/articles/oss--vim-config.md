@@ -7,7 +7,13 @@ My first experience with vim was frustrating, as it is for many. Grown in a worl
 
 If I had to learn it again, I would use this configuration as a starting point, and if possible, _without_ plugins. Still maintain a general understanding what each line does. Add plugins incrementally and on a needs basis, so as to understand what the editor itself does, and what _specifically_ plugins do to extend that functionality.
 
-I haven't found much use for custom keybindings, and I probably won't add any until [grokking](https://en.wikipedia.org/wiki/Grok#In_computer_programmer_culture) vim, with the exception of plugin integration. 
+<pre><code class="bash" id="config.vim"></code></pre>
+<script>loadFileTextElement("config.vim", "https://raw.githubusercontent.com/rwev/evix/master/.vim/config.vim")</script>
 
-<pre data-src="https://raw.githubusercontent.com/rwev/evix/master/.vim/config.vim"><code class="language-vim"></code></pre>
+
+I haven't found much use for custom keybindings, and I picture adding many until [grokking](https://en.wikipedia.org/wiki/Grok#In_computer_programmer_culture) vim, with the exception of plugin integration. My mappings to built-in vim functions are few.
+
+<pre><code class="vim" id="mappings.vim"></code></pre>
+<script>loadFileTextElement("mappings.vim", "https://raw.githubusercontent.com/rwev/evix/master/.vim/mappings.vim")</script>
+
 

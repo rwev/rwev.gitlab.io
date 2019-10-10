@@ -8,22 +8,24 @@
                         <meta name="author" content="{{ AUTHOR }}">
                         <meta name="description" content="Posts and writings by {{ AUTHOR }}">
 
-          <!-- ## for client-side less
+                        <!-- client-side less
                         <link rel="stylesheet/less" type="text/css" href="{{ SITEURL }}/theme/css/style.less">
                         <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
                         -->
-                        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygments.css">
-                        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/local.css">
+
+
                         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
 
-                        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/assets/deps/prism.css">
-                        <script src="{{ SITEURL }}/assets/deps/prism.js"></script>
+                        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/assets/deps/nord-highlightjs.css"> 
+                        <script src="{{ SITEURL }}/assets/deps/highlight.pack.js"></script>
+                        <!--<script>hljs.initHighlightingOnLoad();</script>-->
+
+                        <!-- <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/assets/deps/prism.css"> --> <!-- solarized light theme -->
+                        <!-- <script src="{{ SITEURL }}/assets/deps/prism.js"></script> -->
                         
                         <script src="{{ SITEURL }}/assets/files/load-script.js"></script>
                         <script src="{{ SITEURL }}/assets/files/embed-gpx-map.js"></script>
                         <script src="{{ SITEURL }}/assets/files/load-file-text-element.js"></script>
-
-
                         
                         {% if FEED_ALL_ATOM %}
                         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom" />

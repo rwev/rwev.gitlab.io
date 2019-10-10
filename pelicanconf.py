@@ -109,14 +109,14 @@ VERTSEPCHARS = " // "
 ### PLUGINS ###
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS=[
-    "autopages",
+#    "filetime_from_git",
+#    "autopages",
 #    "similar_posts", TODO check in to pelican-plugins fork
-    "neighbors",
-    "section_number",
+#    "neighbors",
+#    "section_number",
 #    "encrypt_content", TODO
-    "more_categories",
-    "filetime_from_git",
-    "gzip_cache",
+#    "more_categories",
+#    "gzip_cache",
 #    "photos",
 #    "summary",
 #    "clean_summary"
