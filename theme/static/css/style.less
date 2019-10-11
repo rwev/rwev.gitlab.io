@@ -15,30 +15,28 @@
 @nord14: #a3be8c;
 @nord15: #b48ead;
 
-@bible-paper: #ece0d1;
-@bible-ink: #634832;
-
+@paper: #ece0d1;
+@ink: #634832;
 
 @font-face {
         font-family: Bahnschrift;
-        src: url('./font/bahnschrift.ttf');
+        src: url("./font/bahnschrift.ttf");
 }
 
 @font-face {
         font-family: Enriqueta;
-        src: url('./font/enriqueta.ttf');
+        src: url("./font/enriqueta.ttf");
 }
 
 @font-face {
         font-family: FiraSans;
-        src: url('./font/fira-sans.ttf');
+        src: url("./font/fira-sans.ttf");
 }
 
 @font-face {
         font-family: FiraCode;
-        src: url('./font/fira-code.ttf');
+        src: url("./font/fira-code.ttf");
 }
-
 
 html {
         margin: 0;
@@ -46,7 +44,6 @@ html {
         text-align: left;
         text-rendering: optimizeLegibility;
 }
-
 
 body {
         font-family: FiraSans;
@@ -95,7 +92,6 @@ a {
         &:active {
                 color: @nord12;
         }
-
 }
 hr {
         border: none;
@@ -128,13 +124,11 @@ aside {
 }
 
 main {
-
         header {
                 margin: 40px 0 40px 0;
         }
 
         article {
-
                 div.article_list_meta {
                         color: @nord3;
                         font-size: 0.75rem;
@@ -142,9 +136,9 @@ main {
                         margin: 0 0 1rem 0;
                 }
 
-                div.article_full_meta, div.neighbors {
-
-                        font-size: .75rem;
+                div.article_full_meta,
+                div.neighbors {
+                        font-size: 0.75rem;
                         color: @nord10;
 
                         display: inline-block;
@@ -168,24 +162,15 @@ main {
                         }
                 }
 
-                div.highlight {
-                        background-color: @nord4;
+                div.quote {
+                        background-color: @paper;
+                        color: @ink;
                         padding: 2px 15px 2px 15px;
-                        
-                        pre {
-                                white-space: inherit;
-                                color: @nord10;
-                        }
-                }
+                        margin: 15px 0 15px 0;
 
-                div.bible {
-                        background-color: @bible-paper;
-                        color: @bible-ink;
-                        padding: 2px 15px 2px 15px;
                         font-family: Enriqueta;
-                        
+
                         p.content {
-                                
                         }
                         p.annotation {
                                 font-weight: bold;
@@ -209,13 +194,12 @@ main {
                                 float: right;
                         }
                 }
-                
         }
 
         div.credits {
-                margin: 40px 0 0 0; 
+                margin: 40px 0 0 0;
                 color: @nord10;
-                font-size: .65rem;
+                font-size: 0.65rem;
         }
 }
 
@@ -224,7 +208,8 @@ table {
 
         border-collapse: collapse;
 
-        th, td {
+        th,
+        td {
                 border-style: solid;
                 border-width: thin;
                 border-color: @nord4;
@@ -234,8 +219,6 @@ table {
                 color: @nord3;
         }
 }
-
-
 
 @media screen and (min-width: 768px) {
         main {
@@ -250,7 +233,6 @@ table {
                 article {
                         margin: 0 0 0 20px;
                 }
-
         }
 
         aside {
@@ -270,9 +252,8 @@ table {
         }
 
         div.gallery {
-                display: grid; 
+                display: grid;
                 grid-template-columns: 1fr 1fr auto;
                 grid-gap: 10px;
         }
 }
-
