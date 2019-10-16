@@ -59,10 +59,10 @@ Ultimately, on a higher philosophical level, that it is merely part of the flawe
 In the case of D.I.Y., the justification we give ourselves laziness, repulsion to the unknown, complacency, or even elitism. Consider your rationale next time you take work to someone else. 
 
 <div class="quote">
- <p class="content">
-        The mind is its own place, and in itself can make a heaven of hell, a hell of heaven.
-</p>
- <p.class="annotation">
-        John Milton
- </p>
+        <p class="content">
+                The mind is its own place, and in itself can make a heaven of hell, a hell of heaven.
+        </p>
+        <p class="annotation">
+                John Milton
+        </p>
 </div>
