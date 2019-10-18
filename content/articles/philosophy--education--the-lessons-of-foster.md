@@ -2,7 +2,6 @@ Title: The Lessons of Foster
 Category: philosophy/education
 Tags: work,life,education
 Status: published
-Date: 01/01/01
 
 I had a particular professor in high school that has influenced my post-high-school life more than any other school official in the previous 17 years of my existence. He didn't do it with books - in fact he hated using a book, and only did so out after being pressured by the administration - but instead with his passion.
 

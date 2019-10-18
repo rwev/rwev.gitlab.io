@@ -2,7 +2,6 @@ Title: On Nerds, Popularity, and Scarcity
 Category: philosophy/education
 Tags: economics,work,society,education
 Status: published
-Date: 01/01/01
 
 I've read a lot of Paul Graham, and another one of his essays really struck a chord with me. Not to the tune of economics or technology or the wealth in between, but with the high school experience. 
 

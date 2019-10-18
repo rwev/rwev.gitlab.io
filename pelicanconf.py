@@ -109,17 +109,17 @@ VERTSEPCHARS = " // "
 ### PLUGINS ###
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS=[
-#    "filetime_from_git",
-#    "autopages",
+    "filetime_from_git",
+    "autopages",
 #    "similar_posts", TODO check in to pelican-plugins fork
-#    "neighbors",
-#    "section_number",
+    "neighbors",
+    "section_number",
 #    "encrypt_content", TODO
-#    "more_categories",
-#    "gzip_cache",
-#    "photos",
-#    "summary",
-#    "clean_summary"
+    "more_categories",
+    "gzip_cache",
+    "photos",
+    "summary",
+    "clean_summary"
 #    "series" # instead of series, use subcategories
 ]
 

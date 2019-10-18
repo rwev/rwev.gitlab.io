@@ -3,19 +3,22 @@
 {% for article in articles_page.object_list %}
 <article>
         <div class="article_listing">
-                <h2>
+                <h1>
                         <a href="{{ SITEURL }}/{{ article.url }}">
                                 {{ article.title }}
                         </a>
-                </h2>
+                </h1>
 
                 <div class="article_list_meta">
-                        {{ article.locale_date }}
-                        {{ VERTSEPCHARS }}
-                        <!-- only show first author and most specific category for cleanliness -->
-                        {{ AUTHOR_S }}: {{ article.author }}
-                        {{ VERTSEPCHARS }}
-                        {{ CATEGORY }}: {{ article.category }}
+                        <p>
+                                {{ article.locale_date }}
+                                {{ VERTSEPCHARS }}
+
+                                <!-- only show first author and complete categorization for cleanliness -->
+                                {{ AUTHOR_S }}: {{ article.author }}
+                                {{ VERTSEPCHARS }}
+                                {{ CATEGORY }}: {{ article.category }}
+                        </p>
                 </div>
 
                 <div>
@@ -27,7 +30,9 @@
 {% endblock %}
 
 {% block footer %}
+<!--
 <footer>
         {% include "modules/pagination.html" %}
 </footer>
+-->
 {% endblock %}

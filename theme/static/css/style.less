@@ -129,13 +129,17 @@ main {
         }
 
         article {
-                div.article_list_meta {
-                        color: @nord3;
-                        font-size: 0.75rem;
-                        opacity: 0.5;
-                        margin: 0 0 1rem 0;
+                div.article_listing {
+                        margin: 50px 0 50px 0;
+                        h1 {
+                                margin-bottom: 0;
+                        }
                 }
 
+                div.neighbors {
+                        margin: 20px 0 0 0;
+                }
+                div.article_list_meta,
                 div.article_full_meta,
                 div.neighbors {
                         font-size: 0.75rem;
@@ -144,15 +148,8 @@ main {
                         display: inline-block;
                         width: 100%;
 
-                        div.neighbors {
-                                display: inline-block;
-                                width: 100%;
-                                margin: 20px 0 0 0;
-                        }
                         div.dates,
-                        div.neighbors_next {
-                                float: right;
-                        }
+                        div.neighbors_next, 
                         div.non_date,
                         div.neighbors_prev {
                                 float: left;
@@ -197,7 +194,6 @@ main {
         }
 
         div.credits {
-                margin: 40px 0 0 0;
                 color: @nord10;
                 font-size: 0.65rem;
         }
@@ -230,8 +226,9 @@ table {
                 width: 768px;
                 margin: 0 0 0 1rem;
 
-                article {
-                        margin: 0 0 0 20px;
+                article div.article_full_meta div.dates,
+                div.neighbors_next {
+                        float: right;
                 }
         }
 

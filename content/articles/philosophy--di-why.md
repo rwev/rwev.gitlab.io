@@ -2,7 +2,6 @@ Title: D.I.Why?
 Category: philosophy
 Tags: pragmatism,environmentalism,self-reliance,anti-consumption
 Status: published
-Date: 01/01/01
 
 There are lots of common justifications for outsourcing work. Whether it is repairs, upkeep, installations, upgrades, diagnostics, and essentially anything else under the sun that could be considered laborious, we've all heard these reasons and likely given them as in excuse not to do-it-ourselves.
 
