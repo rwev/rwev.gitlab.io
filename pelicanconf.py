@@ -11,7 +11,7 @@ SITENAME = "rwev"
 SITEURL = "rwev.dev"
 DEFAULT_METADATA = {
     "author": OWNER,
-    "status": "draft" # status: published,draft,hidden
+    "status": "draft",  # status: published,draft,hidden
 }
 
 USER_LOGO_URL = "assets/images/valknut-nord7.png"
@@ -25,7 +25,7 @@ STATIC_PATHS = ["assets"]
 ARTICLE_PATHS = ["articles"]
 THEME = "./theme"
 
-OUTPUT_PATH = "./public" # for gitlab page
+OUTPUT_PATH = "./public"  # for gitlab page
 
 TIMEZONE = "America/Denver"
 
@@ -44,9 +44,8 @@ LINK_ITEMS = (
 
 # Social widget
 DISPLAY_SOCIAL_ON_MENU = False
-SOCIAL= "social"
-SOCIAL = (
-)
+SOCIAL = "social"
+SOCIAL = ()
 
 ARCHIVES = "archives"
 HOME = "home"
@@ -66,6 +65,8 @@ CATEGORIES = "categories"
 SUBCATEGORY = "subcategory"
 SUBCATEGORIES = "subcategories"
 
+GALLERY = "gallery"
+
 TAG = "tag"
 TAGS = "tags"
 
@@ -75,13 +76,13 @@ NEXT = "next"
 NEWER = "newer"
 OLDER = "older"
 
-POSTED = "posted" # posted on
+POSTED = "posted"  # posted on
 MODIFIED = "modified"
 
-ATOM="atom"
-RSS="rss"
+ATOM = "atom"
+RSS = "rss"
 
-DEFAULT_DATE_FORMAT="%Y.%m.%d %H:%M" # big
+DEFAULT_DATE_FORMAT = "%Y.%m.%d %H:%M"  # big
 
 FEED_ALL_ATOM = None
 FEED_ALL_ATOM = None
@@ -91,11 +92,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = "feeds/author.{slug}.atom.xml"
 AUTHOR_FEED_RSS = "feeds/author.{slug}.rss.xml"
 
-TAG_FEED_ATOM="feeds/tag.{slug}.atom.xml"
-TAG_FEED_RSS="feeds/tag.{slug}.rss.xml"
+TAG_FEED_ATOM = "feeds/tag.{slug}.atom.xml"
+TAG_FEED_RSS = "feeds/tag.{slug}.rss.xml"
 
-CATEGORY_FEED_ATOM="feeds/category.{slug}.atom.xml"
-CATEGORY_FEED_RSS="feeds/category.{slug}.rss.xml"
+CATEGORY_FEED_ATOM = "feeds/category.{slug}.atom.xml"
+CATEGORY_FEED_RSS = "feeds/category.{slug}.rss.xml"
 
 DISPLAY_CATEGORIES_ON_MENU = False
 
@@ -108,19 +109,18 @@ VERTSEPCHARS = " // "
 
 ### PLUGINS ###
 PLUGIN_PATHS = ["pelican-plugins"]
-PLUGINS=[
+PLUGINS = [
     "filetime_from_git",
     "autopages",
-#    "similar_posts", TODO check in to pelican-plugins fork
+    "similar_posts",
     "neighbors",
     "section_number",
-#    "encrypt_content", TODO
+    #    "encrypt_content", TODO
     "more_categories",
     "gzip_cache",
     "photos",
     "summary",
-    "clean_summary"
-#    "series" # instead of series, use subcategories
+    "clean_summary",
 ]
 
 # autopages
@@ -134,17 +134,18 @@ TAG_PAGE_PATH = path.join(_AUTOPAGES, "tags")
 SIMILAR_POSTS_MAX_COUNT = 3
 
 # encrypt_content
-ENCRYPT_CONTENT={
-    'title_prefix': '[Encrypted]',
-    'summary': 'This content is password protected.'
+ENCRYPT_CONTENT = {
+    "title_prefix": "[Encrypted]",
+    "summary": "This content is password protected.",
 }
 
 # photos
-PHOTO_LIBRARY = './content/assets/images'
+PHOTO_LIBRARY = "./content/assets/images"
 
-PHOTO_GALLERY = (1024, 768, 90) # width, height, quality % of max
-PHOTO_ARTICLE = (760, 506, 90)
-PHOTO_THUMB = (192, 144, 70)
+# 1.33~ width/height ratio
+PHOTO_GALLERY = (2000, 1500, 95)  # width, height, quality % of max
+PHOTO_ARTICLE = (760, 506, 95)
+PHOTO_THUMB = (300, 225, 70)
 
 PHOTO_SQUARE_THUMB = True
 PHOTO_RESIZE_JOBS = 5
@@ -153,12 +154,11 @@ PHOTO_WATERMARK = False
 PHOTO_EXIF_KEEP = False
 PHOTO_EXIF_REMOVE_GPS = True
 
-PHOTO_EXIF_COPYRIGHT = 'CC-BY-NC-ND'
-PHOTO_EXIF_COPYRIGHT_AUTHOR = 'Ryan William'
+PHOTO_EXIF_COPYRIGHT = "CC-BY-NC-ND"
+PHOTO_EXIF_COPYRIGHT_AUTHOR = "Ryan William"
 
 # summary
-SUMMARY_MAX_LENGTH = 1000 # use whole summary
+SUMMARY_MAX_LENGTH = 1000  # use whole summary
 SUMMARY_USE_FIRST_PARAGRAPH = True
 CLEAR_SUMMARY_MAXIMUM = 0
 CLEAN_SUMMARY_MINIMUM_ONE = False
-

@@ -49,56 +49,66 @@
                 {{ article.content }}
 
                 {% if article.photo_gallery %}
+                {% for title, gallery in article.photo_gallery %}
+
+                <h3>{{GALLERY}}: {{ title }}</h3>
                 <div class="gallery">
-                        {% for title, gallery in article.photo_gallery %}
-                                {% for name, photo, thumb, exif, caption in
-                                gallery %}
-                                <a href="{{SITEURL}}/{{ photo }}" title="{{ name }}" caption="{{ caption }}">
+                        {% for name, photo, thumb, exif, caption in
+                        gallery %}
+                        <figure>
+                                <a href="{{SITEURL}}/{{ photo }}">
                                         <img src="{{ SITEURL}}/{{ thumb }}">
                                 </a>
-                                {% endfor %}
+                                <figcaption>
+                                        <a href="{{SITEURL}}/{{ photo }}">
+                                                <em>{{ name }}</em>
+                                        </a>
+                                        {% if caption %}
+                                        : {{ caption }}
+                                        {% endif %}
+                                </figcaption>
+                        </figure>
                         {% endfor %}
                 </div>
+                {% endfor %}
                 {% endif %}
         </div>
 
 
-        <div class="article_meta">
 
-                {% if article.prev_article or article.next_article %}
-                <div class="neighbors">
-                        {% if article.prev_article %}
-                        <div class="neighbors_prev">
-                                &lt; {{ PREVIOUS }} <a href="{{SITEURL}}/{{ article.prev_article.url }}">
-                                        {{ article.prev_article.title }}
+        {% if article.prev_article or article.next_article %}
+        <div class="neighbors">
+                {% if article.prev_article %}
+                <div class="neighbors_prev">
+                        &lt; {{ PREVIOUS }} <a href="{{SITEURL}}/{{ article.prev_article.url }}">
+                                {{ article.prev_article.title }}
+                        </a>
+                </div>
+                {% endif %}
+
+                {% if article.next_article %}
+                <div class="neighbors_next">
+                        {{ NEXT }} <a href="{{SITEURL}}/{{ article.next_article.url }}">
+                                {{ article.next_article.title }}
+                        </a>&gt;
+                </div>
+                {% endif %}
+        </div>
+        {% endif %}
+
+        {% if article.similar_posts %}
+        <div class="similar">
+                {{ SIMILAR_ARTICLES }}:
+                <ul>
+                        {% for similar in article.similar_posts %}
+                        <li>
+                                <a href="{{ SITEURL }}/{{ similar.url }}">
+                                        {{ similar.title }}
                                 </a>
-                        </div>
-                        {% endif %}
-
-                        {% if article.next_article %}
-                        <div class="neighbors_next">
-                                {{ NEXT }} <a href="{{SITEURL}}/{{ article.next_article.url }}">
-                                        {{ article.next_article.title }}
-                                </a>&gt;
-                        </div>
-                        {% endif %}
-                </div>
-                {% endif %}
-
-                {% if article.similar_posts %}
-                <div class="similar">
-                        {{ SIMILAR_ARTICLES }}:
-                        <ul>
-                                {% for similar in article.similar_posts %}
-                                <li>
-                                        <a href="{{ SITEURL }}/{{ similar.url }}">
-                                                {{ similar.title }}
-                                        </a>
-                                </li>
-                                {% endfor %}
-                        </ul>
-                </div>
-                {% endif %}
+                        </li>
+                        {% endfor %}
+                </ul>
         </div>
+        {% endif %}
 </article>
 {% endblock %}

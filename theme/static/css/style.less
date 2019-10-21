@@ -18,6 +18,9 @@
 @paper: #ece0d1;
 @ink: #634832;
 
+@thumb-width: 300px;
+@thumb-height: 225px;
+
 @font-face {
         font-family: Bahnschrift;
         src: url("./font/bahnschrift.ttf");
@@ -136,12 +139,14 @@ main {
                         }
                 }
 
-                div.neighbors {
+                div.neighbors,
+                div.similar {
                         margin: 20px 0 0 0;
                 }
                 div.article_list_meta,
                 div.article_full_meta,
-                div.neighbors {
+                div.neighbors,
+                div.similar {
                         font-size: 0.75rem;
                         color: @nord10;
 
@@ -149,16 +154,12 @@ main {
                         width: 100%;
 
                         div.dates,
-                        div.neighbors_next, 
+                        div.neighbors_next,
                         div.non_date,
                         div.neighbors_prev {
                                 float: left;
                         }
-                        div.similar {
-                                margin: 20px 0 0 0;
-                        }
                 }
-
                 div.quote {
                         background-color: @paper;
                         color: @ink;
@@ -224,11 +225,13 @@ table {
                 right: 32%;
 
                 width: 768px;
-                margin: 0 0 0 1rem;
+                margin: 0 0 0 1rem; 
 
-                article div.article_full_meta div.dates,
-                div.neighbors_next {
-                        float: right;
+                article {
+                        div.dates,
+                        div.neighbors_next {
+                                float: right;
+                        }
                 }
         }
 
@@ -250,7 +253,11 @@ table {
 
         div.gallery {
                 display: grid;
-                grid-template-columns: 1fr 1fr auto;
+                grid-template-columns: 1fr auto;
                 grid-gap: 10px;
+
+                figcaption {
+                        width: @thumb-width;
+                }
         }
 }

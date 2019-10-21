@@ -51,8 +51,6 @@ Meanwhile, droning through the numbing, corporate existence with a commute in tr
 
 _Opt out_. Delight in self-provision and dread the boxed-in daily schedule and existence. Self-improvement is its own work, even if lower paying (in the transactional sense) and more fulfilling. Set aside resources for personal growth, even if it means taking unpaid time off from the office.
 
-##
-
 Ultimately, on a higher philosophical level, that it is merely part of the flawed human condition that _we can justify anything_ if it results in the outcome we desire. It falsely enabled confidence in our own behaviors and opinions, regardless of the objective rationality of it. We are all guilty of this in one way or another.
 
 In the case of D.I.Y., the justification we give ourselves laziness, repulsion to the unknown, complacency, or even elitism. Consider your rationale next time you take work to someone else. 
