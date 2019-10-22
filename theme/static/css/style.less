@@ -18,8 +18,8 @@
 @paper: #ece0d1;
 @ink: #634832;
 
-@thumb-width: 300px;
-@thumb-height: 225px;
+@thumb-width: 300px; // TODO find another solution
+@thumb-height: 225px; // must match photos plugin config in pelicanconf.py
 
 @font-face {
         font-family: Bahnschrift;
@@ -224,14 +224,12 @@ table {
                 top: 0;
                 right: 32%;
 
-                width: 768px;
-                margin: 0 0 0 1rem; 
+                max-width: 750px;
+                margin: 0 0 0 1rem;
 
-                article {
-                        div.dates,
-                        div.neighbors_next {
-                                float: right;
-                        }
+                div.dates,
+                div.neighbors_next {
+                        float: right !important; // TODO remove 
                 }
         }
 
