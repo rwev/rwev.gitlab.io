@@ -1,15 +1,14 @@
-Title: Skoolie - Initial Post
+Title: Delma's Homecoming
 Category: skoolie
-Tags: adventure,self-reliance,projects
+Tags: adventure,self-reliance,independence
 Gallery: {photo}skoolie-initial
+Status: published
 
-We took delivery of our long-converted International School Bus yesterday, Sunday 06/24/2019.
+We took delivery of our long-converted International School Bus, Sunday 06/24/2019.
 
-Delma, as she is affectionately named, is
-a 1979 SV International S1723 body and 1982 International 6.4L 392cid V8. She got her RV title decades ago.
+Delma, as she is affectionately named, is a 1979 SV International S1723 body and 1982 International 6.4L 392cid V8. She got her RV title decades ago.
 
-We are parking it a at nearly RV storage place 
-near the airport in Boise, Idaho.
+We are parking it a at nearly RV storage place near the airport in Boise, Idaho.
 
 We did a few hours worth of work on it right away.
 
@@ -32,7 +31,7 @@ onto the ground, and spray on her face.
 - Tried to figure out the exhaust situation. Their is a very long and wide gash
 in the right downpipe. Will need to take to exhaust shop.
 - Filled the radiator (took probably 4 gallons of water to start) 
-- Changed the oil. Put in 10 quart of Shell Rotella 15w-40. Installed new Wix air and oil filters.
+- Changed the oil. Put in 10 quart of Shell Rotella 15W-40. Installed new Wix air and oil filters.
 
 Our theory with purchasing this particularly bus was as follows. 
 
@@ -49,5 +48,7 @@ That said, the components in each of these systems are in questionable state. Ho
 More generally, the value we saw in the bus was not in it's components or in its working state. It was in the design, the systems, the _potential_ of a working unit.
 
 Lots of questions - very overwhelming at first. 
+
+School bus conversions, like an niche, unique, custom-built product, have a limited market. The most unsettling condition of the purchase is _not knowing_ the value. Did I just vastly overpay or was it a steal? Impossible to know. Unlike the market for anything mass produced, say a Toyota Camry, there isn't a huge, liquid market out there confirming the value of possessions - there is no crowd-validation of worth. In this case, worth is in the eyes of the beholder. 
 
 
