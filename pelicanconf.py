@@ -8,7 +8,8 @@ import os.path as path
 
 OWNER = "rwev"
 SITENAME = "rwev"
-SITEURL = "rwev.dev"
+
+SITEURL = ""
 DEFAULT_METADATA = {
     "author": OWNER,
     "status": "draft",  # status: published,draft,hidden

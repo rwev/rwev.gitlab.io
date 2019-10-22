@@ -1,6 +1,7 @@
 async function embedGpxMap(divId, gpxFile) {
         loadStylesheet("/assets/deps/leaflet.css");
 
+        // absolute URLS important!
         await loadScriptPromise("/assets/deps/leaflet.js");
         await loadScriptPromise("/assets/deps/leaflet-gpx.js");
 

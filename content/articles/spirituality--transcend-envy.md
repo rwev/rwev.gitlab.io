@@ -1,6 +1,6 @@
 Title: On the Quest for Success, Transcend Envy
 Category: spirituality
-Tags: quote,work
+Tags: bible,work
 Status: published
 
 I have found, in the ongoing process of self-reflection, that I have overcome something. It wasn't until recently that I pinned down what that something, from which I was freed, was. But now I have a better idea. 
