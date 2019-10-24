@@ -1,10 +1,24 @@
-async function loadFileTextElement(elementId, fileUrl) {
-        let el = document.getElementById(elementId);
-        el.innerText = `Loading ${fileUrl}`;
 
+FILE_TEXT_CACHE = {};
+
+async function loadFileTextElement({elementId, fileUrl, startLine, endLine}) {
+
+    let el = document.getElementById(elementId);
+    el.innerText = `Loading ${fileUrl}`;
+
+    let text = FILE_TEXT_CACHE[fileUrl];
+
+    if (!text) {
         let res = await fetch(fileUrl);
-        let text = await res.text();
+        text = await res.text();
+        FILE_TEXT_CACHE[fileUrl] = text;
+    }
 
-        el.innerText = text;
-        hljs.highlightBlock(el);
+    if (startLine && endLine) {
+        text = text.split('\n').slice(startLine, endLine).join('\n');
+    }
+
+    el.innerText = text;
+    hljs.highlightBlock(el);
+
 }
