@@ -1,6 +1,8 @@
 Title: ADV Motorcycle Packing List
 Category: reference/packing
-Tags: moto,4x4,backcountry,adventure,gear,adv
+Tags: moto,4x4,backcountry,adventure,gear,adv,tools,maintenance
+Gallery: {photo}motorcycle-tool-kit
+Status: published
 
 Gear list for specific overnight motorcycle trips. To be considered in addition to normal camping / travel packing lists.
 
@@ -21,21 +23,21 @@ Gear list for specific overnight motorcycle trips. To be considered in addition 
 - retractable razor 
 - feeler gauge set (for valve adjustment) 
 - tweezers sz large
-- adhesive / glue (multi-use, super glue fix all choice)
+- adhesive / glue (multi-use, super glue choice)
 - white lithium grease 
 - sandpaper (single sheet)
 - metal shim material (aluminum can choice)
-- jb weld (two part + steel stik)
+- jb weld (two part epoxy + steel stik)
 - dielectric grease
 - duct tape 
 - hose clamps
 - baling wire
 - electrical tape
-- 3-way t-handle wrench w/ assorted sockets, screwdrivers
+- t-handle wrench w/ assorted sockets, screwdrivers
 - tire irons (2)
-- tube inflation canisters
+- tube inflation gas canisters
 - tire patch kit 
-- fuel hose (replacements, siphoning)
+- fuel hose (replacement, siphoning)
 
 ## spare parts
 - spark plug
@@ -58,12 +60,12 @@ Gear list for specific overnight motorcycle trips. To be considered in addition 
 - proof of registration
 
 # riding gear
-- adv pants (motonation)
-- adv jacket (motonation)
-- riding gloves (motonation)
-- helmet (LS2 pioneer w face shield, built-in sun visor)
-- earplugs (+ extras)
-- riding boots (thor)
+- adv pants
+- adv jacket
+- riding gloves
+- helmet 
+- earplugs
+- riding boots 
 - watch
 
 # mounted gear
@@ -74,10 +76,10 @@ Gear list for specific overnight motorcycle trips. To be considered in addition 
 - extra ignition key
 
 # navigation / comms
-- map downloads (trekarta)
-- gmx files (if relevant)
+- map downloads 
+- .gmx/.kmz route files 
 - printed maps
-- safety satellite beacon (borrow)
+- safety satellite beacon
 - extra battery cell / portable charger
 
 
