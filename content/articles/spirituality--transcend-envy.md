@@ -9,9 +9,10 @@ That thing was envy.
 
 Envy has a myriad of manifestations, and like all other sins, it relates to others:
 
-- fear of not being enough, of failure, of inadequacy
+- Fear of not being enough, of failure, of inadequacy
 - Schadenfreude, or ill-will-wishing upon others, spite, revenge
 - Constant comparison to others
+- Rejoicing while others weep; weeping as others rejoice
 - Unnecessary, misapplied competition
 - Lack of fulfillment, contentment, peace; ingratitude
 

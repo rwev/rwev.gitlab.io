@@ -1,5 +1,5 @@
 Title: Blood Tracking
-Category: hunting
+Category: reference/hunting
 
 ### Blood Identification
 - purple / green and slimy &rarr; gut

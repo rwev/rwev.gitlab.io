@@ -1,5 +1,5 @@
 Title: Marksmanship
-Category: hunting
+Category: reference/hunting
 Tags: target,outdoor
 
 Components of good rifle shooting: 

@@ -1,5 +1,5 @@
 Title: Rifle Selection
-Category: hunting
+Category: reference/hunting
 Tags: outdoor,self-reliance,harvest
 Series: Heeding the Hunt
 
