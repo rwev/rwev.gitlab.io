@@ -41,19 +41,21 @@ The old adage: _if you want something done right, do it yourself._
 
 Mane people are too busy working their overspecialized and delicate office jobs and come home drained of physical and emotional energy, and therefore don't have the power left to learn a new task outside of their professional practice.
 
-_Break the cycle_. Personally, doing the same thing day after day, doesn't give me the comfort and validation that it does to some people; learning and diverse activity gives me life. Expanding one's horizons, both in capability and knowledge of other fields, is inspiring, and can offer be a way out of the work grind, either through entrepreneurship or a more self-sustaining lifestyle.
+_Break the cycle_. Personally, doing the same thing day after day, doesn't give me the comfort and validation that it does to some people; learning and diverse activity give me life. Expanding one's horizons, both in capability and knowledge of other fields, is inspiring, and can offer be a way out of the work grind, either through entrepreneurship or a more self-sustaining lifestyle.
+
+Furthermore, outsourcing work often involves just as much expenditure as doing-it-oneself: by the time the problem is diagnosed, calls are made, and appointments and other logistics are arranged and carried, it can be just as time-effective to resolve the issue personally.
 
 ### "I get paid so I can afford to pay to have it done right"
 
-Most western workers don't love there jobs; but many are reliant on (addicted to) the comfort and stability the resulting and regular paycheck offers them. So, as if domesticated, they keep doing it, eating from the hand of a master, even if it means less fulfillment and freedom.
+Most Western workers don't love there jobs; but many are reliant on (addicted to) the comfort and stability the resulting and regular paycheck offers them. So, as if domesticated, they keep doing it, eating from the hand of a master, even if it means less fulfillment and freedom.
 
 Meanwhile, droning through the numbing, corporate existence with a commute in traffic, many take their paycheck to pay other people to do things that they could be doing themselves, bearing the rigid and dulling "profession" and transferring that payment to a third party.
 
-_Opt out_. Delight in self-provision and dread the boxed-in daily schedule and existence. Self-improvement is its own work, even if lower paying (in the transactional sense) and more fulfilling. Set aside resources for personal growth, even if it means taking unpaid time off from the office.
+_Opt out_. Delight in self-provision and dread the boxed-in daily schedule. Self-improvement is its own work, even if lower paying (in the transactional sense) and more fulfilling. Set aside resources for personal growth, even if it means taking unpaid time off from the office.
 
-Ultimately, on a higher philosophical level, that it is merely part of the flawed human condition that _we can justify anything_ if it results in the outcome we desire. It falsely enabled confidence in our own behaviors and opinions, regardless of the objective rationality of it. We are all guilty of this in one way or another.
+Ultimately, on a higher philosophical level, that it is merely part of the flawed human condition that _we can justify anything_ if it results in the outcome we desire. It falsely enables confidence in our own behaviors and opinions, regardless of the objective rationality of it. We are all guilty of this in one way or another.
 
-In the case of D.I.Y., the justification we give ourselves laziness, repulsion to the unknown, complacency, or even elitism. Consider your rationale next time you take work to someone else. 
+In the case of D.I.Y., the justification we give ourselves involves laziness, repulsion to the unknown, complacency, or even elitism. Consider your rationale next time you take work to someone else. 
 
 <div class="quote">
         <p class="content">
