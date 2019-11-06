@@ -9,13 +9,11 @@ Money, as observed in the third person, actually has not only diminishing margin
 
 Turns out this is a biblical concept: money indeed possesses to power to destroy and to undermine. 
 
-The answer is spiritual and psychological. The rich, high socieity become _more_ attached to moeny the more they have. It becomes increasingly important, and it becomes a deciding factor in who they are around, and the cycle continues. The climb is addicting. 
+The answer is spiritual and psychological. The rich, high society become _more_ attached to money the more they have. It becomes increasingly important, and it becomes a deciding factor in who they are around, and the cycle continues. The climb is addicting. 
 
 With each rung, the stakes increase. Social circles change. and the cycle continues even more aggressively. THe more they have, the less they feel like they have, becomes they move into neighborhoods that are increasingly distinguished by money.
 
 THe worry more about what they have. Larger assets entail more management and potential losses. 
-
-
 
 <div class="quote">
     <div class="content">
