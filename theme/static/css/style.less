@@ -18,8 +18,9 @@
 @paper: #ece0d1;
 @ink: #634832;
 
-@thumb-width: 300px; // TODO find another solution
-@thumb-height: 225px; // must match photos plugin config in pelicanconf.py
+// match photos plugin config in pelicanconf.py
+@thumb-width: 300px;
+@thumb-height: 225px;
 
 @font-face {
         font-family: Bahnschrift;
@@ -211,7 +212,6 @@ table {
                 border-style: solid;
                 border-width: thin;
                 border-color: @nord4;
-                // text-align: center;
         }
         th {
                 color: @nord3;
@@ -237,7 +237,7 @@ table {
 
                 div.dates,
                 div.neighbors_next {
-                        float: right !important; // TODO remove 
+                        float: right !important; // TODO fix
                 }
         }
 
