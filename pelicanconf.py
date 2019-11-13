@@ -13,7 +13,7 @@ SITEURL = ""
 DEFAULT_METADATA = {
     "author": OWNER,
     "status": "draft",  # status: published,draft,hidden
-
+}
 
 USER_LOGO_URL = "assets/images/valknut-nord7.png"
 
