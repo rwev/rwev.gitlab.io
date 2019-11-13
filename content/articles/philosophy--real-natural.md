@@ -1,12 +1,12 @@
 Title: Something Real, Something Natural
 
 <div class="quote">
-    <div class="content">
+    <p class="content">
         The purpose of society is to mask ourselves from each other... My fragile connection with the world of polite society has, without a doubt, been severed
-    </div>
-    <div class="annotation">
+    </p>
+    <p class="annotation">
         John McAfee
-    </div>
+    </p>
 </div>
 
 

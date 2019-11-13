@@ -16,9 +16,9 @@ With each rung, the stakes increase. Social circles change. and the cycle contin
 THe worry more about what they have. Larger assets entail more management and potential losses. 
 
 <div class="quote">
-    <div class="content">
-</div>
-<div class="annotation">
+    <p class="content">
+</p>
+<p class="annotation">
     Psalm 73
-</div>
+</p>
 </div>

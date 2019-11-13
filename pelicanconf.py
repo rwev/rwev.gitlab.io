@@ -13,12 +13,12 @@ SITEURL = ""
 DEFAULT_METADATA = {
     "author": OWNER,
     "status": "draft",  # status: published,draft,hidden
-}
+
 
 USER_LOGO_URL = "assets/images/valknut-nord7.png"
 
-TAGLINE = "Type 7. Dynamic generalist. Under-specialized, over-versatile. Robust \
-    in many environments. Variety is spice of life."
+TAGLINE = "Wolf in the wilderness before a dog in a cage."
+# "Type 7. Dynamic generalist. Under-specialized, over-versatile. Robust in many environments. Variety is spice of life."
 
 PATH = "content"
 PAGE_PATHS = ["pages"]

@@ -10,3 +10,16 @@ First is the health aspect. I notice this because on the weekends, my energy lev
 "Putting in the time" as opposed to having a personal vested interest in the matter (SITG).
 "Doing your job" as opposed to doing something that matters.
 
+<div class="quote">
+    <p class="content">
+        In nature we never repeat the same motion; in captivity (office, gym, commute, sport), life is just a repetitive-stress injury.
+        
+        ...
+        
+        Work destroys your soul by stealthily invading your brain during the hours not officially spend working; be selective about professions.
+    </p>
+    
+    <p class="annotation">
+        The Bed of Procrustes, Nassim Nicholas Taleb    
+    </p>
+</div>
