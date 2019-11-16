@@ -1,6 +1,6 @@
 Title: Questioning the American Dream: Home Ownership
 Category: philosophy/money
-Author: rwev
+Tags: freedom,anticonsumption,independence
 
 Gullible to the empty promise of bank marketing, in which one "rewards" themselves with a large financed purchase, a chunk of debt that they've "earned", many are over-eager to take out lines of credit offered them. 
 

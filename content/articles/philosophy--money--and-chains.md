@@ -1,5 +1,6 @@
 Title: Money and Chains
-Category: philosophy
+Category: philosophy/money
+Tags: money,freedom
 
 Money, or more broadly wealth, since the time of the Industrial Revolution, which broad a level of prosperity never before seen by humanity. Freed from the mundane and repetitive and volatile life on farms and fields, all basic human needs have been met, and are generally affordable and accessible to the majority of the population.
 
