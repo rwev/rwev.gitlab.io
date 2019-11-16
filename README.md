@@ -9,6 +9,7 @@ git clone --recursive https://github.com/getpelican/pelican-plugins
 ### generate site and serve on file change
 ```shell
 fd '.*\.(py|html|md|less|css|js)$' | entr -r invoke styles rebuild serve
+
 ```
 ### deployment
 a gitlab continuous integration file (`.gitlab-ci.yml`) is included in the repo. pushing to a user site repo (`<user>.gitlab.io`) run the build and deployment process.

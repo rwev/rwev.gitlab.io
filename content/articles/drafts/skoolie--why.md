@@ -9,7 +9,7 @@ The rationale behind the crazy idea of living a semi-mobile life in a metal tube
 Our decision to purchase a skoolie was driven by views we share in our friend community on the modern specialized economy.
 
 Weeding out the delicacy of
-a specialized career, instead favoring the freedom, self-sufficieny, robustness,
+a specialized career, instead favoring the freedom, self-sufficiency, robustness,
 and resiliency of self enterprise.
 
 We've even expressed interest in becoming

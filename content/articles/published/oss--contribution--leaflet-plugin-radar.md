@@ -3,7 +3,6 @@ Category: oss/contribution
 Tags: leaflet,javascript,mapping
 Status: published
 
-
 Weather is a critical dimension in the understanding one's immediate surroundings, especially on a real-time basis. Understanding the interplay of terrain and weather is crucial in all sorts of navigation. 
 
 This plugin adds animated satellite radar onto the map. When activated, the last hour of radar images are fetched from a open and public data [source](https://mesonet.agron.iastate.edu) and overlayed loop onto the map in a repeating loop. 

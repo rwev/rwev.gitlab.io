@@ -1,6 +1,7 @@
 Title: Wealth and Technology [I]
 Category: philosophy/work
 Tags: work,money,wealth,technology,capitalism,democracy,markets,economics
+Status: published
 
 In yet another vein of economic philosophy gold from Paul Graham's _Hackers & Painters_ collection, the essay _[How to Make Wealth](www.paulgraham.com/wealth.html)_, addresses the interconnection between wealth and technological innovation. Here the ideas laid out within are pondered and further explored.
 

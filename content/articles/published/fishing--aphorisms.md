@@ -1,6 +1,7 @@
 Title: Fishing Aphorisms
 Category: philosophy/sportsmanship
-Tags: aphorisms,rules,fishing
+Tags: rules,fishing
+Status: published
 
 The yield of many mornings, afternoons, and evenings spent on the water in all sorts of weather. Connecting the seeming triviality of fishing with deeper life lessons.
 
@@ -11,6 +12,8 @@ You miss 100% of the fish you don't put your fly in front of and 100% of the cas
 2. *The man in the water catches the fish.*
 
 Fishing's version of Teddy Roosevelt's _Man in the Arena_ essay. The fisherman in the water and close to the action is more likely to catch a fish, even if he sometimes gets in over his waders.
+
+More coming soon...
  
 
 

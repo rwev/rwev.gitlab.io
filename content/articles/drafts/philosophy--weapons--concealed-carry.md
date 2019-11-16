@@ -3,16 +3,14 @@ Title: The Concealed Carry Mindset
 "Rules of the road"
 
 
-# THe premise
+# The premise
 ## The failed legislation of Safe
 Harder to defend than the circumvent / attack.
 You cannot legislate safety - you can just strip the rights from the law-abiding. 
 
-
-
 ## Lethal Force as a Last Resort
-Extracation over involvement. Do not hasten the day. Diffuse. 
-Be afriad and have fear. Rationality with no ego. No cowboy complex. Flee.v
+Extraction over involvement. Do not hasten the day. Diffuse. 
+Be afraid and have fear. Rationality with no ego. No cowboy complex. Flee.v
 
 ## Carry Deep
 Open carry scares the sheeple.
@@ -22,4 +20,4 @@ Use tge effect of surprise to your advantage by carrying concealed, without scar
 
 The Sheepdog Philosophy 
 Closed the Engage
-The Concealed Carry Protocol / Obligation by Nutnfancy
+The Concealed Carry Protocol / Obligation by NutNFancy

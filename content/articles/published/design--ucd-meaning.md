@@ -19,7 +19,7 @@ While "traditional" software engineering places emphasis on the functional aspec
 
 UCD makes more business sense. Software exists for the sole person of serving users, thus the value it adds to the world is derived from how well it achieves that, not on _how_ it achieves it (using a particular programming language or architecture).
 
-Code in and of itself does not generate wealth. Code that meets the needs of users does. Software businesses are _not _in the business of writing code, they are in the business of serving users, and they deliver such service using code as a _means_.
+Code in and of itself does not generate wealth. Code that meets the needs of users does. Software businesses are not in the business of writing code -- they are in the business of serving users, and they deliver such service using code as a means.
 
 For a system to be successful, it must be
 

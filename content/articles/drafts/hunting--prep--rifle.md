@@ -1,7 +1,6 @@
 Title: Rifle Selection
 Category: reference/hunting
 Tags: outdoor,self-reliance,harvest
-Series: Heeding the Hunt
 
 Recoil vs. Bullet Acceleration. Every action must have an equal but opposite reaction. The following equation represent the preservation of momentum:
 

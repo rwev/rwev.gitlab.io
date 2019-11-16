@@ -11,6 +11,8 @@ This is not my story. Originally from Latino Culture; I'm unsure who to credit f
 
 A consultant on vacation visits a remote coastal village and observes a fisherman unloading his day's catch on the pier. The consultant is impressed by his hefty catch, which will sell on the market for a good price, so he asks the fisherman about his fishing operation. “How long were you out?”
 
+
+
 The fisherman replies, “Just a few hours.
 The consultant seems amazed, and asks the fisherman why he doesn't fish longer if his fishing is so productive, as he could bring in a larger catch and make more money.
 
