@@ -9,7 +9,7 @@ import os.path as path
 OWNER = "rwev"
 SITENAME = "rwev"
 
-SITEURL = ""
+SITEURL = "localhost:8000"
 DEFAULT_METADATA = {
     "author": OWNER,
     "status": "draft",  # status: published,draft,hidden
@@ -23,7 +23,7 @@ TAGLINE = "Wolf in the wilderness before a dog in a cage."
 PATH = "content"
 PAGE_PATHS = ["pages"]
 STATIC_PATHS = ["assets"]
-ARTICLE_PATHS = ["articles"]
+ARTICLE_PATHS = ["articles/published"]
 THEME = "./theme"
 
 OUTPUT_PATH = "./public"  # for gitlab page
