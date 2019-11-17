@@ -30,7 +30,7 @@ People seem to have a different opinion about startups, as if they were a thing 
         There is a large random factor in the success of any company. So the guys you end up reading about in the papers are the ones who are very smart, totally dedicated, and win the lottery.
 </div>
 
-#### Moneymaking in the West
+## Moneymaking in the West
 
 Money, as a transfer of wealth, can both be transferred or created. Wealth is the stuff people want. Wants are fulfilled by the transfer of stuff for other stuff, through the monetary medium. Wealth can be created; money can not.  The former has a very bad historical reputation, which continues until today: "speculation, marriage, inheritance, theft, extortion, fraud, monopoly, graft, lobbying, counterfeiting, and prospecting." In the past, before the rights protected by the West existed, these were the best ways to become wealthy. The creators of wealth became quick victims of the transferrers of wealth due to the corrupt economic systems of the time.
 
@@ -52,7 +52,7 @@ The modern craftsmen is the computer programmer.
 
 The new brick is a line of code. The new electrical schematic is the program architecture.
 
-#### Cogs in the Wealth-Creation Machine
+## Cogs in the Wealth-Creation Machine
 
 Companies that are in business, if they are to stay in business, need to create wealth (when this in not true, something has gone awry; remember the origination recipe for creating wealth: doing what others want).
 
@@ -91,7 +91,7 @@ But unfortunately,
         There’s no way to untangle all their contributions.
 </div>
 
-#### Getting Rich
+## Getting Rich
 
 <div class="quote">
         Since it became possible to get rich by creating wealth, everyone who has done it has used essentially the same recipe: measurement and leverage, where measurement comes from working with a small group, and leverage from developing new techniques.
@@ -123,7 +123,7 @@ Paul formulates a perfect analogy for comparing the measurement / leverage situa
         A big company is like a giant galley driven by a thousand rowers. Two things keep the speed of the galley down. One is that individual rowers don’t see any result from working harder. The other is that, in a group of a thousand people, the average rower is likely to be pretty average... if you took ten people at random out of the big galley and put them in a boat by themselves, they could probably go faster. They would have both carrot and stick to motivate them. An energetic rower would be encouraged by the thought that he could have a visible effect on the speed of the boat. And if someone was lazy, the others would be more likely to notice and complain.
 </div>
 
-#### Technology Offers Leverage
+## Technology Offers Leverage
 
 When one works in the field of technology, he is guaranteed a certain level of leverage, because technology creates leverage: technology makes our decisions, or more broadly, effort, more impactful. The person who creates technology not only makes his own effort more potent, but also the effort of all of those who decide to employ his technology.
 
@@ -137,7 +137,7 @@ The world of technology development moves faster than the normal world. When a t
         Fortunately there is a natural fit between smallness and solving hard problems. The leading edge of technology moves fast. Technology that’s valuable today could be worthless in a couple years. Small companies are more at home in this world, because they don’t have layers of bureaucracy to slow them down. Also, technical advances tend to come from unorthodox approaches, and small companies are less constrained by convention.
 </div>
 
-#### Surviving in the Wealth Creation Competition
+## Surviving in the Wealth Creation Competition
 
 Wealth creation, because of the monetary reward, naturally becomes a competitive process. How does one survive with his business intact?
 
@@ -157,7 +157,7 @@ Startups will always be the small guys, but this in definitively not always an a
 
 Startups are a specialized species of business, and startups continue to exists (people continue to find reason to found them) because of the few that are successful.
 
-#### Eye on the Goal
+## Users in Sight
 
 With the vastly increased risk of failure and personal devastation that comes with founding a startup, one is forced to be more goal-oriented if the attempt is to be worth it. A startup simply can't exist or hold up through a business or technology cycle the way that the big boys can. So what goals should they have?
 
@@ -183,7 +183,7 @@ Users aren't a perfect measure of worth of a business. For example, monetisation
         Certainly it’s a better test than your a priori notions of what problems are important to solve, no matter how technically adept you are.
 </div>
 
-#### User-Centric Startups
+### User-Centric Startups
 
 <div class="quote">
         Treating a startup as an optimization problem will help you avoid another pitfall that VCs worry about, and rightly—taking a long time to develop a product. Now we can recognize this as something hackers already know to avoid: premature optimization. Get a version 1.0 out there as soon as you can. Until you have some users to measure, you’re optimizing based on guesses.
@@ -193,7 +193,7 @@ Users aren't a perfect measure of worth of a business. For example, monetisation
         The ball you need to keep your eye on here is the underlying principle that wealth is what people want. If you plan to get rich by creating wealth, you have to know what people want. So few businesses really pay attention to making customers happy.
 </div>
 
-#### Leverage, a Great Responsibility
+## Leverage, a Great Responsibility
 
 As true with the physical definition of a lever, leverage works in both directions, clockwise and counterclockwise, progress and regress.
 
@@ -203,7 +203,7 @@ Leverage simply multiplies the impact of decisions. It does not make decisions 
         A restaurant can afford to serve the occasional burnt dinner. But in technology, you cook one thing and that’s what everyone eats. So any difference between what people want and what you deliver is multiplied. You please or annoy customers wholesale. The closer you can get to what they want, the more wealth you generate.
 </div>
 
-### Living in a Success Story
+## Living Success Story
 
 Talk like this isn't just theoretical or academic. It works, because the Western society that we live in is a product of this way of thinking.
 
