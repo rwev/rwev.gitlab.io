@@ -24,7 +24,7 @@ PATH = "content"
 PAGE_PATHS = ["pages"]
 STATIC_PATHS = ["assets"]
 ARTICLE_PATHS = ["articles/published"]
-THEME = "./theme"
+THEME = "tundra"
 
 OUTPUT_PATH = "./public"  # for gitlab page
 
@@ -33,6 +33,7 @@ TIMEZONE = "America/Denver"
 DEFAULT_LANG = "en"
 
 ### TEMPLATE VARS TODO cleanup
+
 # Blogroll
 
 BLOG = "blog"

@@ -34,7 +34,7 @@ def build(c):
 @task
 def styles(c):
     """Transpile less -> css"""
-    c.run('lesscpy theme/static/css/style.less theme/static/css/style.css')
+    c.run('lesscpy ./tundra/static/css/style.less ./tundra/static/css/style.css')
 
 @task
 def rebuild(c):

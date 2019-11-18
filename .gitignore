@@ -2,6 +2,6 @@
 /pelican-plugins
 /output
 /public
-/theme/static/css/style.css
+/tundra/static/css/style.css
 /.idea
 /*.iml

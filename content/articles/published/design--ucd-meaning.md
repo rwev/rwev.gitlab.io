@@ -9,7 +9,7 @@ Here the meaning of _user-centered design_ actually means.
 
 ### Defining User-Centered Design
 
-The concept was first defined by Norman and Draper [1] in 1986:
+The concept was first defined by Norman and Draper (1) in 1986:
 
 <div class="quote">
     User-centered design emphasizes that the purpose of the system is to serve the user, not to use a specific technology, not to be an elegant piece of programming. The needs of the users should dominate the design of the interface, and the needs of the interface should dominate the design of the rest of the system.
@@ -31,7 +31,7 @@ If a system is designed around the users, it will have a greater likelihood of a
 
 User-centered design has also been called _usability engineering_, or software engineering concentration on usability, rather than functionality.
 
-Nielsen [2] defined usability in 1994:
+Nielsen (2) defined usability in 1994:
 
 - efficiency → resources expenditure and task completion are bound.
 - satisfaction → product usage and happiness are bound.
@@ -41,7 +41,7 @@ Nielsen [2] defined usability in 1994:
 
 It is clear that these factors are intertwined; the ability of the system to resolve user error without stimulating frustration will affect how satisfied the user is.
 
-The International Organization for Standardization (ISO) offers a second definition [ISO 9241]:
+The International Organization for Standardization (ISO) offers a second definition (ISO 9241):
 
 <div class="quote">
     Usability: the extent to which a product can be used by specified _users_
@@ -62,7 +62,7 @@ It's the job of the _developer_ to close this gap. Yes, it's possible for user e
 
 ### Allocation of Function
 
-User-centered design entails a logical allocation of functionality performance to the users and to the designed system [ISO 13407].
+User-centered design entails a logical allocation of functionality performance to the users and to the designed system (ISO 13407).
 
 This allocation answers _what should the users do, and what should our product do_? In other words, what should not be performed by the system and instead should be left to the user.
 

@@ -9,7 +9,7 @@
                 <meta name="description" content="Posts and writings by {{ AUTHOR }}">
 
                 <!-- client-side less
-                        <link rel="stylesheet/less" type="text/css" href="{{ SITEURL }}/theme/css/style.less">
+                        <link rel="stylesheet/less" type="text/css" href="{{ SITEURL }}/{{ THEME }}/css/style.less">
                         <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
                         -->
 
@@ -18,10 +18,6 @@
 
                         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/assets/deps/nord-highlightjs.css">
                         <script src="{{ SITEURL }}/assets/deps/highlight.pack.js"></script>
-                        <!--<script>hljs.initHighlightingOnLoad();</script>-->
-
-                        <!-- <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/assets/deps/prism.css"> --> <!-- solarized light theme -->
-                        <!-- <script src="{{ SITEURL }}/assets/deps/prism.js"></script> -->
 
                         <script src="{{ SITEURL }}/assets/files/load-script.js"></script>
                         <script src="{{ SITEURL }}/assets/files/embed-gpx-map.js"></script>
@@ -42,7 +38,6 @@
                                 {% block title %}{% endblock %}
                         </title>
 
-                        {% include "modules/analytics.html" %}
         </head>
 
         <body>
