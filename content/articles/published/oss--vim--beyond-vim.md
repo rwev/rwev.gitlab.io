@@ -24,14 +24,16 @@ So, you switch back to zero-configuration IDE (JetBrains' IntelliJ) to focus on 
  - lint, and resolve warnings and errors with intelligent best-practice suggestions
  - fuzzy-find files, actions, symbols, and settings
 
-all intuitively (at least for the GUI generation) and
+all intuitively (at least for the GUI generation) and _without_:
 
- - _without_ cryptic _vim_-specific commands
- - _without_ learning _vimscript_
- - _without_ training and ingraining non-transferable keybindings and modal editing
- - _without_ the visual constraints of the terminal
- - _without_ books, ["quickrefs"](https://vimhelp.org/quickref.txt.html#quickref), [cheat sheets](https://vim.rtorr.com/), or even [RTFM](http://www.catb.org/jargon/html/R/RTFM.html).
-
+ - cryptic _vim_-specific commands
+ - learning _vimscript_
+ - training and ingraining non-transferable keybindings and modal editing
+ - the visual constraints of the terminal
+ - books, ["quickrefs"](https://vimhelp.org/quickref.txt.html#quickref), [cheat sheets](https://vim.rtorr.com/), or even [RTFM](http://www.catb.org/jargon/html/R/RTFM.html).
+ 
+ For these reasons, a strong argument can be made that _vim_ does not embody [user-centric design](/grounding-user-centric-design.html); it is, in fact, very unusable according to the original definition, particularly in regards to learnability and memorability. 
+ 
 ## Age as a Factor of Interest
 My generation grew up with GUIs: they moderated our first interactions with computers and beyond. Knowledge of the terminal came only later, when I become interested in development. GUIs, as the point of first and continuous contact, were comfortable and homey, and the terminal foreign.    
 
