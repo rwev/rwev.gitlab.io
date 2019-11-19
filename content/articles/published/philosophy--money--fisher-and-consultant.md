@@ -11,47 +11,47 @@ Originally from Latin culture.
 
 A consultant on vacation visits a remote coastal village and observes a fisherman unloading his day's catch on the pier. The consultant is impressed by his hefty catch, which will sell on the market for a good price, so he asks the fisherman about his fishing operation. “How long were you out?”
 
-<br>
+<br><br>
 
 The fisherman replies, “Just a few hours."
 
-<br>
+<br><br>
 
 The consultant seems amazed, and asks the fisherman why he doesn't fish longer if his fishing is so productive, as he could bring in a larger catch and make more money.
 
-<br>
+<br><br>
 
 The fisher responds that he caught enough fish to feed his family, and has what he needs. The manager seems dissatisfied with the answer.  "So then, it's only noon, what do you do with the rest of your day?"
 
-<br>
+<br><br>
 
 The fisher explains: “I play with my kids, make lunch for my family, take a nap with my wife, and go for a walk on the beach.
 
-<br>
+<br><br>
 
 The consultant offers his advice: “I've made a career helping businesses make more money. You should fish more. You could soon afford a larger fishing boat, and then a whole fleet. Then, you could set up a processing factory and distribution facilities to cut out out the merchant to whom you sell to and make even more money. You could become a businessman, living a lavish and prestigious life in a sophisticated city."
 
-<br>
+<br><br>
 
 The fisher contemplates in silence before inquiring, “How long would that take?"
 
-<br>
+<br><br>
 
 The consultant thought for a second. “A couple decades, shorter if you're lucky.
 
-<br>
+<br><br>
 
 The fisher asks: “After that?
 
-<br>
+<br><br>
 
 The consultant laughs. “When the market is right, you will sell your company and make a fortune!"
 
-<br>
+<br><br>
 
 The fisherman remains skeptical. “A fortune? And after that?"
 
-<br>
+<br><br>
 
 The consultant gets excited, “Then you could retire! You could move to a remote coastal village and relax every day. You'd play with your kids, make lunch for your family, take a nap with your wife, and go for a walk on the beach."
 
