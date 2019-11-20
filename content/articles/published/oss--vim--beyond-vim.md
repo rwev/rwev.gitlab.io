@@ -14,17 +14,19 @@ Within the first few months of using _vim_, I saw this [post](https://www.reddit
 5. Admit that you do need to [RTFM](http://www.catb.org/jargon/html/R/RTFM.html), like people said all along
 6. Realize that despite sophisticated editing mechanisms and endless customizability / extensibility, using _vim_ is hurting productivity
 
-So, you switch back to zero-configuration IDE (JetBrains' IntelliJ) to focus on automating business value instead of your IDE. You relegate _vim_ to editing text files and commit messages and look back fondly on all that configuration you setup. Miss _vim_, but move on with life and appreciate your ability to automatically
+So, you switch back to zero-configuration IDE (like JetBrains' IntelliJ) to focus on automating business value instead of your IDE. You relegate _vim_ to editing text files and commit messages and look back fondly on all that configuration you set up. Miss _vim_, but move on with life and appreciate your ability to automatically
  
  - interact with version control and databases
  - find and replace across the entire codebase
- - refactor code-aware
- - manage imports and dependencies
+ - refactor file and symbol names across whole project, with code, string, and comment awareness 
+ - manage imports, dependencies, and environments
  - integrate file-watching and build tools
- - lint, and resolve warnings and errors with intelligent best-practice suggestions
+ - enforce style rules with auto-fixers
+ - find warnings and errors, and resolve with intelligent best-practice suggestions
  - fuzzy-find files, actions, symbols, and settings
+ - debug and profile
 
-all intuitively (at least for the GUI generation) and _without_:
+all intuitively and _without_:
 
  - cryptic _vim_-specific commands
  - learning _vimscript_
@@ -32,14 +34,16 @@ all intuitively (at least for the GUI generation) and _without_:
  - the visual constraints of the terminal
  - books, ["quickrefs"](https://vimhelp.org/quickref.txt.html#quickref), [cheat sheets](https://vim.rtorr.com/), or even [RTFM](http://www.catb.org/jargon/html/R/RTFM.html).
  
+## Age as a Factor of Interest
  For these reasons, a strong argument can be made that _vim_ does not embody [user-centric design](/grounding-user-centric-design.html); it is, in fact, very unusable according to the original definition, particularly in regards to learnability and memorability. 
  
-## Age as a Factor of Interest
 My generation grew up with GUIs: they moderated our first interactions with computers and beyond. Knowledge of the terminal came only later, when I become interested in development. GUIs, as the point of first and continuous contact, were comfortable and homey, and the terminal foreign.    
 
 But for the older generations of technologists, it was just the opposite. They grew up with the CLI, and GUIs were something that came later. Perhaps that is why the older generation prefers _vim_: it is a TUI, and as such shows itself in the place they feel most familiar with: the terminal. 
 
 For youngsters, _vim_ is a sort of hipster, learning it a matter of paying tribute to those who have come before, a rite of passage, while the real work gets done somewhere else.  
+
+Perhaps _vim_ is indeed as powerful as an editor can be when caged in the terminal, but when compared absolutely to modern technology offerings, any TUI editor, including _vim_, falls short.  
 
 ## A Career Investment
 When [grokked](http://www.catb.org/jargon/html/G/grok.html), vim competes with modern IDEs, but learning _vim_ is a huge investment, and not one for the faint of heart. Gaining a return or reaching break-even requires a commitment on the scale of years, if not decades.
