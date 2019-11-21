@@ -12,14 +12,14 @@ from tundra import *
 # TEMPLATE
 OWNER = "rwev"
 AUTHOR = OWNER
-SITENAME = "rwev"
+SITENAME = "rwev.dev"
 
 SITEURL = "localhost:8000"
 
-
 USER_LOGO_URL = "assets/images/valknut-nord7.png"
-TAGLINE = "Wolf in the wilderness before a dog in a cage."
+TAGLINE = "Wild wolf before domesticated dog."
 
+DISPLAY_PAGES_ON_MENU = False
 # BUILD PROCESS
 DEFAULT_METADATA = {
     "author": OWNER,

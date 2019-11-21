@@ -12,7 +12,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://rwev.gitlab.io'
+SITEURL = 'https://rwev.dev'
 RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
