@@ -3,6 +3,11 @@ FILE_TEXT_CACHE = {};
 
 async function loadFileTextElement({elementId, fileUrl, startLine, endLine}) {
 
+    if (hljs === undefined) {
+        await loadScript('/assets/javascript/dependencies/highlight.pack.js');
+        await loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
+    }
+
     let el = document.getElementById(elementId);
     el.innerText = `Loading ${fileUrl}`;
 
