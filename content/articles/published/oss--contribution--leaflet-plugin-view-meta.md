@@ -1,6 +1,6 @@
 Title: Leaflet Plugin: View Meta
-Category: oss/contribution
-Tags: leaflet,javascript,mapping
+Category: oss/web
+Tags: contribution,javascript
 Status: published
 
 Sharing a "location" is typically done by transmitting a single waypoint. This method tells the consumer of the information where to _center_ their focus  but doesn't convey any information regarding how that focus should be _bounded_.  What if one wants to share a _general area_ that they are looking at on their mapping application?

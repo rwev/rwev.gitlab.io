@@ -1,6 +1,6 @@
 Title: 1984: Origins of User-Centric Design 
-Category: design
-Tags: ucd
+Category: design/user
+Tags: ucd,ui
 Status: published
 
 _The 1984 Olympic Message System: A Test of Behavioral Principles of System Design_ by Gould, Boies, Levy, Richards, and Schoonard delivers an ever-revered case study and analysis of system design methodology.

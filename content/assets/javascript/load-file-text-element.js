@@ -3,9 +3,9 @@ FILE_TEXT_CACHE = {};
 
 async function loadFileTextElement({elementId, fileUrl, startLine, endLine}) {
 
-    if (hljs === undefined) {
-        await loadScript('/assets/javascript/dependencies/highlight.pack.js');
-        await loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
+    if (typeof hljs === "undefined") {
+        loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
+        await loadScriptPromise('/assets/javascript/dependencies/highlight.pack.js');
     }
 
     let el = document.getElementById(elementId);

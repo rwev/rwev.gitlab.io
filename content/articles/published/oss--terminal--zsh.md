@@ -1,6 +1,6 @@
 Title: Terminal Essentials: The Z-Shell 
-Category: oss/vim
-Tags: oss,vim,linux,config,terminal,productivity
+Category: oss/tui
+Tags: code,config,bash
 Status: published
 
 When interacting with Unix machines from the command line, I've found [Z shell](http://zsh.sourceforge.net/) to be essential. 

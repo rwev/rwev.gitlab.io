@@ -1,6 +1,6 @@
 Title: Vim Plugin: Fuzzy-finder
-Category: oss/vim
-Tags: oss,vim,,linux,write,code,config,tui,terminal,productivity
+Category: oss/tui
+Tags: code,vim,config
 Status: published
 
 Aside from becoming familiar with the [out-of-the-box](/vim-configuration-built-in.html) capabilities of vim, I've settled on a few plugins that make using vim realistic for a "modern" workflow.

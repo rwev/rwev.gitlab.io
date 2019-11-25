@@ -1,6 +1,6 @@
 Title: Leaflet Plugin: Radar
-Category: oss/contribution
-Tags: leaflet,javascript,mapping
+Category: oss/web
+Tags: contribution,javascript
 Status: published
 
 Weather is a critical dimension in the understanding one's immediate surroundings, especially on a real-time basis. Understanding the interplay of terrain and weather is crucial in all sorts of navigation. 

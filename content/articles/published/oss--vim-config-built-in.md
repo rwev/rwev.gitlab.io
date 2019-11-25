@@ -1,6 +1,6 @@
 Title: Vim Configuration: Built-in 
-Category: oss/vim
-Tags: oss,vim,,linux,write,code,config,tui,terminal,productivity
+Category: oss/tui
+Tags: code,vim,config,nord
 Status: published
 
 My first experience with vim was frustrating, as it is for many. Grown in a world of fully-featured IDEs, vim was barely usable or comprehensible, let alone productive, without any configuration.

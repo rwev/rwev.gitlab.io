@@ -1,6 +1,6 @@
 Title: Leaflet Plugin: Reticle
-Category: oss/contribution
-Tags: leaflet,javascript,mapping
+Category: oss/web
+Tags: contribution,javascript
 Status: published
 
 Map scales are a feature necessary to relate figures and lines and numbers on a map to usable distances and dimensions that one can physically reason with. 

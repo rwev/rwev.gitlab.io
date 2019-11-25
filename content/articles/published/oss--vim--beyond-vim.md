@@ -1,6 +1,6 @@
 Title: Vim and Beyond
-Category: oss/vim
-Tags: oss,vim,linux,write,code,config,tui,terminal,productivity
+Category: oss/tui
+Tags: code,vim
 Status: published
 
 Within the first few months of using _vim_, I saw this [post](https://www.reddit.com/r/vim/comments/bm0ihb/evolution_of_a_vim_user/) and related comments on reddit that I sympathized with, adapted to personal experience here.
