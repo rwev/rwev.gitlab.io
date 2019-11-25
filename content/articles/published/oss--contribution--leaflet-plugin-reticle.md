@@ -29,11 +29,11 @@ I've contributed this custom control to main leaflet repository, and you can fin
 
 async function makeMaps() {
 
-        loadStylesheet("/assets/deps/leaflet.css");
-        loadStylesheet("/assets/deps/leaflet-reticle.css");
+        loadStylesheet("/assets/javascript/dependencies/leaflet.css");
+        loadStylesheet("/assets/javascript/dependencies/leaflet-reticle.css");
 
-        await loadScriptPromise("/assets/deps/leaflet.js");
-        await loadScriptPromise("/assets/deps/leaflet-reticle.js");
+        await loadScriptPromise("/assets/javascript/dependencies/leaflet.js");
+        await loadScriptPromise("/assets/javascript/dependencies/leaflet-reticle.js");
 
         const VIEW = [43.37, -116.12];
         const ZOOM = 6;

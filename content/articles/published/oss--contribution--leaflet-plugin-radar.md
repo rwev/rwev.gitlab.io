@@ -17,11 +17,11 @@ I've contributed this custom control to main leaflet repository, and you can fin
 
 async function makeMaps() {
 
-        loadStylesheet("/assets/deps/leaflet.css");
-        loadStylesheet("/assets/deps/leaflet-radar.css");
+        loadStylesheet("/assets/javascript/dependencies/leaflet.css");
+        loadStylesheet("/assets/javascript/dependencies/leaflet-radar.css");
 
-        await loadScriptPromise("/assets/deps/leaflet.js");
-        await loadScriptPromise("/assets/deps/leaflet-radar.js");
+        await loadScriptPromise("/assets/javascript/dependencies/leaflet.js");
+        await loadScriptPromise("/assets/javascript/dependencies/leaflet-radar.js");
 
         const VIEW = [43.37, -116.12];
         const ZOOM = 6;
