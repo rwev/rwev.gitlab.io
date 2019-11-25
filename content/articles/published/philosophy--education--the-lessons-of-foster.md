@@ -47,20 +47,14 @@ In fact, instead of testing our ability to derive the right answers from problem
 
 The work is never over. Just as you can't stop learning after school, it is impossible to let past achievements define you. You have to constantly be defining yourself, staking out your ground. Mr. Foster told us about alumni who wrote back to him:
 
-<div class="quote">
-        <p class="content">
-                My freshman year was an identity crisis. It was the first time nobody knew who I was. I wasn't even anybody's daughter anymore. I had always been the best and the brightest -- what was I going to do now, walk around the dorm with a sign around my neck saying 'Former High School Valedictorian'?
-        </p>
-        <p class="annotation">
-                Anonymous High School Graduate
-        </p>
-</div>
+> My freshman year was an identity crisis. It was the first time nobody knew who I was. I wasn't even anybody's daughter anymore. I had always been the best and the brightest -- what was I going to do now, walk around the dorm with a sign around my neck saying 'Former High School Valedictorian'?
+    <p class="annotation">
+            Anonymous High School Graduate
+    </p>
 
 In words from his quote collection, which he passionately kept and taught from just as often as the calculus textbook,
 
-<div class="quote">
-        I feel keenly how much more rewarding it is to travel toward a goal than to reach it; for attainment lasts but a moment.
-</div>
+> I feel keenly how much more rewarding it is to travel toward a goal than to reach it; for attainment lasts but a moment.
 
 Education is an ongoing journey, a frame of mind, a way to live,  not a mechanized, bureaucratized system of stamps and certificates. See it that way, and one gets the most from it.
 

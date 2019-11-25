@@ -57,20 +57,8 @@ Nothing would get done if everyone wanted to "own it" and built everything from 
 
 As mentioned before, businesses are built on special solutions to special problems. Most
 
-<div class="quote">
-    <p class="content">
-        You want to concentrate on code that either solves an uncommon problem or solves a common problem in an uncommon way. That’s what makes your application valuable: the code that implements the business rules that are unique to your app alone — the “secret sauce.” ... Third-party code  in the form of libraries — allows you to quickly implement those commoditized features of your app, so you can stay focused on your “secret sauce.”
-    </p>
-    <p class="annotation"></p>
-</div>
+> You want to concentrate on code that either solves an uncommon problem or solves a common problem in an uncommon way. That’s what makes your application valuable: the code that implements the business rules that are unique to your app alone — the “secret sauce.” ... Third-party code  in the form of libraries — allows you to quickly implement those commoditized features of your app, so you can stay focused on your “secret sauce.”
 
-
-
-<div class="quote">
-    <p class="content"></p>
-    <p class="annotation"></p>
-</div>
-<blockquote>
 
 ### A Personal Example
 I recently was working on a financial analysis desktop application. Not one I planned to start a business on, but more like a programming experiment and a potentially useful tool for later in my career in quantitative finance.

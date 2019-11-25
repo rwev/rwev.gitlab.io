@@ -20,9 +20,8 @@ First, the designers must understand who the users will be. Before even thinking
 Secondly, users should involved in the design process, and continuously consulted for feedback. What do the users find difficult and why? If they are stuck at a particular step of an interaction with your technology, discover what they wish they knew and also what they wish they could do in that very instance.
 
 Disconnect with users breeds ambiguity and misunderstanding, and an unclear or misunderstood feature is no feature at all. In fact, a poorly implemented feature could be a detriment rather than a plus in terms of the total user experience.
-<div class="quote">
-    Designers often do not acknowledge the additional learning burdens that various help and error-correcting approaches place on learners... We received regular and strong emphasis to reduce function to a minimum.
-    </div>
+> Designers often do not acknowledge the additional learning burdens that various help and error-correcting approaches place on learners... We received regular and strong emphasis to reduce function to a minimum.
+   
 
 ### Empirical Measurement
 
@@ -30,18 +29,13 @@ Run simulations early and often. And they don't require code.
 
 Before even having a running system, run proposed implementations (in the form of documents such as prefabricated user guides or what the author calls "printed scenarios: exactly how we envisioned the user interface would look") past your users, and observe and measure their reactions to it.
 
-<div class="quote">
-    Simulations provide early tests as to whether the system actually takes care of a problem -- or introduces new problems since the user must now know how to use it.
-</div>
-
+> Simulations provide early tests as to whether the system actually takes care of a problem -- or introduces new problems since the user must now know how to use it.
 
 Such documentation and example usages provide the first definition of the system. They give it existence, and although they are definitively superficial, they "powerfully determine system organization."
 
 Writing such guides can easily commence long before the first line of code is written.
 
-<div class="quote">
-    [Our documentation and printed scenarios] allowed [our users] to see, comment, and criticize at a time when their comments would have the most impact. They gave existence to the system... the scenarios provided the opportunity to make changes to the potential user interface, and accompanying function, before any code was written...These scenarios saved time, because, on the basis of people's feedback, code was never written for functions that otherwise would have been implemented...
-</div>
+> [Our documentation and printed scenarios] allowed [our users] to see, comment, and criticize at a time when their comments would have the most impact. They gave existence to the system... the scenarios provided the opportunity to make changes to the potential user interface, and accompanying function, before any code was written...These scenarios saved time, because, on the basis of people's feedback, code was never written for functions that otherwise would have been implemented...
 
 Writing user guides early provides a portable way to bring the essence of a new system to the attention of potential users in a form that they can react to.
 
@@ -55,9 +49,7 @@ When a working system is running, it's also possible to run empirical tests. It'
 
 This is based on the assumption that no designer or programmer can achieve a flawless outcome on the first attempt.
 
-<div class="quote">
-    There must be a cycle of design, test and measure, and redesign, repeated as often as necessary.
-</div>
+> There must be a cycle of design, test and measure, and redesign, repeated as often as necessary.
 
 Iterative development is most efficient when a thorough project log ("diary") is also kept to
 
@@ -71,9 +63,7 @@ Iterative design connects with the other principles in that simulation and resul
 
 ### Integrated Usability Design
 
-<div class="quote">
-    Usability factors must evolve together, and responsibility for all aspects of usability should be under one control.
-</div>
+> Usability factors must evolve together, and responsibility for all aspects of usability should be under one control.
 
 Although the "major components of usability are developed sequentially, they jointly interact and affect each other." Therefore, they should be developed in parallel.
 

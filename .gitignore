@@ -1,6 +1,7 @@
 *.pyc
 /pelican-plugins
 /output
+/venv
 /public
 /tundra
 /.idea

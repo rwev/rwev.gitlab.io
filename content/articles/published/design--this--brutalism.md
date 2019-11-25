@@ -21,13 +21,9 @@ Brutalist design "adheres to the concept of truth to materials" and can be appli
  
 Within this scope, [brutalist web design](https://brutalist-web.design)  means
  
-<div class="quote">
-<p class="content">
-    Raw content true to its construction...
-    Brutalist Web Design is honest about what a website is and what it isn't...     
+>  Raw content true to its construction.<br><br>
+    Brutalist Web Design is honest about what a website is and what it isn't.<br><br>
     A website's materials aren't HTML tags, CSS, or JavaScript code. Rather, they are its content and the context in which it's consumed. A website is for a visitor, using a browser, running on a computer to read, watch, listen, or perhaps to interact.
-</p>
-</div>
 
 There should be nothing to hide or fake. A website only need provide pure and true interaction with information (content) itself.  
 
@@ -35,23 +31,15 @@ There should be nothing to hide or fake. A website only need provide pure and tr
 Generally speaking, content behaves as expected. Ultimate priority is given to the information and concise navigation through it. 
 
 This means, as quoted, 
-<div class="quote">
-<p class="content">
-    Content is readable on all reasonable screens and devices...
-    By default, a website that uses HTML as intended and has no custom styling will be readable on all screens and devices. Only the act of design can make the content less readable...
-</p>
-</div>
+> Content is readable on all reasonable screens and devices.<br><br>
+  By default, a website that uses HTML as intended and has no custom styling will be readable on all screens and devices. Only the act of design can make the content less readable.
 
 Brutalism starts and stays simple, relies on built-ins and de-facto specifications, and leaves final form up to the user or their tailored device. Information-centric design relegates decisions in presentation to the end consumer: only they know what is best for them. 
 
 ### What You See is What You Get (WYSIWYG)
 Composition and mechanics should be clear on the surface with no trickery, facades, or superficiality. No guessing or inference should be expected of the user.
 
-<div class="quote">
-<p class="content">
-A website is a hypertext document that allows for two primary forms of interaction: navigating a link to another location, and submitting information back to a server. These functions are performed, respectively, by hyperlinks and buttons... Hyperlinks are underlined and buttons look like buttons.
-</p>
-</div>
+> A website is a hypertext document that allows for two primary forms of interaction: navigating a link to another location, and submitting information back to a server. These functions are performed, respectively, by hyperlinks and buttons. Hyperlinks are underlined and buttons look like buttons.
 
 This doesn't mean that  lick animations or other code-based transitions or effect can't be appreciated. They certainly have their place. But they are the cherry on top. The information is the cake itself. Just don't let bad cherries ruin the cake. 
 
@@ -67,9 +55,5 @@ Let the browser handle as much as possible, which is precompiled from a lower-le
  
 That being said, JavaScript definitely has it's place. It can expand the functionality of websites into domains not built into browser. I use it sparingly on this website (link to map) for domain-specific and contained functionality, and it's only loaded on-demand when absolutely necessary. 
 
-<div class="quote">
-<p class="content">
-By embracing its nature and materials, a website adhering to Brutalist Web Design is fast. It allows the system of network, browser, content, and operating system to work together smoothly and efficiently, as they were designed to. Even with decoration, advertising, and imagery, a website embracing Brutalist Web Design will respect your visitor's time, bandwidth, and battery. 
-</p>
-</div>
+> By embracing its nature and materials, a website adhering to Brutalist Web Design is fast. It allows the system of network, browser, content, and operating system to work together smoothly and efficiently, as they were designed to. Even with decoration, advertising, and imagery, a website embracing Brutalist Web Design will respect your visitor's time, bandwidth, and battery. 
 

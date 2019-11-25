@@ -5,15 +5,13 @@ Status: published
 
 With the concept of user-centered design becoming a buzzword among technology inspired groups, the original meaning becomes ambiguous, like a game of telephone in which each subsequent relay redefines the term in order to sound cooler and more in tune with Silicon Valley culture and popular street talk alike.
 
-Here the meaning of _user-centered design_ actually means.
+Here's what _user-centered design_ actually means.
 
 ### Defining User-Centered Design
 
 The concept was first defined by Norman and Draper (1) in 1986:
 
-<div class="quote">
-    User-centered design emphasizes that the purpose of the system is to serve the user, not to use a specific technology, not to be an elegant piece of programming. The needs of the users should dominate the design of the interface, and the needs of the interface should dominate the design of the rest of the system.
-</div>
+> User-centered design emphasizes that the purpose of the system is to serve the user, not to use a specific technology, not to be an elegant piece of programming. The needs of the users should dominate the design of the interface, and the needs of the interface should dominate the design of the rest of the system.
 
 While "traditional" software engineering places emphasis on the functional aspects of software systems (the back end architecture), user-centered design concentrates on the user.
 
@@ -43,10 +41,9 @@ It is clear that these factors are intertwined; the ability of the system to res
 
 The International Organization for Standardization (ISO) offers a second definition (ISO 9241):
 
-<div class="quote">
-    Usability: the extent to which a product can be used by specified _users_
+> Usability: the extent to which a product can be used by specified _users_
 to achieve specified goals with effectiveness and efficiency and satisfaction in a specified context of use.
-</div>
+
 
 Users, goals, and context of use influence the design process.
 
