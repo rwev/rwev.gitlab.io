@@ -32,10 +32,8 @@ And there you have it: a forgiving, efficient, and living shell that reduces key
 
 <script>
 
-    document.querySelectorAll('code').forEach((block) => {
-      hljs.highlightBlock(block);
-    });
-
+    highlightInlineCode();   
+    
     loadFileTextElement(
     {
         elementId: ".zshrc.general",

@@ -17,7 +17,7 @@ SITENAME = "rwev.dev"
 SITEURL = "localhost:8000"
 
 USER_LOGO_URL = "assets/images/valknut-nord7.png"
-TAGLINE = "Wild wolf before domesticated dog."
+TAGLINE = "Pragmatic. Principled. Purposeful."
 
 DISPLAY_PAGES_ON_MENU = False
 # BUILD PROCESS
@@ -48,7 +48,7 @@ PLUGINS = [
     "similar_posts",
     "neighbors",
     "section_number",
-    #    "encrypt_content", TODO
+       # "encrypt_content", TODO
     "more_categories",
     "gzip_cache",
     "photos",

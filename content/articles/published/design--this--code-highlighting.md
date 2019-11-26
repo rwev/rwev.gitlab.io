@@ -1,6 +1,6 @@
 Title: This, Designed: Code Syntax Highlighting
 Category: design/this
-Tags: js,ui,ucd,nord,code
+Tags: javascript,ui,ucd,nord,code
 Status: published
 
 In the integration of select code samples into this site, I had a couple of requirements:
@@ -26,6 +26,7 @@ All in, here's what the function looks like:
 Boom! That code sample just loaded itself. Over and out. 
 
 <script>
+
     loadFileTextElement(
         {
             elementId: "load-file-text-element.js",

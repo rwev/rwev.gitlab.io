@@ -1,12 +1,24 @@
 
 FILE_TEXT_CACHE = {};
 
-async function loadFileTextElement({elementId, fileUrl, startLine, endLine}) {
 
+async function loadHLJS() {
     if (typeof hljs === "undefined") {
         loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
-        await loadScriptPromise('/assets/javascript/dependencies/highlight.pack.js');
+        return loadScriptPromise('/assets/javascript/dependencies/highlight.pack.js');
     }
+}
+
+async function highlightInlineCode() {
+    await loadHLJS();
+    document.querySelectorAll('code.inline').forEach((block) => {
+        hljs.highlightBlock(block);
+    });
+}
+
+async function loadFileTextElement({elementId, fileUrl, startLine, endLine}) {
+
+    await loadHLJS();
 
     let el = document.getElementById(elementId);
     el.innerText = `Loading ${fileUrl}`;
