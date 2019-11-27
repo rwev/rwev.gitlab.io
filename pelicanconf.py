@@ -4,8 +4,7 @@
 import sys
 import os
 
-sys.path.append(os.curdir)
-from tundra import *
+from tundra.tundraconf import *
 
 # TEMPLATE
 OWNER = "rwev"
