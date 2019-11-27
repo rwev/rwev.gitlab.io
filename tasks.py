@@ -4,19 +4,12 @@
 import os
 import shutil
 import sys
-import datetime
 
 from invoke import task
-from invoke.util import cd
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 
 CONFIG = {
-    # Local path configuration (can be absolute or relative to tasks.py)
     'deploy_path': './public',
-    # Github Pages configuration
-    'github_pages_branch': 'master',
-    'commit_message': "'Publish site on {}'".format(datetime.date.today().isoformat()),
-    # Port for `serve`
     'port': 8000,
 }
 
@@ -77,26 +70,8 @@ def reserve(c):
 
 
 @task
-def preview(c):
+def publish(c):
     """Build production version of site"""
     c.run('pelican -s publishconf.py')
 
 
-@task
-def publish(c):
-    """Publish to production via rsync"""
-    c.run('pelican -s publishconf.py')
-    c.run(
-        'rsync --delete --exclude ".DS_Store" -pthrvz -c '
-        '{} {production}:{dest_path}'.format(
-            CONFIG['deploy_path'].rstrip('/') + '/',
-            **CONFIG))
-
-
-@task
-def gh_pages(c):
-    """Publish to GitHub Pages"""
-    preview(c)
-    c.run('ghp-import -b {github_pages_branch} '
-          '-m {commit_message} '
-          '{deploy_path} -p'.format(**CONFIG))
