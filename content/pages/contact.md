@@ -1,3 +1,0 @@
-Title: Contact 
-
-Here's a markdown table of some different ways to contact us...

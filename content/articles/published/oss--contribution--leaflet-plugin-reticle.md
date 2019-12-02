@@ -13,11 +13,7 @@ Lastly, the user of a map, particularly interactive ones where the user can set 
 
 This plugin solves each of these issues: the distance projection is done _at map center_ for more accurate distance, scales are generated _independently_ along each axis, and the scales themselves are placed in center of map, (likely) closer to the _point of focus_.
 
->   
-    <p class="annotation">
-        Reticle:
-    </p>
-    A grid or pattern placed in the eyepiece of an optical instrument, used to establish scale or position.
+> <strong>Reticle</strong>: A grid or pattern placed in the eyepiece of an optical instrument, used to establish scale or position.
 
 <div style="height: 500px" id="reticle-map"></div>
 
