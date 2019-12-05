@@ -23,10 +23,15 @@ All in, here's what the function looks like:
 
 <pre><code class="javascript" id="load-file-text-element.js"></code></pre>
 
-Boom! That code sample just loaded itself. Over and out. 
+Boom! That code sample just loaded itself. 
+
+Loading code from it's living source leads and pulling the latest version is great benefit. However, if <code id="script" class="javascript inline">startLine</code> and <code id="script" class="javascript inline">endLine</code> are specified and the file's source is updated (and thus line numbers changed), those parameters must be updated. Something to remember.
+
+Over and out. 
 
 <script>
-
+    highlightInlineCode();  
+   
     loadFileTextElement(
         {
             elementId: "load-file-text-element.js",
@@ -34,4 +39,5 @@ Boom! That code sample just loaded itself. Over and out.
         }
     );
 </script>
+
 

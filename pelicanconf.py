@@ -54,6 +54,7 @@ PLUGINS = [
     "photos",
     "summary",
     "clean_summary",
+    "sitemap"
 ]
 
 # autopages
@@ -66,3 +67,18 @@ TAG_PAGE_PATH = os.path.join(AUTOPAGES_PATH, "tags")
 # photos
 PHOTO_LIBRARY = "./content/assets/images"
 PHOTO_EXIF_COPYRIGHT_AUTHOR = "rwev"
+
+# sitemap
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.9,
+        "pages": 0.8,
+        "indexes": 0.7,
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "indexes": "daily",
+        "pages": "monthly"
+    }
+}
