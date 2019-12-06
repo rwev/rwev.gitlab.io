@@ -2,60 +2,14 @@ Title: The Power of Web-Based
 Category: oss/development
 Status: published
 
-Twenty years ago, Paul Graham created what some acknowledge as the first web-based application. He writes about why applications belong on the web, and how the arrangement is beneficial for the customer and the developer and represents a great leap in the economic efficiency of software development.
+###  Portability
 
-Without a doubt, he beat the trend.
-
-The original article, to which all further quotes belong to, can be found <a href="http://paulgraham.com/road.html">here</a>.
-
-## The Other Road Ahead
-> Web-based software offers the biggest opportunity since the arrival of the microcomputer._
-
-In this first essay, Paul discusses a realization he had: that having software being central to the client via the standardized and universal web browser.
-
-He offers possibly the first definition: 
-> Web-based applications are programs that run on web servers and use web pages as the user interface.
-
-with the hypothesis that
-> For the average user this new kind of software will be easier, cheaper, more mobile, more reliable, and often more powerful than desktop software.
-
-The amazing part is that every aspect improves the experience of the customer as well as the developer. I can't imagine a stronger win-win in a business scenario.
-
-### The Delivery Experience
-Desktop applications twenty years ago, and surely also today, simply require much more fuss of the user. The average computer owner doesn't understand how installations work, let alone how to repair or fix when something goes wrong.
-> When we look back on the desktop software era, I think we’ll marvel at the inconveniences people put up with, just as we marvel now at what early car owners put up with.
-
-The atrocities of downloads, disks, serial codes, localized files, all goes away, and the user can focus on the application itself, completely isolated from managing the software themselves. All they have to think about is their identifying credentials.
-> With web-based software, most users won’t have to think about anything except the applications they use. All the messy, changing stuff will be sitting on a server somewhere, maintained by the kind of people who are good at that kind of thing.
-
-The performance of the program is also easier to control, because the driving force of the application is running on the server, which is in full control of the business.
-> When you control it you can do more for users. With a desktop application, you can specify certain minimum hardware, but you can’t add more.
-
-It's hard to deliver a more powerful application when you don't control the hardware.
-
-### The Portability
-Web-based applications are powered by "the cloud", a concept which didn't exist. Paul recognized the power of the cloud to deliver a superior, more flexible, and more secure user experience, without calling it "the cloud."
+Web-based applications are powered by "the cloud", a concept which didn't exist. Paul recognized the power of this now-ubiquitous concept to deliver a superior, more flexible, and more secure user experience, without calling it "the cloud."
 
 The cloud computing trend of recent decades was called by prophesied by Paul as the shift from "your computer" to "your data."
 > To use a purely web-based application, all you need is a browser connected to the Internet. So you can use a web-based application anywhere... With purely web-based software, neither your data nor the applications are kept on the client.
 
-Thus the ability for the client to access the application to manipulate their data isn't limited to any one machine, rather a storage location somewhere in the hosting company's server farm, where it is accessible by any device that can access the web.
-
-### Continuous Shipment
-Because the servers that deliver the application service to the centralized on-site the entire application can be continuously updated buy restarting, essentially, a single process on the server machine with updated code.
-
-Because all client devices all maintain a real-time connection to this same server, they all receive the same updates in real time, with negligible downtime and no extra work to them.
-> With web-based software, [the user] should get new releases without paying extra, or doing any work, or possibly even knowing about it.With web-based applications, everyone uses the same version, and bugs can be fixed as soon as they’re discovered. So web-based software should have far fewer bugs than desktop software. You release software as a series of incremental changes instead of an occasional big explosion.
- <br><br>
-    This is in large contrast to the desktop software update process. In this case, binary code inhabits on each and every client machine. Therefore it's only practical to do a couple of updates to desktop software per year, as process is surely a hassle to users and sometimes expensive. Thus bugs tends to accumulate in the time between these discrete shipping times. 
- <br><br>
-    In the desktop software business, doing a release is a huge trauma, in which the whole company sweats and strains to push out a single, giant piece of code... At best you end up with a statistical sort of correctness.
-
-### Improved Iterative Process
-This is closely related to the previous advantage, continuous shipment.
-> With server-based software, most of the change is small and incremental. That in itself is less likely to introduce bugs. It also means you know what to test most carefully when you’re about to release software: the last thing you changed. You end up with a much firmer grip on the code. As a general rule, you do know what’s happening inside it. You don’t have the source code memorized, of course, but when you read the source you do it like a pilot scanning the instrument panel, not like a detective trying to solve a mystery.
-
-When it turns up you often know what’s wrong before you even look at the source, because you were already worrying about it subconsciously. Fixing a bug in something you wrote six months ago (the average case if you release once a year) is a lot more work.
+Thus the ability for the client to access the application to manipulate their data isn't limited to any one machine, rather a storage location somewhere in the provider's server, where it is accessible by any device that can access the web.
 
 ### Safety
 Web-based applications offer enhanced data security, on multiple grounds.
@@ -89,7 +43,24 @@ A complete application could include:
 - Simulation programs pretending to be users
 - Programs that generate real-time dashboards for server management
 
+all written with the preferred tools and frameworks of the _developer_. 
+
+### Quality and the Iterative Process
+
+This is closely related to a previous advantage, continuous shipment.
+
+> With server-based software, most of the change is small and incremental. That in itself is less likely to introduce bugs. It also means you know what to test most carefully when you’re about to release software: the last thing you changed. 
+ <br><br>
+ You end up with a much firmer grip on the code. As a general rule, you do know what’s happening inside it. You don’t have the source code memorized, of course, but when you read the source you do it like a pilot scanning the instrument panel, not like a detective trying to solve a mystery. When [a bug] turns up you often know what’s wrong before you even look at the source, because you were already worrying about it subconsciously. 
+
+Bugs tend to show themselves sooner rather than later because the whole force of users are using the latest version. Defects can be fixed much more efficiently and before they are conceal themselves in long-forgotten code, as developers maintain an up-to-date context on what has changed since the last (recent) release. 
+ 
+> With Web-based applications, everyone uses the same version, and bugs can be fixed as soon as they're discovered. So Web-based software should have far fewer bugs than desktop software. 
+ <br><br>
+ [With desktop software] you end up with a statistical sort of correctness. Thus bugs tends to accumulate in the time between these discrete shipping times... Fixing a bug in something you wrote six months ago (the average case if you release once a year) is a lot more work. 
+
 ### Quick Iteration and Feedback
+
 All of the code that powers a web-based application is running on the server, directly observable by the developers and debuggers. Instead trying to work out the bugs occurring in a remote execution environment,
 > You have the users’ data right there on your disk. Web-based software gets used round the clock, so everything you do is immediately put through the wringer. Bugs turn up quickly.
 
@@ -104,7 +75,7 @@ What big companies do instead of debugging bugs is talk about them and add them 
 ### Happy Customers, Happy Developers
 With desktop applications, there is not much you can gain from the average customer who calls in to report a bug.
 
-With the first customer who calls in, the bug will be noted and put in a queue. But the bug will sit on their machine for months until the next major release, as dozens more users eventually encounter the same bug and complain. It quicky becomes old, and as Paul puts in, the Quality-Assurance and Customer Service People become paid targets of complaints that can't actually help the customers, just apologize.
+> With the first customer who calls in, the bug will be noted and put in a queue. But the bug will sit on their machine for months until the next major release, as dozens more users eventually encounter the same bug and complain. It quicky becomes old, and as Paul puts in, the Quality-Assurance and Customer Service People become paid targets of complaints that can't actually help the customers, just apologize.
 
 > They’re either calling you about a known bug, or they’re just doing something wrong and you have to figure out what. In either case there’s not much you can learn from them.
 
@@ -133,24 +104,6 @@ Software companies are still business and have to manage their finances properly
 
 Essentially, web-based software products are a source of revenue dampen the volatility on the income statement.
 
-### The Possible Downside...
-While web-based development seems like a win for every angle for the customers, it is almost so for the developers.
-
-Managing a web-based application is more work for the people who develop is, because they need to manage it as well.
-
-> All the programmers have to be to some degree system administrators as well. When you’re hosting software, someone has to be watching the servers, and in practice the only people who can do this properly are the ones who wrote the software.
-
-It's a never ending developing, pushing, and monitoring process, which is very hard to hire out. The developers also know the code well enough to fix it in an emergency.
-
-> Web-based software is never going to be something you write, check in, and go home. It’s a live thing, running on your servers right now.It’s a live thing, running on your servers right now. A bad bug might not just crash one user’s process; it could crash them all. If a bug in your code corrupts some data on disk, you have to fix it.
-
-He described this evolved culture of the next wave of companies to host their software in the cloud as a typical startup, but on steroids.
-
-> In a startup writing web-based applications, everything you associate with startups is taken to an extreme. You can write and launch a product with even fewer people and even less money. You have to be even faster, and you can get away with being more informal.
-
-The internet is always awake, and so are your competitors. You don't go home a winner until your competitors let you. With such fortunes at stake, concession doesn't arrive quickly.  In the words of the great General James Mattis: "no war is over until the enemy says it's over. We may think it over, we may declare it over, but in fact, the enemy gets a vote."
-
-> Web-based software never ships. You can work 16-hour days for as long as you want to. And because you can, and your competitors can, you tend to be forced to. You can, so you must. It’s Parkinson’s Law running in reverse.
 
 ### In Summary
 The argument for web-based applications ultimately can be boiled down to raw economics.
