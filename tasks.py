@@ -25,7 +25,7 @@ def clean(c):
 @task
 def build(c):
     """Build local version of site"""
-    c.run('pelican -s pelicanconf.py')
+    c.run('python3 -m pelican -s pelicanconf.py')
 
 
 @task
@@ -37,13 +37,13 @@ def styles(c):
 @task
 def rebuild(c):
     """`build` with the delete switch"""
-    c.run('pelican -d -s pelicanconf.py')
+    c.run('python3 -m pelican -d -s pelicanconf.py')
 
 
 @task
 def regenerate(c):
     """Automatically regenerate site upon file modification"""
-    c.run('pelican -r -s pelicanconf.py')
+    c.run('python3 -m pelican -r -s pelicanconf.py')
 
 
 @task
@@ -72,6 +72,6 @@ def reserve(c):
 @task
 def publish(c):
     """Build production version of site"""
-    c.run('pelican -s publishconf.py')
+    c.run('python3 -m pelican -s publishconf.py')
 
 
