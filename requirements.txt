@@ -7,4 +7,4 @@ lxml
 lesscpy
 pillow
 piexif
-BeautifulSoup4
+beautifulsoup4
