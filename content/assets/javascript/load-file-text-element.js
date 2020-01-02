@@ -3,39 +3,43 @@ FILE_TEXT_CACHE = {};
 
 
 async function loadHLJS() {
-    if (typeof hljs === "undefined") {
-        loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
-        return loadScriptPromise('/assets/javascript/dependencies/highlight.pack.js');
-    }
+        if (typeof hljs === "undefined") {
+                loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
+                return loadScriptPromise('/assets/javascript/dependencies/highlight.pack.js');
+        }
 }
 
 async function highlightInlineCode() {
-    await loadHLJS();
-    document.querySelectorAll('code.inline').forEach((block) => {
-        hljs.highlightBlock(block);
-    });
+        await loadHLJS();
+        document.querySelectorAll('code.inline').forEach((block) => {
+                hljs.highlightBlock(block);
+        });
 }
 
-async function loadFileTextElement({elementId, fileUrl, startLine, endLine}) {
+async function loadFileTextElement({elementId, fileUrl, startLine, endLine, filterPrefix}) {
 
-    await loadHLJS();
+        await loadHLJS();
 
-    let el = document.getElementById(elementId);
-    el.innerText = `Loading ${fileUrl}`;
+        let el = document.getElementById(elementId);
+        el.innerText = `Loading ${fileUrl}`;
 
-    let text = FILE_TEXT_CACHE[fileUrl];
+        let text = FILE_TEXT_CACHE[fileUrl];
 
-    if (!text) {
-        let res = await fetch(fileUrl);
-        text = await res.text();
-        FILE_TEXT_CACHE[fileUrl] = text;
-    }
+        if (!text) {
+                let res = await fetch(fileUrl);
+                text = await res.text();
+                FILE_TEXT_CACHE[fileUrl] = text;
+        }
 
-    if (startLine && endLine) {
-        text = text.split('\n').slice(startLine, endLine).join('\n');
-    }
+        if (startLine && endLine) {
+                text = text.split('\n').slice(startLine, endLine).join('\n');
+        }
 
-    el.innerText = text;
-    hljs.highlightBlock(el);
+        if (filterPrefix) {
+                text = text.split('\n').filter(line => line.search(filterPrefix) != 0).join('\n');
+        }
+
+        el.innerText = text;
+        hljs.highlightBlock(el);
 
 }
