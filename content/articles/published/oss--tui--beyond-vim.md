@@ -34,8 +34,11 @@ all intuitively and _without_:
  - the visual constraints of the terminal
  - books, ["quickrefs"](https://vimhelp.org/quickref.txt.html#quickref), [cheat sheets](https://vim.rtorr.com/), or even [RTFM](http://www.catb.org/jargon/html/R/RTFM.html).
  
+  For these reasons, a strong argument can be made that vim does not embody [user-centric design](/grounding-user-centric-design.html); it is, in fact, very unusable according to the original definition, particularly in regards to learnability and memorability. Even the installer for git, another venerable piece of OSS software based in the terminal, offers the following warning while configuring it's default editor:
+  
+  > The Vim editor, while powerful, can be hard to use. Its user interface is unintuitive and its key bindings are awkward. Vim is the default editor for Git only for historical reasons, and it highly recommended to switch to a modern GUI editor instead.
+ 
 ## Age as a Factor of Interest
- For these reasons, a strong argument can be made that vim does not embody [user-centric design](/grounding-user-centric-design.html); it is, in fact, very unusable according to the original definition, particularly in regards to learnability and memorability. 
  
 My generation grew up with GUIs: they moderated our first interactions with computers and beyond. Knowledge of the terminal came only later, when I become interested in development. GUIs, as the point of first and continuous contact, were comfortable and homey, and the terminal foreign.    
 
