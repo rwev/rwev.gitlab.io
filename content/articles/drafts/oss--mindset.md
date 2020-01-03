@@ -7,6 +7,7 @@ A lot of young aspiring professionals, including myself, have experienced intell
 However, it can be a slippery slope: what point of understanding is useful in my life, given that I may never again utilize such knowledge in a personal or professional manner?
 
 ### Dodging the Rabbit Holes
+
 A former boss of mine, while appreciating my yearning to always know _why _and _how_, and generally seeing it as a very advantageous trait to have as a professional, once gave me a serious talk -- a talk only given to the young, naive, inexperienced, and perhaps overconfident recent graduates. Not about birds, not about bees: about rabbits. Specifically rabbit holes.
 
 <blockquote>"Down the rabbit hole" -- a metaphor for an entry into the unknown, the disorienting or the mentally deranging, from its use in <i>Alice's Adventures in Wonderland </i>(Wikipedia)
