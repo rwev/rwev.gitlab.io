@@ -1,9 +1,8 @@
-image: python:3.6.8
+image: python:3.8.1
 
 pages:
   stage: deploy
   script:
-  - apk update && apk add make
   - pip install -r requirements.txt
   - git clone https://gitlab.com/rwev/tundra.git
   - git clone --recurse-submodules https://gitlab.com/rwev/pelican-plugins.git
