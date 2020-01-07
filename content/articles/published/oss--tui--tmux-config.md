@@ -24,7 +24,7 @@ Other (invisible) plugins provide session restoration functionality and reasonab
         {
             elementId: "tmux.conf",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.tmux.conf",
-            filterPrefix: "#"
+            filterPrefix: "#",
         }
     );
 </script>

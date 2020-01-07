@@ -27,7 +27,7 @@ Boom! That code sample just loaded itself.
 
 Loading code from it's living source leads and pulling the latest version is great benefit. However, if <code id="script" class="javascript inline">startLine</code> and <code id="script" class="javascript inline">endLine</code> are specified and the file's source is updated (and thus line numbers changed), those parameters must be updated. Something to remember.
 
-Over and out. 
+Other optional parameters, <code id="script" class="javascript inline">filterPrefix</code> and <code id="script" class="javascript inline">removeEmptyLines</code> enable clean and concise presentation of the underlying executable source, and removes the clutter of note-taking and screen-eating line spacing.
 
 <script>
     highlightInlineCode();  

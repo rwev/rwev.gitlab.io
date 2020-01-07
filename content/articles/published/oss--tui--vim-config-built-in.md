@@ -19,14 +19,16 @@ All files can be found in my dotfiles repository, [evix](https://gitlab.com/rwev
     loadFileTextElement(
         {
             elementId: "config.vim",
-            fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/config.vim"
+            fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/config.vim",
+            filterPrefix: "\""
         }
      );
      
     loadFileTextElement(
         {
             elementId: "mappings.vim",
-            fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/mappings.vim"
+            fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/mappings.vim",
+            filterPrefix: "\""
         }
      );
 </script>

@@ -36,23 +36,27 @@ And there you have it: a forgiving, efficient, and living shell that reduces key
         elementId: ".zshrc.general",
         fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.zshrc",
         startLine: 4,
-        endLine: 30
+        endLine: 30,
+        filterPrefix: "#",
+        re
     }
     );
     loadFileTextElement(
-         {
-             elementId: ".zshrc.sources",
-             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.zshrc",
-             startLine: 31,
-             endLine: 37
-         }
-        );
+     {
+        elementId: ".zshrc.sources",
+        fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.zshrc",
+        startLine: 31,
+        endLine: 37,
+        filterPrefix: "#",
+     }
+     );
     loadFileTextElement(
      {
          elementId: ".zshrc.prompt",
          fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.zshrc",
          startLine: 46,
-         endLine: 52
+         endLine: 52,
+         filterPrefix: "#"
      }
     );
 

@@ -28,7 +28,8 @@ This plugin alone offers one _significant_ productivity boosts, as reading code 
             elementId: "fzf.vim",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/plugins.vim",
             startLine: 14, 
-            endLine: 17
+            endLine: 17,
+            filterPrefix: "\""
         }
      );
      
@@ -37,7 +38,8 @@ This plugin alone offers one _significant_ productivity boosts, as reading code 
          elementId: "fzf.vim.files",
          fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/plugins.vim",
          startLine: 18, 
-         endLine: 19
+         endLine: 19,
+         filterPrefix: "\""
      }
     );
     
@@ -46,7 +48,8 @@ This plugin alone offers one _significant_ productivity boosts, as reading code 
            elementId: "fzf.vim.contents",
            fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/plugins.vim",
            startLine: 19, 
-           endLine: 20
+           endLine: 20,
+           filterPrefix: "\""
        }
     );
           

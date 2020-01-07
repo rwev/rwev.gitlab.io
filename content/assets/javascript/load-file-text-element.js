@@ -1,7 +1,6 @@
 
 FILE_TEXT_CACHE = {};
 
-
 async function loadHLJS() {
         if (typeof hljs === "undefined") {
                 loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
@@ -16,7 +15,9 @@ async function highlightInlineCode() {
         });
 }
 
-async function loadFileTextElement({elementId, fileUrl, startLine, endLine, filterPrefix}) {
+async function loadFileTextElement({elementId, fileUrl, startLine, endLine, filterPrefix, removeEmptyLines}) {
+
+        removeEmptyLines = (removeEmptyLines === undefined) ? true : removeEmptyLines;
 
         await loadHLJS();
 
@@ -36,7 +37,12 @@ async function loadFileTextElement({elementId, fileUrl, startLine, endLine, filt
         }
 
         if (filterPrefix) {
-                text = text.split('\n').filter(line => line.search(filterPrefix) != 0).join('\n');
+                text = text.split('\n').filter(line => line.search(filterPrefix) !== 0).join('\n');
+
+        }
+
+        if (removeEmptyLines) {
+                text = text.split('\n').filter(line => line !== "").join('\n');
         }
 
         el.innerText = text;
