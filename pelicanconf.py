@@ -36,6 +36,12 @@ DEFAULT_METADATA = {
 PATH = "content"
 PAGE_PATHS = ["pages"]
 STATIC_PATHS = ["assets"]
+
+EXTRA_PATH_METADATA = {
+    'assets/extra/robots.txt': {'path': 'robots.txt'},
+    'assets/extra/favicon.ico': {'path': 'favicon.ico'}
+}
+
 ARTICLE_PATHS = ["articles/published"]
 OUTPUT_PATH = "./public"  # for gitlab page
 
@@ -54,7 +60,6 @@ PLUGINS = [
     "gzip_cache",
     "photos",
     "summary",
-    "clean_summary",
     "sitemap"
 ]
 
