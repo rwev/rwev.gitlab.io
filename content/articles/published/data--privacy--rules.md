@@ -1,6 +1,6 @@
 Title: Rules for Online Account Security & Privacy
-Category: security
-Tags: code,data
+Category: data
+Tags: code
 Status: published
 
 Data insecurity and inadequate online security measures are as prevalent as society's reliance on the internet. Here are some layman-accessible ways to protect your data, your identity, and even your finances online.  

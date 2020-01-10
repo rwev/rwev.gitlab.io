@@ -1,5 +1,6 @@
 Title: Power of Web-Based: CI/CD
-Category: design/web
+Category: oss/web
+Tags: process
 Status: published
 
 Twenty years ago, Paul Graham created what some acknowledge as the first web-based application. He writes about why applications belong on the web, and how the arrangement is beneficial for the customer and in many way, the developer as well.

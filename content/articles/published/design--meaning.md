@@ -1,5 +1,5 @@
 Title: Grounding User-Centric Design  
-Category: design/user
+Category: design
 Tags: ucd
 Status: published
 

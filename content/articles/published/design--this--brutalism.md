@@ -1,6 +1,6 @@
 Title: This, Designed: Brutalism 
 Category: design/this
-Tags: code,data,ucd
+Tags: code,ucd
 Status: published
 
 However simple, this website is rich with purpose and principal, even though it may not be obvious, even [invisible](https://tannerchristensen.com/blog/2019/1/5/your-best-work-will-be-invisible).

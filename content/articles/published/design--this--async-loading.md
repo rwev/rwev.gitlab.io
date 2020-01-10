@@ -1,6 +1,6 @@
 Title: This, Designed: Async Loading
 Category: design/this
-Tags: code,javascript,ucd,data
+Tags: code,javascript,ucd
 Status: published
 
 One of the principles honored in the development of this [site](/this-designed-brutalism.html) is the conservation of resources, by cutting out the unnecessary and frivolous, endlessly simplifying and carving down until only the essential information experience remains. 

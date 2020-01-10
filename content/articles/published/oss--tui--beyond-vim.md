@@ -32,7 +32,7 @@ all intuitively and _without_:
  - learning vimscript
  - training and ingraining non-transferable keybindings and modal editing
  - the visual constraints of the terminal
- - books, ["quickrefs"](https://vimhelp.org/quickref.txt.html#quickref), [cheat sheets](https://vim.rtorr.com/), or even [RTFM](http://www.catb.org/jargon/html/R/RTFM.html).
+ - books, ["quickrefs"](https://vimhelp.org/quickref.txt.html#quickref), [cheat sheets](https://vim.rtorr.com/), or even [RTFM](http://www.catb.org/jargon/html/R/RTFM.html), and [guides for powerusers](https://github.com/hakluke/how-to-exit-vim/blob/master/README.md) on how to exit the program.  
  
   For these reasons, a strong argument can be made that vim does not embody [user-centric design](/grounding-user-centric-design.html); it is, in fact, very unusable according to the original definition, particularly in regards to learnability and memorability. Even the installer for git, another venerable piece of OSS software based in the terminal, offers the following warning while configuring it's default editor:
   
