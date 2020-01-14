@@ -16,7 +16,7 @@ All files can be found in my dotfiles repository, [evix](https://gitlab.com/rwev
 <pre><code class="vim" id="mappings.vim"></code></pre>
 <script>
 
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
         {
             elementId: "config.vim",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/config.vim",
@@ -24,7 +24,7 @@ All files can be found in my dotfiles repository, [evix](https://gitlab.com/rwev
         }
      );
      
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
         {
             elementId: "mappings.vim",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/mappings.vim",

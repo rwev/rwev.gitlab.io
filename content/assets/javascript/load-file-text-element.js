@@ -8,6 +8,12 @@ async function loadHLJS() {
         }
 }
 
+
+async function highlightCodeElement(elementId) {
+        await loadHLJS();
+        hljs.highlightBlock(document.getElementById(elementId));
+}
+
 async function highlightInlineCode() {
         await loadHLJS();
         document.querySelectorAll('code.inline').forEach((block) => {
@@ -15,7 +21,7 @@ async function highlightInlineCode() {
         });
 }
 
-async function loadFileTextElement({elementId, fileUrl, startLine, endLine, filterPrefix, removeEmptyLines}) {
+async function fetchAndHighlightCodeElement({elementId, fileUrl, startLine, endLine, filterPrefix, removeEmptyLines}) {
 
         removeEmptyLines = (removeEmptyLines === undefined) ? true : removeEmptyLines;
 

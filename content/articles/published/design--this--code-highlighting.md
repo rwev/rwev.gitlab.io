@@ -32,7 +32,7 @@ Other optional parameters, <code id="script" class="javascript inline">filterPre
 <script>
     highlightInlineCode();  
    
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
         {
             elementId: "load-file-text-element.js",
             fileUrl: "https://raw.githubusercontent.com/rwev/rwev.gitlab.io/master/content/assets/javascript/load-file-text-element.js"

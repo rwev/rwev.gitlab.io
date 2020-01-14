@@ -20,7 +20,7 @@ Other (invisible) plugins provide session restoration functionality and reasonab
 <script>
     highlightInlineCode();  
    
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
         {
             elementId: "tmux.conf",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.tmux.conf",

@@ -31,7 +31,7 @@ And there you have it: a forgiving, efficient, and living shell that reduces key
 
     highlightInlineCode();   
     
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
     {
         elementId: ".zshrc.general",
         fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.zshrc",
@@ -41,7 +41,7 @@ And there you have it: a forgiving, efficient, and living shell that reduces key
         re
     }
     );
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
      {
         elementId: ".zshrc.sources",
         fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.zshrc",
@@ -50,7 +50,7 @@ And there you have it: a forgiving, efficient, and living shell that reduces key
         filterPrefix: "#",
      }
      );
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
      {
          elementId: ".zshrc.prompt",
          fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.zshrc",

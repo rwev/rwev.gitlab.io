@@ -64,7 +64,7 @@ Locking down your online presence to maximize security and minimize data collect
 
 <script>
     highlightInlineCode();
-   loadFileTextElement(
+   fetchAndHighlightCodeElement(
         {
             elementId: "bash-creds",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.bash/functions/credentials",

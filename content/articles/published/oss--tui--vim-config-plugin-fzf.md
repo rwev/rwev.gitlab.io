@@ -23,7 +23,7 @@ This plugin alone offers one _significant_ productivity boosts, as reading code 
  
 <script>
 
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
         {
             elementId: "fzf.vim",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/plugins.vim",
@@ -33,7 +33,7 @@ This plugin alone offers one _significant_ productivity boosts, as reading code 
         }
      );
      
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
      {
          elementId: "fzf.vim.files",
          fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/plugins.vim",
@@ -43,7 +43,7 @@ This plugin alone offers one _significant_ productivity boosts, as reading code 
      }
     );
     
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
        {
            elementId: "fzf.vim.contents",
            fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.vim/plugins.vim",

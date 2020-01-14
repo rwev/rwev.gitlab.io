@@ -25,7 +25,7 @@ See post on [code syntax highlighting](/this-designed-code-syntax-highlighting.h
     
     highlightInlineCode();    
     
-    loadFileTextElement(
+    fetchAndHighlightCodeElement(
         {
             elementId: "load-script.js",
             fileUrl: "https://raw.githubusercontent.com/rwev/rwev.gitlab.io/master/content/assets/javascript/load-script.js"
