@@ -1,4 +1,4 @@
-Title: ProtonMutt: Using ProtonMail in the Terminal with Mutt
+Title: ProtonMail & Mutt: Secure Email in the Terminal
 Category: oss/tui
 Tags: protonmail,mutt
 Status: published
