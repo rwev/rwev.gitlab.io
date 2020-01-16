@@ -74,6 +74,11 @@ TAG_PAGE_PATH = os.path.join(AUTOPAGES_PATH, "tags")
 PHOTO_LIBRARY = "./content/assets/images"
 PHOTO_EXIF_COPYRIGHT_AUTHOR = "rwev"
 
+# 1.33~ width / height ratio
+# (width, height, quality % of max)
+PHOTO_ARTICLE = (1920, 1080, 75)
+PHOTO_THUMB = (500, 500, 50) # bumper
+
 # sitemap
 SITEMAP = {
     "format": "xml",
@@ -88,3 +93,4 @@ SITEMAP = {
         "pages": "monthly"
     }
 }
+

@@ -50,12 +50,15 @@ And there you have it, fully encrypted, open-source, secure email running in a p
 
 This post inspired by [spaceandtim.es](https://spaceandtim.es/code/protonmail_mutt/).
 
+<!-- ![protonmutt.png]({photo}tmux/protonmutt.png) -->
+
 <script>
     highlightInlineCode();
-   
-   highlightCodeElement("muttrc-creds");
+    
+    highlightCodeElement("muttrc-creds");
     highlightCodeElement("hydroxide-commands");
-   fetchAndHighlightCodeElement(
+    
+    fetchAndHighlightCodeElement(
         {
             elementId: "protonmutt",
             fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.bash/functions/comms",
@@ -64,12 +67,12 @@ This post inspired by [spaceandtim.es](https://spaceandtim.es/code/protonmail_mu
             removeEmptyLines: false
         }
     );
-       fetchAndHighlightCodeElement(
-            {
-                elementId: "washmutt",
-                fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.bash/functions/comms",
-                startLine: 3,
-                endLine: 10
-            }
-        );
+    fetchAndHighlightCodeElement(
+        {
+            elementId: "washmutt",
+            fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.bash/functions/comms",
+            startLine: 3,
+            endLine: 10
+        }
+    );
 </script>

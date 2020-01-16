@@ -17,6 +17,10 @@ Other (invisible) plugins provide session restoration functionality and reasonab
 
 <pre><code class="bash" id="tmux.conf"></code></pre>
 
+Here's a screenshot of working in tmux to write [this](/protonmail-mutt-secure-email-in-the-terminal.html) article:
+
+![tui.png]({photo}tmux/ide.png)
+
 <script>
     highlightInlineCode();  
    
