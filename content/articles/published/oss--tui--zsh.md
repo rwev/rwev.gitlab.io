@@ -8,6 +8,7 @@ When interacting with Unix machines from the command line, [zsh](http://zsh.sour
 - Spell correction <code class="bash inline">$ touche meta.txt <ENTER> zsh: correct 'touche' to 'touch' [nyae]? </code>
 - Recursive path expansion: <code class="bash inline">$ /u/lo/b <TAB> -> /usr/local/bin</code>
 - Interactive command and parameter completion <code class="bash inline">$ echo $PA <TAB> -> echo $PATH; $ git subm <TAB> -> git submodule</code> with descriptions
+- Safety checks <code class="bash inline">$rm -rf ./* -> zsh: sure you want to delete all 100 files in /home/rwev/. [yn]? n</code>
 - Multi-line command editing 
 - Extensibility with plugins and themes
 
