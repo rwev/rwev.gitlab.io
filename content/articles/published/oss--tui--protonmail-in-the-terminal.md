@@ -50,7 +50,7 @@ And there you have it, fully encrypted, open-source, secure email running in a p
 
 This post inspired by [spaceandtim.es](https://spaceandtim.es/code/protonmail_mutt/).
 
-<!-- ![protonmutt.png]({photo}tmux/protonmutt.png) -->
+![protonmutt.png]({photo}tmux/protonmutt.png)
 
 <script>
     highlightInlineCode();
