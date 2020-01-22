@@ -1,11 +1,15 @@
 Title: tmux, Skeleton of Terminal Productivity
 Category: oss/tui
-Tags: config,tmux,code
+Tags: config,tmux,code,nord
 Status: published
 
-[tmux](https://github.com/tmux/tmux) is a "terminal multiplexer it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached."
+tmux allows to user to overcome what is probably seen especially by new users, as the largest hindrance to real productivity at the terminal. 
 
-tmux allows to user to overcome what is probably seen (especially by new users) the largest hindrance to real productivity at the terminal: only one command can be run in the foreground at once. There are, of course, way to run processes in the background with <code class="bash inline">$ bg; fg; jobs</code> but it is cumbersome to manage, and doesn't provide reasonable and immediate transparency into the underlying process (e.g. logs). Terminal procedure generally envisioned by novices proceeds as follows: type an _awk_-ward command, wait for it to run (often with no output, by design: the [Unix Rule of Silence](https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html#id2878450)), observe (or guess at) the result, and repeat.
+That's the fact that only one command can be run in the foreground. Processes can be run in parallel (e.g. with <code class="bash inline">$ bg; fg; jobs</code>) but it is cumbersome to manage, and doesn't provide reasonable and immediate transparency into the underlying process (e.g. logs). 
+
+Terminal procedure generally envisioned by novices proceeds as follows: type an _awk_-ward command, wait for it to run (often with no output, by design: the [Unix Rule of Silence](https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html#id2878450)), observe (or guess at) the result, and repeat.
+
+ Enter [tmux](https://github.com/tmux/tmux), a "terminal multiplexer it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached."
 
 As a member of the desktop generation and a terminal amateur, tmux provides the view / layout flexibility we've come to expect from modern GUI-centric operating systems. Translating the official purpose statement at the beginning of this post to practical function, it splits a terminal screen into "panes" and "windows" (in tmux jargon), all of which spawn and run the users default <code class="inline bash">echo $SHELL</code>, where multiple terminal jobs can run separately, side-by-side.
 

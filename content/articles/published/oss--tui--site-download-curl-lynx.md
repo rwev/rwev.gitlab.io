@@ -1,7 +1,6 @@
 Title: Downloading Webpages
 Category: oss/tui
-
-
+Tags: code,bash
 
 When I plan on experimenting, developing, and thinking on the go, I like to download documentation and references in advance. Staying focused and always having the necessary resources on hand is far more productive than constantly prowling for the next WiFi connection, an often sketchy one at that, or being offline entirely.
 
@@ -15,8 +14,8 @@ The function does roughly the following:
 
 1. requests the HTML document for the entry point, 
 2. saves the response as the root resource in the target directory, <code class="bash inline">${dir}/index.html</code>,
-3. parses brute-force parse for links within the document in the form of <code class="html inline">href</code> attributes, 
-4. repeats steps 1 - 3 for each discovered resource, building out the document tree in subdirectories.
+3. parses brute-force for links within the document in the form of <code class="html inline">href</code> attributes, 
+4. repeats steps 1 - 3 for each discovered resource, building out the document tree in subdirectories recursively (not implemented).
 5. opens the root resource in lynx, which renders the document sensibly in the terminal.
 
 <pre><code class="bash" id="sitedl"></code></pre>
@@ -27,7 +26,7 @@ highlightInlineCode();
 
 fetchAndHighlightCodeElement({
         elementId: "sitedl",
-        fileUrl: "",
+        fileUrl: "https://raw.githubusercontent.com/rwev/evix/master/.bash/functions/web",
         startLine: 2,
         endLine: 32,
         filterPrefix: "#",

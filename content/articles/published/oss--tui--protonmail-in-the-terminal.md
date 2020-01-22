@@ -1,6 +1,6 @@
 Title: ProtonMail & Mutt: Secure Email in the Terminal
 Category: oss/tui
-Tags: protonmail,mutt
+Tags: privacy,security,bash,code
 Status: published
 
 Terminal User Interfaces (TUIs): they are fast, reliable, and proven; they've existed and their foundations perfected since the dawn of the terminal and tested real-time over decades. Their interface is timeless. TUIs provide pure interaction with data, oftentimes using the same principles of interaction and even sharing vim keybindings, and devoid of visual and aesthetic bloat. But that's for another post.  

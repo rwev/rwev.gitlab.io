@@ -1,6 +1,12 @@
 
 FILE_TEXT_CACHE = {};
 
+if (typeof(String.prototype.trim) === "undefined") {
+        String.prototype.trim = function() {
+                        return String(this).replace(/^\s+|\s+$/g, '');
+        };
+}
+
 async function loadHLJS() {
         if (typeof hljs === "undefined") {
                 loadStylesheet('/assets/javascript/dependencies/nord-highlightjs.css');
@@ -43,12 +49,12 @@ async function fetchAndHighlightCodeElement({elementId, fileUrl, startLine, endL
         }
 
         if (filterPrefix) {
-                text = text.split('\n').filter(line => line.search(filterPrefix) !== 0).join('\n');
+                text = text.split('\n').filter(line => line.trim().search(filterPrefix) !== 0).join('\n');
 
         }
 
         if (removeEmptyLines) {
-                text = text.split('\n').filter(line => line !== "").join('\n');
+                text = text.split('\n').filter(line => line.trim() !== "").join('\n');
         }
 
         el.innerText = text;

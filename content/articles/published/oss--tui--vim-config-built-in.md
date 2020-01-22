@@ -9,11 +9,13 @@ If I had to learn it again, I would use this configuration as a starting point, 
 
 <pre><code class="bash" id="config.vim"></code></pre>
 
-I haven't found much use for custom keybindings, and I don't picture adding many until [grokking](http://www.catb.org/jargon/html/G/grok.html) vim itself, with the exception of plugin integration. My mappings to built-in vim functions are few.
+I haven't found much use for custom keybindings, and I don't picture adding many until [grokking](http://www.catb.org/jargon/html/G/grok.html) vim itself, with the exception of [plugin integration](/vim-plugin-fuzzy-finder.html).
+
+<pre><code class="vim" id="mappings.vim"></code></pre>
 
 All files can be found in my dotfiles repository, [evix](https://gitlab.com/rwev/evix).
 
-<pre><code class="vim" id="mappings.vim"></code></pre>
+
 <script>
 
     fetchAndHighlightCodeElement(
