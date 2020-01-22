@@ -1,0 +1,126 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>rwev.dev // Map</title>
+
+    <script src="/assets/javascript/dependencies/leaflet.js"></script>
+    <script src="/assets/javascript/dependencies/leaflet-radar.js"></script>
+    <script src="/assets/javascript/dependencies/leaflet-reticle.js"></script>
+    <script src="/assets/javascript/dependencies/leaflet-view-meta.js"></script>
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="/assets/javascript/dependencies/leaflet.css">
+    <link rel="stylesheet"
+          type="text/css"
+          href="/assets/javascript/dependencies/leaflet-radar.css">
+    <link rel="stylesheet"
+          type="text/css"
+          href="/assets/javascript/dependencies/leaflet-reticle.css">
+    <link rel="stylesheet"
+          type="text/css"
+          href="/assets/javascript/dependencies/leaflet-view-meta.css">
+
+</head>
+
+<body style="padding: 0; margin: 0;">
+
+<div style="height: 100%; width: 100%;"
+     id="map"></div>
+
+<script>
+
+    let map = L.map("map").setView([43.37, -116.12], 13);
+
+    const attribution =
+        'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, USGS';
+
+    L.tileLayer("https://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
+        attribution
+    }).addTo(map);
+
+    const DEFAULT_BASE_LAYER_OPTIONS = {minZoom: 2, maxZoom: 20, zIndex: 100};
+
+    // OpenStreetMap
+    let osmStandard = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+            ...DEFAULT_BASE_LAYER_OPTIONS,
+            name: 'osm-standard'
+            //minZoom: 2,
+            //maxZoom: 16,
+        }
+    );
+
+    let osmHumanitarian = L.tileLayer(
+        'https://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+        {
+            ...DEFAULT_BASE_LAYER_OPTIONS,
+            name: 'osm-humanitarian',
+            //minZoom: 3,
+            //maxZoom: 19
+        }
+    );
+
+    // USGS
+    let usgsTopo = L.tileLayer(
+        'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',
+        {
+            ...DEFAULT_BASE_LAYER_OPTIONS,
+            name: 'usgs-topo',
+            //minZoom: 3,
+            //maxZoom: 19
+        }
+    );
+    let usgsImagery = L.tileLayer(
+        'https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',
+        {
+            ...DEFAULT_BASE_LAYER_OPTIONS,
+            name: 'usgs-imagery'
+            //minZoom:
+            //maxZoom:
+        }
+    );
+    let usgsImageryTopo = L.tileLayer(
+        'https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer/tile/{z}/{y}/{x}',
+        {
+            ...DEFAULT_BASE_LAYER_OPTIONS,
+            name: 'usgs-imagery-topo',
+            //minZoom:
+            //maxZoom:
+        }
+    );
+
+    const ALL_BASE_LAYERS =
+        {
+            'OSM Standard': osmStandard,
+            'OSM Humanitarian': osmHumanitarian,
+
+            'USGS Topo': usgsTopo,
+            'USGS Imagery': usgsImagery,
+            'USGS Imagery + Topo': usgsImageryTopo,
+
+        };
+
+    const DEFAULT_BASE_LAYER = usgsTopo;
+
+    L.control.layers(
+        ALL_BASE_LAYERS,
+        {}, // OVERLAY_LAYERS
+        {
+            position: 'topleft',
+            hideSingleBase: true,
+            collapsed: false
+        }
+    ).addTo(map);
+
+    DEFAULT_BASE_LAYER.addTo(map);
+
+    L.control.reticle({mapId: "map"}).addTo(map);
+    L.control.radar({}).addTo(map);
+    L.control.viewMeta({}).addTo(map);
+
+</script>
+</body>
+</html>
