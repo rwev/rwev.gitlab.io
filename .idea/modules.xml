@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../coyote.life/coyote.life.iml" filepath="$PROJECT_DIR$/../coyote.life/coyote.life.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rwev.gitlab.io.iml" filepath="$PROJECT_DIR$/rwev.gitlab.io.iml" />
+    </modules>
+  </component>
+</project>
