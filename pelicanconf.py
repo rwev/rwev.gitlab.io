@@ -51,16 +51,18 @@ DEFAULT_LANG = "en"
 # PLUGINS
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = [
-    "filetime_from_git",
     "autopages",
-    "similar_posts",
-    "neighbors",
-    "section_number",
-    "more_categories",
+    "deadlinks",
+    'encrypt_content',
+    "filetime_from_git",
     "gzip_cache",
+    "more_categories",
+    "neighbors",
     "photos",
-    "summary",
-    "sitemap"
+    "section_number",
+    "similar_posts",
+    "sitemap",
+    "summary"
 ]
 
 # autopages
@@ -70,6 +72,20 @@ AUTHOR_PAGE_PATH = os.path.join(AUTOPAGES_PATH, "authors")
 CATEGORY_PAGE_PATH = os.path.join(AUTOPAGES_PATH, "categories")
 TAG_PAGE_PATH = os.path.join(AUTOPAGES_PATH, "tags")
 
+# deadlinks
+DEADLINK_OPTS = {
+    'archive':  True,
+    'classes': [], # TODO
+    'labels':   False,
+    'timeout_duration_ms': 1000,
+    'timeout_is_error':    True,
+}
+
+# encrypt-content
+ENCRYPT_CONTENT = {
+    'title_prefix': '[Encrypted]',
+    'summary': 'This content is encrypted. Passcode required to view.'
+}
 
 # photos
 PHOTO_LIBRARY = "./content/assets/images"
