@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rwev.dev // Tesseract OCR</title>
+    <script src="/assets/javascript/dependencies/tesseract.min.js"></script>
+    <link rel="stylesheet"
+          type="text/css"
+          href="/theme/css/style.css">
+</head>
+<body>
+
+<script>
+
+    // HEADLESS TEST CASE
+
+    /*
+    const worker = Tesseract.createWorker({
+        workerPath: '/assets/javascript/dependencies/tesseract.worker.min.js',
+        corePath: '/assets/javascript/dependencies/tesseract.core.wasm.js',
+        langPath: '/assets/javascript/dependencies/tesseract-lang-data',
+        logger: m => console.log(m),
+    });
+
+    (async () => {
+        await worker.load();
+        await worker.loadLanguage('eng');
+        await worker.initialize('eng');
+        const {data: {text}} = await worker.recognize('/assets/javascript/dependencies/tesseract-lang-data/test-ocr-eng.png');
+        console.log(text);
+        await worker.terminate();
+    })();
+    */
+
+    // BASIC IMAGE UPLOAD
+    // requires <input type="file" id="uploader">
+
+    /*
+    const recognize = async ({target: {files}}) => {
+        const {data: {text}} = await Tesseract.recognize(files[0], 'eng', {
+            corePath: '/assets/javascript/dependencies/tesseract.core.wasm.js',
+            logger: m => console.log(m),
+        });
+        console.log(text);
+    };
+    const elm = document.getElementById('uploader');
+    elm.addEventListener('change', recognize);
+    */
+
+    function progressUpdate(packet) {
+
+        console.log(packet);
+
+        let log = document.getElementById('log');
+
+        // hack to consolidate progress boxes
+        packet.status = packet.status.replace('initialized', 'initializing').replace('loaded', 'loading');
+
+        if (log.firstChild && log.firstChild.status === packet.status) {
+            if ('progress' in packet) {
+                let progress_el = log.firstChild.querySelector('progress');
+                progress_el.value = packet.progress;
+
+                let percent_el = log.firstChild.querySelector('div.percent');
+                percent_el.innerText = ((packet.progress * 100).toFixed(2) + '%');
+            }
+        } else {
+
+            let line = document.createElement('div');
+            line.status = packet.status;
+
+            if (packet.status === 'done') {
+                line.appendChild(document.createTextNode(packet.data.data.text));
+            }
+
+            else {
+
+                let status_el = document.createElement('div');
+                status_el.className = 'status';
+                status_el.appendChild(document.createTextNode(packet.status));
+
+                let percent_el = document.createElement('div');
+                percent_el.className = 'percent';
+                percent_el.appendChild(document.createTextNode((packet.progress * 100).toFixed(2) + '%'));
+
+                line.appendChild(status_el);
+                line.appendChild(percent_el);
+
+                if ('progress' in packet) {
+                    let progress_el = document.createElement('progress');
+                    progress_el.value = packet.progress;
+                    progress_el.max = 1;
+                    line.appendChild(progress_el);
+                }
+            }
+
+            log.insertBefore(line, log.firstChild)
+        }
+    }
+
+    async function recognizeFile(file) {
+
+        document.querySelector("#log").innerHTML = '';
+        document.querySelector("#preview").src = file;
+
+        const lang = document.querySelector('#lang-select').value;
+
+        const data = await Tesseract.recognize(file, lang, {
+            corePath: '/assets/javascript/dependencies/tesseract.core.wasm.js',
+            logger: progressUpdate,
+        });
+        progressUpdate({status: 'done', data});
+    }
+</script>
+
+powered by <a href="https://github.com/naptha/tesseract.js#tesseractjs">tesseract.js</a>
+<h1>Optical Character Recognition</h1>
+
+<div id="controls">
+    <select id="lang-select"
+            onchange="window.lastFile && recognizeFile(window.lastFile)">
+        <option value='deu'> German</option>
+        <option value='eng'
+                selected> English
+        </option>
+    </select>
+
+    <button onclick="recognizeFile('/assets/javascript/dependencies/tesseract-lang-data/mazama.jpg')">Sample Image
+    </button>
+    <input type="file"
+           onchange="recognizeFile(window.lastFile=this.files[0])">
+
+</div>
+
+<img id="preview">
+<div id="log"></div>
+
+<style>
+
+    #controls {
+        width: 100%
+    }
+
+    #log > div {
+        color: #313131;
+        border-top: 1px solid #dadada;
+        padding: 1rem;
+    }
+
+    #log > div:first-child {
+        border: 0;
+    }
+
+    .status {
+        min-width: 250px;
+    }
+
+    #log {
+        border: 1px solid #dadada;
+        padding: 10px;
+        margin-top: 20px;
+        min-height: 100px;
+    }
+
+    progress {
+        display: block;
+        width: 100%;
+        transition: opacity 0.5s linear;
+    }
+
+    progress[value="1"] {
+        opacity: 0.5;
+    }
+</style>
+</body>
+</html>

@@ -24,6 +24,7 @@ LINK_ITEMS = (
     ("resume", "https://gitlab.com/rwev/resume/raw/master/resume.pdf?inline=false"),
     ("github", "https://github.com/rwev"),
     ("gitlab", "https://gitlab.com/rwev"),
+    ("tesseract", "/assets/pages/tesseract.html"),
     ("map", "/assets/pages/leaflet-map.html")
 )
 
