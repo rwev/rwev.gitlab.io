@@ -53,6 +53,7 @@ DEFAULT_LANG = "en"
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = [
     "autopages",
+#    "css-html-js-minify",
     "deadlinks",
     'encrypt_content',
     "filetime_from_git",

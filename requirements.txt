@@ -9,3 +9,4 @@ pelican
 piexif
 pillow
 pycryptodome
+css-html-js-minify
