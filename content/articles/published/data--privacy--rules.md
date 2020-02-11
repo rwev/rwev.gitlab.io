@@ -45,16 +45,23 @@ The last two points, unlinking accounts and never reusing passwords, sounds like
 
 And it is, if you don't use a password manager. 
 
-Use one! Not only does it save strain on your memory and reduce keystrokes, but it will save your sanity and enable better online security. I use Mozilla Firefox's [Lockwise](https://www.mozilla.org/en-US/firefox/lockwise/), which encrypts and syncs my table of passwords between devices. It also auto-saves passwords in the browser, and can be used to autofill login forms in Android apps as well.  
+Use one! Not only does it save strain on your memory and reduce keystrokes, but it will save your sanity and enable better online security. 
+
+I use [Bitwarden](https://bitwarden.com) to encrypt and sync my table of passwords between devices. It auto-saves and fills passwords in the browser (with appropriate plugin) and on mobile (via native app). 
+
+Bitwarden even offers a command-line interface which can be used to pipe credentials securely into [other terminal applications](/protonmail-mutt-secure-email-in-the-terminal.html) that require auth.
+
+Bitwarden also provides a password generation feature that provides random string passwords similar to the above bash commands, without the necessity of access to terminal, as it is available within all clients. 
+
+Lastly, Bitwarden is a secure, fully-encrypted repository not only for passwords, but credit card information, personal details ("identity"), or any other free-form text ("secure notes"). 
+
+Mozilla Firefox's [Lockwise](https://www.mozilla.org/en-US/firefox/lockwise/) is another decent alternative with a narrower feature set.  
 
 ## Diversify Your Online Footprint
 
 Transition to open-source alternatives whenever possible. Try not to remain within the product ecosystem of any one tech concern. Don't let them own, and profit from, your online life. 
 
-It's okay to continue using selected products from major tech companies, but don't give them combined access. Distribute the dimensions of your life over multiple products and ecosystems. Do open source as much as possible. _Diversify_.
-
-- Use Mozilla Firefox instead of Google Chrome
-- [OpenStreetMap](https://maps.me/) instead of Google Maps. 
+It's okay to continue using selected products from major tech companies, but don't give them combined access. Distribute the dimensions of your life over multiple products and ecosystems. Do open source as much as possible. _Diversify_ and [degoogle](/how-i-degoogle.html).
 
 ## Security as a State of Mind
 
