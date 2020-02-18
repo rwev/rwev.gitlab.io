@@ -40,7 +40,8 @@ STATIC_PATHS = ["assets"]
 
 EXTRA_PATH_METADATA = {
     'assets/extra/robots.txt': {'path': 'robots.txt'},
-    'assets/extra/favicon.ico': {'path': 'favicon.ico'}
+    'assets/extra/favicon.ico': {'path': 'favicon.ico'},
+    'assets/extra/keybase.txt': {'path': 'keybase.txt'}
 }
 
 ARTICLE_PATHS = ["articles/published"]

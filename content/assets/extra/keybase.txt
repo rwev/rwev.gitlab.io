@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rwev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rwev.dev
+  * I am rwev (https://keybase.io/rwev) on keybase.
+  * I have a public key with fingerprint 3D0A 484B 0D60 1C04 90E4  9AB2 F348 9370 83D4 EEB8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010105d18b6cea2a69b72334275644a54ed284bb8d078dd9068ee2328ab122a11a2b0a",
+      "fingerprint": "3d0a484b0d601c0490e49ab2f348937083d4eeb8",
+      "host": "keybase.io",
+      "key_id": "f348937083d4eeb8",
+      "kid": "010105d18b6cea2a69b72334275644a54ed284bb8d078dd9068ee2328ab122a11a2b0a",
+      "uid": "0b800529a3ab215e3ba891a7e16d4519",
+      "username": "rwev"
+    },
+    "service": {
+      "hostname": "rwev.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1582065361,
+  "expire_in": 157680000,
+  "prev": "fbf5654a434d5d4ad82db5020f2a846d890bca3a72991132745620927c494ed7",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJbSFRBGN5dd4s0SaWILlAeK9JdbM6cObe1KAx9STLoIURpm9mZXQ9t
+52xnz65aGJQRSbC9SD0USXahKA0zKAqkLIoKgkrBwoourHQhg+hGEc3pAj30GPMw
+zD/f9/3f//FfK8zz5Ht7EvWXztycd8x7+8retGd9XezuVoFYtE0IbxU2sp8XS1CW
+ciIbDSqEBSDyI1NRI0qUYYgVnahQkhBUZQUhLCNGoYYI0ShQNUp1oGiMQQlqmIgQ
+YlHEkAAshISYYcaZnbQN0+GyEgUYcR6gChCjAOmAIR0TGJOQpksq0CSKGCMaJzZb
+KZfBzRGcYpWGxWv8Eflp7x/4/+w7/UuOaADIUMcSNynKTCJY00WsMlGhSBZ1F5hi
+tok3MY62W1hGaA8JvJIxoswN1Z3ir99KyhEhIWlbjhW1Erza7DjJVNhlOW1JF9bC
+SOS3QIQYJuX5cUaG2SnDMoWwyJFRx3AVRVmDQJElRQwJrDVp2CxiuAhZVbhrANw+
+vB1Pi8RkRUYYSYjKFGGqQUpkAEEMYg0pVNMBifIRVajroihBFckKBDpUo0jngamC
+O9Jm0xLCkNvEcS6ZMuImdtI2E9qHLjf5Pd58z6SAz90rT/6Uoj/b9q5t8reCs1ZN
+Y8eTiyPXr9ZfKPnY93gwc360au7pZb2fIg2l5S+a3476Nqx8UzvStSaIt/iN4/uK
+p3aX9E7sPFl2+9SXWfcCiY7+g7kD2ar+GR+rlW19j+zRDZ8bdvWsfhVe3O3zrHg+
+tGtH6bWl3wtfBooKlN25zugAnj/8efrVVXmHhmeyFg/KOhXpO4W5OffbZ5wZd9Rz
+/taxh7av9sSLbdWzsxX6iVsTQ2uCz+RAJ+oYz+5+iYsz+rqxru0fbr3zHzn8uunB
+q0igZ8ngQEN84YKqgbLc6kM3w2ufjm/q7FrUSAynzlvBLiy/sQdOvzF8YNqkgh15
+38v9waPBmq8fzJr97wM/AF5DOTM=
+=fcmR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rwev
+
+==================================================================
