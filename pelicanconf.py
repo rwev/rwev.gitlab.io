@@ -10,12 +10,11 @@ from tundra.tundraconf import *
 # TEMPLATE
 OWNER = "rwev"
 AUTHOR = OWNER
-SITENAME = "rwev.dev"
+SITENAME = "~rwev"
 
 SITEURL = "localhost:8000"
 
-USER_LOGO_URL = "assets/images/valknut-nord7.png"
-TAGLINE = "Pragmatic. Principled. Purposeful."
+TAGLINE = "pragmatic & principled"
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_LINKS_ON_MENU = True
