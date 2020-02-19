@@ -1,4 +1,4 @@
-Title: About   
+Title: about   
 Status: published
 
 This site, [rwev.dev](https://rwev.dev), is my digital log, thought repository, and progress journal, where I check in and explore topics in software, user-centric design, data, and privacy. 

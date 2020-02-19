@@ -1,4 +1,4 @@
-Title: Now
+Title: now
 Status: published
 
 I currently work for a financial automation and analytics company, [Clearwater Analytics LLC](https://www.clearwater-analytics.com/), in Boise, Idaho.  
