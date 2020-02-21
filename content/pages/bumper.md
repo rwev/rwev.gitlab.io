@@ -1,4 +1,4 @@
-Title: Virtual Bumper
+Title: bumper
 Status: published
 Gallery: {photo}/bumper
 

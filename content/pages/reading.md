@@ -1,4 +1,4 @@
-Title: Reading
+Title: reading
 Status: published
 
 A curated list of works by thinkers in the software space and containing theory and principle applicable to virtually any complex project.

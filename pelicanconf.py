@@ -20,11 +20,10 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_LINKS_ON_MENU = True
 
 LINK_ITEMS = (
+    ("keybase", "https://keybase.io/rwev"),
+    ("F348 9370 83D4 EEB8", "/public_key.txt"),
     ("resume", "https://gitlab.com/rwev/resume/raw/master/resume.pdf?inline=false"),
-    ("github", "https://github.com/rwev"),
-    ("gitlab", "https://gitlab.com/rwev"),
-    ("tesseract", "/assets/pages/tesseract.html"),
-    ("map", "/assets/pages/leaflet-map.html")
+    ("gitlab", "https://gitlab.com/rwev")
 )
 
 # BUILD PROCESS
@@ -39,8 +38,8 @@ STATIC_PATHS = ["assets"]
 
 EXTRA_PATH_METADATA = {
     'assets/extra/robots.txt': {'path': 'robots.txt'},
-    'assets/extra/favicon.ico': {'path': 'favicon.ico'},
-    'assets/extra/keybase.txt': {'path': 'keybase.txt'}
+    'assets/extra/keybase.txt': {'path': 'keybase.txt'},
+    'assets/extra/public_key.txt': {'path': 'public_key.txt'}
 }
 
 ARTICLE_PATHS = ["articles/published"]
