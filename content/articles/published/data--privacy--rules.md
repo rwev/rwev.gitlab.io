@@ -61,7 +61,7 @@ Mozilla Firefox's [Lockwise](https://www.mozilla.org/en-US/firefox/lockwise/) is
 
 Transition to open-source alternatives whenever possible. Try not to remain within the product ecosystem of any one tech concern. Don't let them own, and profit from, your online life. 
 
-It's okay to continue using selected products from major tech companies, but don't give them combined access. Distribute the dimensions of your life over multiple products and ecosystems. Do open source as much as possible. _Diversify_ and [degoogle](/how-i-degoogle.html).
+It's okay to continue using selected products from major tech companies, but don't give them combined access. Distribute the dimensions of your life over multiple products and ecosystems. Do open source as much as possible: diversify and [degoogle](/why-how-to-degoogle.html).
 
 ## Security as a State of Mind
 

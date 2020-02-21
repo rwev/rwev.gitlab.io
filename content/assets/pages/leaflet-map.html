@@ -11,10 +11,6 @@
 
     <link rel="stylesheet"
           type="text/css"
-          href="/theme/css/style.css">
-
-    <link rel="stylesheet"
-          type="text/css"
           href="/assets/javascript/dependencies/leaflet.css">
     <link rel="stylesheet"
           type="text/css"
@@ -122,9 +118,12 @@
     DEFAULT_BASE_LAYER.addTo(map);
 
     L.control.reticle({mapId: "map"}).addTo(map);
-    L.control.radar({}).addTo(map);
     L.control.viewMeta({}).addTo(map);
 
+    let radar = L.control.radar({});
+    radar.addTo(map);
+    radar.checkbox.checked = true;
+    radar.toggle();
 </script>
 </body>
 </html>

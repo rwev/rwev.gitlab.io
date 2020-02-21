@@ -47,12 +47,13 @@ By diversifying one's digital activity away from Google (et al.) products:
 
 | Google Product* | Alternative | Description | 
 | --------------- | ----------- | ----------- | 
-| GMail | [Protonmail](https://protonmail.com) | Encrypted email service | 
-| Hangouts / WhatsApp | [Threema](https://threema.ch) | Secure voice calling & messaging |
-| Play Store | [F-Droid](https://f-droid.org) | Application repository
-| Passwords | [Bitwarden](https://bitwarden.com/) | Password manager / encrypted content vault |
-| Chrome | Mozilla Firefox | Desktop, mobile internet browser 
-
+| GMail | [Protonmail](https://protonmail.com) | End-to-end encrypted (E2EE) encrypted email service |
+| Search | DuckDuckGo | Non-tracking, non-profiling search engine |
+| Hangouts / WhatsApp | [Threema](https://threema.ch) | E2EE voice calling & messaging |
+| Play Store | [F-Droid](https://f-droid.org) | Application repository |
+| Passwords | [Bitwarden](https://bitwarden.com/) | Password manager & encrypted content vault |
+| Chrome | Mozilla Firefox | Desktop, mobile internet browser |
+| Drive | [Keybase](https://keybase.io) filesystem | E2EE secure file storage & sharing |
 
 ## Honorable mentions
 
