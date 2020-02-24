@@ -1,4 +1,4 @@
-Title: Vim Configuration: Built-in 
+Title: Built-in Vim Configuration   
 Category: oss/tui
 Tags: code,vim,config,nord
 Status: published
