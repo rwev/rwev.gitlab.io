@@ -27,7 +27,11 @@ Reading code and understanding larger project structure  constitute a majority o
 
 Furthermore, fuzzy-finding reduces keystrokes across the board. One must only enter the character sequence most unique to what are looking for, instead of a sequential exact match. 
 
-It's benefits extend beyond the technical domain: it has also proved beneficial in the searching human-lingual documents and content, and even locating specific sentences.  
+Its benefits extend beyond the technical domain: it has also proved beneficial in the searching human-lingual documents and content, and even locating specific sentences.  
+ 
+The following [`asciicast`](https://asciinema.org) offers a demonstration:
+ 
+<div id="fzf.vim.cast"></div>
  
 <script>
 
@@ -60,7 +64,7 @@ It's benefits extend beyond the technical domain: it has also proved beneficial 
            filterPrefix: "\""
        }
     );
-          
+
+    fetchAsciinema({castFile: "fzf.vim.cast", divId: "fzf.vim.cast", startTime: "0:08"});
+
 </script>
-
-

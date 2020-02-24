@@ -14,6 +14,13 @@ async function loadHLJS() {
         }
 }
 
+async function loadAsciinema() {
+        if (typeof asciinema === "undefined") {
+                loadStylesheet('/assets/javascript/dependencies/asciinema-player.css');
+                return loadScriptPromise('/assets/javascript/dependencies/asciinema-player.js');
+        }
+}
+
 
 async function highlightCodeElement(elementId) {
         await loadHLJS();
@@ -59,5 +66,27 @@ async function fetchAndHighlightCodeElement({elementId, fileUrl, startLine, endL
 
         el.innerText = text;
         hljs.highlightBlock(el);
+
+}
+
+async function fetchAsciinema({divId, castFile, startTime}) {
+        
+        await loadAsciinema();
+        
+        let castPath = `/assets/javascript/dependencies/asciicasts/${castFile}`;
+
+        let preload = ``; // false
+        let loop= ``; 
+        let autoplay = ``;
+
+        let posterStr = ``;
+        
+        if (startTime) {
+                posterStr = `poster="npt:${startTime}"`;
+        }
+
+        let elementStr = `<asciinema-player src="${castPath}" ${autoplay} ${preload} ${loop} ${posterStr} speed="${1.25}" theme="${`monokai`}" size="${`medium`}"></asciinema-player>`;
+
+        document.getElementById(divId).innerHTML = elementStr;
 
 }
