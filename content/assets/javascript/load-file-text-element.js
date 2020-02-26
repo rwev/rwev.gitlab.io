@@ -86,7 +86,7 @@ async function fetchAsciinema({divId, castFile, startTime}) {
                 posterStr = `poster="npt:${startTime}"`;
         }
 
-        let elementStr = `<asciinema-player src="${castPath}" ${autoplay} ${preload} ${loop} ${posterStr} speed="${1.25}" theme="${`nord`}" size="${`medium`}" cols="125"></asciinema-player>`;
+        let elementStr = `<asciinema-player src="${castPath}" ${autoplay} ${preload} ${loop} ${posterStr} speed="${1.25}" theme="${`nord`}" font-size="${`12px`}" cols="125"></asciinema-player>`;
 
         document.getElementById(divId).innerHTML = elementStr;
 
