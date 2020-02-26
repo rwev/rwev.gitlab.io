@@ -17,6 +17,7 @@ async function loadHLJS() {
 async function loadAsciinema() {
         if (typeof asciinema === "undefined") {
                 loadStylesheet('/assets/javascript/dependencies/asciinema-player.css');
+                loadStylesheet('/assets/javascript/dependencies/asciinema-theme-nord.css');
                 return loadScriptPromise('/assets/javascript/dependencies/asciinema-player.js');
         }
 }
@@ -85,7 +86,7 @@ async function fetchAsciinema({divId, castFile, startTime}) {
                 posterStr = `poster="npt:${startTime}"`;
         }
 
-        let elementStr = `<asciinema-player src="${castPath}" ${autoplay} ${preload} ${loop} ${posterStr} speed="${1.25}" theme="${`monokai`}" size="${`medium`}"></asciinema-player>`;
+        let elementStr = `<asciinema-player src="${castPath}" ${autoplay} ${preload} ${loop} ${posterStr} speed="${1.25}" theme="${`nord`}" size="${`medium`}" cols="125"></asciinema-player>`;
 
         document.getElementById(divId).innerHTML = elementStr;
 

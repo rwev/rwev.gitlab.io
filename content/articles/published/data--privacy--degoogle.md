@@ -52,8 +52,8 @@ By diversifying one's digital activity away from Google (et al.) products:
 | Hangouts / WhatsApp | [Threema](https://threema.ch) | E2EE voice calling & messaging |
 | Play Store | [F-Droid](https://f-droid.org) | Application repository |
 | Passwords | [Bitwarden](https://bitwarden.com/) | Password manager & encrypted content vault |
-| Chrome | Mozilla Firefox | Desktop, mobile internet browser |
-| Drive | [Keybase](https://keybase.io) filesystem | E2EE secure file storage & sharing |
+| Chrome | Mozilla Firefox (+ [Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus&hl=en_US))| Open-source, privacy-friendly internet browser for desktop and mobile |
+| Drive | [Keybase](https://keybase.io) filesystem, Mozilla [Firefox Send](https://send.firefox.com/) | E2EE secure file storage & sharing |
 
 ## Honorable mentions
 
