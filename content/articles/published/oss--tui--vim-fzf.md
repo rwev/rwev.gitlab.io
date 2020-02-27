@@ -65,6 +65,7 @@ The following [`asciicast`](https://asciinema.org) offers a demonstration:
        }
     );
 
+
     fetchAsciinema({castFile: "fzf.vim.cast", divId: "fzf.vim.cast", startTime: "0:08"});
 
 </script>
