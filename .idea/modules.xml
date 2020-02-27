@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../coyote.life/coyote.life.iml" filepath="$PROJECT_DIR$/../coyote.life/coyote.life.iml" />
       <module fileurl="file://$PROJECT_DIR$/rwev.gitlab.io.iml" filepath="$PROJECT_DIR$/rwev.gitlab.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shell_pipe/shell_pipe.iml" filepath="$PROJECT_DIR$/../shell_pipe/shell_pipe.iml" />
     </modules>
   </component>
 </project>
