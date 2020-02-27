@@ -63,7 +63,8 @@ PLUGINS = [
     "section_number",
     "similar_posts",
     "sitemap",
-    "summary"
+    "summary",
+    "webring"
 ]
 
 # autopages
@@ -109,3 +110,11 @@ SITEMAP = {
     }
 }
 
+# webring
+
+WEBRING_MAX_ARTICLES = 3
+WEBRING_ARTICLES_PER_FEED = 1
+WEBRING_SUMMARY_LENGTH = 128
+WEBRING_CLEAN_SUMMARY_HTML = True
+WEBRING_FEED_URLS = [
+]

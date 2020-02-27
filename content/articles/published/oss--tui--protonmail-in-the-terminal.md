@@ -3,9 +3,17 @@ Category: oss/tui
 Tags: privacy,security,bash,code
 Status: published
 
-Terminal User Interfaces (TUIs): they are fast, reliable, and proven; they've existed and their foundations perfected since the dawn of the terminal and tested real-time over decades. Their interface is timeless. TUIs provide pure interaction with data, oftentimes using the same principles of interaction and even sharing vim keybindings, and devoid of visual and aesthetic bloat. But that's for another post.  
+Terminal user interfaces are fast, reliable, and proven; they've existed and their foundations tested and perfected over the decades since the dawn of the information age.
+ 
+ The terminal user interface is timeless. TUIs provide pure interaction with data, oftentimes using the same principles of interaction and even sharing keybindings (like `vim`), and are devoid of visual and aesthetic bloat. But that's for another post.  
 
-[Mutt](http://www.mutt.org/) is one such TUI application, an email client that's  been around since at least 1995, and still in use and improved by powerusers today. Mail providers have come and gone, but Mutt continues to provide the interface to them. [ProtonMail](https://www.protonmail.com) is the latest of such providers, and as one of the few providers of fully-encrypted email and calendar services in a world of increasingly pervasive surveillance and an on-pace desire to escape it, they probably won't be going anywhere soon. 
+[`Mutt`](http://www.mutt.org/), like other terminal applications, is simple and thus secure. Terminal applications generally have less code & simpler design than their OS- or web-native counterparts, a large factor contributing to the tried-and-true stability of terminal tool-kits. 
+
+As a program that interfaces with the unknown internet, `mutt` does not provide the prime breeding grounds of vulnerability and uncertainty such as a `JavaScript` runtime or a document rendering engine. `Mutt` and similar TUI applications are often written with the deterministic rigidity of C using time-tested frameworks like `curses`.  See [this article](https://www.vice.com/en_us/article/nzea38/why-security-experts-are-using-an-ancient-email-format-in-2015).
+
+`Mutt` has been around since at least 1995, with `elm` ancestry dating to 1986, and is still in use and improved by powerusers today. Mail providers have come and gone, but Mutt continues to provide the interface to them. 
+
+[ProtonMail](https://www.protonmail.com) is the latest of such providers, and as one of the few providers of fully-encrypted email and calendar services in a world of increasingly pervasive surveillance and an on-pace desire to escape it, they probably won't be going anywhere soon. 
 
 The privacy and security of ProtonMail is derived from [PGP encryption](https://protonmail.com/blog/what-is-pgp-encryption/). All data is fully encrypted until it gets to the client's machine, where it is then decrypted with the password. This happens in the browser with [OpenPGPJS](https://github.com/openpgpjs/openpgpjs)
  when using the [web client](https://github.com/ProtonMail/WebClient).

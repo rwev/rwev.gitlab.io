@@ -3,7 +3,7 @@ Category: design/this
 Tags: code,javascript,ucd
 Status: published
 
-One of the principles honored in the development of this [site](/this-designed-brutalism.html) is the conservation of resources, by cutting out the unnecessary and frivolous, endlessly simplifying and carving down until only the essential information experience remains. 
+One of the principles honored in the development of this site is the conservation of resources, by cutting out the unnecessary and frivolous, endlessly simplifying and carving down until only the essential information experience remains. 
 
 An application of this is in the loading of code <code id="script" class="html inline"></code> or styles <code id="link" class="html inline"></code>: they should only be loaded when need is critical and immediate, when the value or functionality they add or extend is directly demanded. 
 
@@ -31,6 +31,7 @@ See post on [code syntax highlighting](/this-designed-code-syntax-highlighting.h
             fileUrl: "https://raw.githubusercontent.com/rwev/rwev.gitlab.io/master/content/assets/javascript/load-script.js"
         }
     );
+        
 </script>
 
 
