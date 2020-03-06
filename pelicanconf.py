@@ -12,6 +12,7 @@ OWNER = "rwev"
 AUTHOR = OWNER
 SITENAME = "~rwev"
 
+SOURCE_CODE_URL = "https://gitlab.com/rwev/rwev.gitlab.io.git"
 SITEURL = "localhost:8000"
 
 TAGLINE = "pragmatic & principled"
@@ -20,10 +21,10 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_LINKS_ON_MENU = True
 
 LINK_ITEMS = (
-    ("keybase", "https://keybase.io/rwev"),
-    ("F348 9370 83D4 EEB8", "/public_key.txt"),
-    ("resume", "https://gitlab.com/rwev/resume/raw/master/resume.pdf?inline=false"),
-    ("gitlab", "https://gitlab.com/rwev")
+    ("pgp", "F348 9370 83D4 EEB8", "/public_key.txt"),
+    ("keybase", "rwev", "https://keybase.io/rwev"),
+    ("gitlab", "rwev", "https://gitlab.com/rwev"),
+    ("resume", "pdf", "https://gitlab.com/rwev/resume/raw/master/resume.pdf?inline=false"),
 )
 
 # BUILD PROCESS
@@ -52,7 +53,7 @@ DEFAULT_LANG = "en"
 PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = [
     "autopages",
-#    "css-html-js-minify",
+    #    "css-html-js-minify",
     "deadlinks",
     'encrypt_content',
     "filetime_from_git",
@@ -76,11 +77,11 @@ TAG_PAGE_PATH = os.path.join(AUTOPAGES_PATH, "tags")
 
 # deadlinks
 DEADLINK_OPTS = {
-    'archive':  True,
-    'classes': [], # TODO
-    'labels':   False,
+    'archive': True,
+    'classes': [],  # TODO
+    'labels': False,
     'timeout_duration_ms': 1000,
-    'timeout_is_error':    True,
+    'timeout_is_error': True,
 }
 
 # encrypt-content
@@ -93,7 +94,7 @@ ENCRYPT_CONTENT = {
 PHOTO_LIBRARY = "./content/assets/images"
 PHOTO_EXIF_COPYRIGHT_AUTHOR = "rwev"
 
-PHOTO_THUMB = (500, 500, 50) # bumper
+PHOTO_THUMB = (500, 500, 50)  # bumper
 
 # sitemap
 SITEMAP = {
