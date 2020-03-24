@@ -56,6 +56,8 @@ Additionally, <code class="bash inline">washmutt</code> is a helper function tha
 
 And there you have it, fully encrypted, open-source, secure email running in a purely terminal, server-compatible environment.  
 
+You can find my full `mutt` configuration [here on gitlab](https://gitlab.com/rwev/evix/-/tree/master/.mutt).
+
 This post inspired by [spaceandtim.es](https://spaceandtim.es/code/protonmail_mutt/).
 
 ![protonmutt.png]({photo}tmux/protonmutt.png)
