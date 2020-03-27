@@ -17,7 +17,7 @@ As a member of the desktop generation and a terminal amateur, `tmux` provides th
 
 Additionally, `tmux` "may be detached from a screen and continue running in the background, then later reattached." `tmux` runs as a server in its own process independent from the terminal; the terminal simply interfaces with it. Even if you accidentally kill your terminal window (e.g. with ⌘-W on macOS), the `tmux` server lives, along with the processes and layout inside: just open a new terminal window and reattach. 
 
-Here's the configuration that I've arrived at after intermittent tinkering. It provides settings for a simple, unobtrusive header, including network status (online / offline), remaining battery power, date / time, hostname, in a soothing, uniform, [nordic](https://github.com/arcticicestudio/nord-tmux) theme. 
+Here's the configuration that I've arrived at after intermittent tinkering. It provides settings for a simple, unobtrusive header, including network status (online / offline), remaining battery power, date / time, and hostname, in a calm [nordic](https://github.com/arcticicestudio/nord-tmux) theme. 
 
 Other (invisible) plugins provide session restoration functionality and reasonable copy / paste interface with the host OS. And I only use small, curated and intentional subset of the plugins out [there](https://github.com/tmux-plugins).
 
