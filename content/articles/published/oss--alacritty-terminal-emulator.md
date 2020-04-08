@@ -19,7 +19,7 @@ First the font must be installed to the systems with <code class="bash inline">m
 
 The rest of the configuration is rather uninteresting.
 
-Whenever I set up my terminal and shell on a machine, I like to also install two command-line tools: [`bat`](https://github.com/sharkdp/bat) and [`lsd`](https://github.com/Peltoche/lsd). They are drop-in replacements for the traditional Unix utilities `cat` and `ls` but with some visual sugar for the modern programmer. 
+Whenever I set up my terminal and shell on a machine, I like to also install two command-line tools: [`bat`](https://github.com/sharkdp/bat) and [`lsd`](https://github.com/Peltoche/lsd). They are drop-in replacements for the traditional Unix utilities `cat` and `ls` but with some visual sugar for the modern programmer and leveraging patched fonts. 
 
 
 <script>
