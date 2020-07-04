@@ -74,7 +74,7 @@ async function fetchAsciinema({divId, castFile, startTime}) {
         
         await loadAsciinema();
         
-        let castPath = `/assets/javascript/dependencies/asciicasts/${castFile}`;
+        let castPath = `/assets/asciicasts/${castFile}`;
 
         let preload = ``; // false
         let loop= ``; 

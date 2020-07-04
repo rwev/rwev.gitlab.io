@@ -19,11 +19,11 @@ Additionally, `tmux` "may be detached from a screen and continue running in the 
 
 Here's the configuration that I've arrived at after intermittent tinkering. It provides settings for a simple, unobtrusive header, including network status (online / offline), remaining battery power, date / time, and hostname, in a calm [nordic](https://github.com/arcticicestudio/nord-tmux) theme. 
 
-Other (invisible) plugins provide session restoration functionality and reasonable copy / paste interface with the host OS. And I only use small, curated and intentional subset of the plugins out [there](https://github.com/tmux-plugins).
+Other (invisible) plugins provide session restoration functionality and a reasonable copy / paste interface with the host OS. And I only use small, curated and intentional subset of the plugins [out there](https://github.com/tmux-plugins).
 
 <pre><code class="bash" id="tmux.conf"></code></pre>
 
-Here's a screenshot of working in `tmux` to write [this](/protonmail-mutt-secure-email-in-the-terminal.html) article:
+Here's a screenshot of working in `tmux` to write [this article](/protonmail-mutt-secure-email-in-the-terminal.html):
 
 ![tui.png]({photo}tmux/ide.png)
 
