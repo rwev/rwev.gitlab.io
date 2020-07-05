@@ -39,7 +39,8 @@ async function makeMaps() {
         osmBaseLayerF().addTo(radarMap);
 
         let radar = L.control.radar({});
-        radar.addTo(map);
+        radar.addTo(radarMap);
+        
         radar.checkbox.checked = true;
         radar.toggle();
 }

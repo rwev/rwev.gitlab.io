@@ -1,3 +1,3 @@
 Title: rwev
 
-Hi! My name is Ryan William. Here's a little more about me.
+Hi! My name is Ryan. Learn more [here](/pages/about).

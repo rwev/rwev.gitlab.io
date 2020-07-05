@@ -93,7 +93,7 @@ ENCRYPT_CONTENT = {
 # photos
 PHOTO_LIBRARY = "./content/assets/images"
 PHOTO_EXIF_COPYRIGHT_AUTHOR = "rwev"
-PHOTO_ARTICLE = (1000, 1000, 90)
+PHOTO_ARTICLE = (1920, 1080, 90)
 
 # sitemap
 SITEMAP = {

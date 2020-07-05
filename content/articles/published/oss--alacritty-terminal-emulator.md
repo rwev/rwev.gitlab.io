@@ -1,6 +1,6 @@
 Title: Alacritty: Rocket to Anywhere
 Category: oss
-Tags: terminal,config,tmux,vim,process
+Tags: terminal,config,tmux,vim,process,nord
 Status: published
 
 [`Alacritty`](https://github.com/alacritty/alacritty) is a cross-platform terminal emulator. 
