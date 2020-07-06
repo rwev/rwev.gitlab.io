@@ -6,15 +6,16 @@ Status: published
 Key takeaways from the flagship essay in Paul Graham's collection, [_Hackers & Painters_](http://www.paulgraham.com/hp.html).
 > Hackers and painters are both makers.
 
-Occupations have more in common than what meets the eye. 
-
-Whenever someone says they work in technology, many seem amazed, as if they are a whole different level of human. This is false. The average blue-collar strong-armed construction contractor has more in common with the average white-collar weak-armed programmer than meets the eye. 
+Whenever one says they work in technology, many layman seem amazed, as if they are a whole different level of human. In reality, the average blue-collar strong-armed construction contractor has more in common with the average white-collar weak-armed programmer than meets the eye. 
 
 _All professionals want to make good things_: here's what they do to achieve that. 
 
 ## Bottom-Up, not Top-Down
 
-Know what to make is key to knowing how to make it. Any division taints the purity of the solution realization process, and levels of communication slow it down. Be both the architect and the engineer, versatile and maintaining a high level of vision, mindful of interconnectedness and interdependence.  
+Know what to make is key to knowing how to make it. Any division taints the purity of the solution realization process, and hierarchies of communication slow it down. 
+
+Be both the architect and the engineer. Be versatile and maintain a high level of vision, mindful of interconnectedness and interdependence.  
+
 > What and how should not be kept too separate.
     <br><br>
     The way to create something beautiful is often to make subtle tweaks to something that already exists, or to combine existing ideas in a slightly new way.

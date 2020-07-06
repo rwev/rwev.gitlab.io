@@ -3,13 +3,13 @@ Category: oss/tui
 Tags: config,tmux,code,nord
 Status: published
 
-`tmux` allows to user to overcome what is probably seen especially by new users, as the largest hindrance to real productivity at the terminal. 
+`tmux` overcomes some of the largest hindrances to real productivity at the terminal. 
 
-That's the fact that only one command can be run in the foreground. Processes can be run in parallel (e.g. with <code class="bash inline">$ bg; fg; jobs</code>) but it is cumbersome to manage, and doesn't provide reasonable and immediate transparency into the underlying process (e.g. logs). 
+A major obstacle is the fact that only one command can be run in the foreground. Processes can be run in parallel (e.g. with <code class="bash inline">$ bg; fg; jobs</code>) but it is cumbersome to manage, and doesn't provide reasonable and immediate transparency into the underlying process (e.g. logs). 
 
-Terminal procedure generally envisioned by novices proceeds as follows: type an _awk_-ward command, wait for it to run (often with no output, by design: the [Unix Rule of Silence](https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html#id2878450)), observe (or guess at) the result, and repeat.
+Terminal procedure generally envisioned by novices proceeds as follows: type an _awk_-ward command, wait for it to run (often with no output, per the [unix rule of silence](https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html#id2878450)), observe (or guess) the result, and repeat.
 
- Enter [`tmux`](https://github.com/tmux/tmux), a "terminal multiplexer it enables a number of terminals to be created, accessed, and controlled from a single screen."
+Enter [`tmux`](https://github.com/tmux/tmux), a "terminal multiplexer it enables a number of terminals to be created, accessed, and controlled from a single screen."
 
 As a member of the desktop generation and a terminal amateur, `tmux` provides the view / layout flexibility we've come to expect from modernity's GUI-centric operating systems. Translating the official purpose statement at the beginning of this post to practical function, it splits a terminal screen into "panes" and "windows" (in `tmux` jargon), all of which spawn and run the users default <code class="inline bash">echo $SHELL</code>, where multiple terminal jobs can run separately, side-by-side.
 
