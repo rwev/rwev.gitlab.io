@@ -1,6 +1,6 @@
 Title: This, Designed: Code Syntax Highlighting
 Category: design/this
-Tags: javascript,ui,ucd,nord,code
+Tags: javascript,nord,code
 Status: published
 
 In the integration of select code samples into this site, I had a couple of requirements:

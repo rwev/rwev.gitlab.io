@@ -4,3 +4,5 @@
 /venv
 /public
 /tundra
+*.iml
+/.idea
