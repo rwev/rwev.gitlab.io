@@ -1,4 +1,4 @@
-Title: Rules for Online Account Security & Privacy
+Title: Rules for Online Security & Privacy
 Category: data
 Tags: code,bash,privacy,security
 Status: published

@@ -1,6 +1,5 @@
 Title: Wealth & Technology: Onward to Practical Equality
 Category: philosophy/work
-Status: published
 
 This post is part two of the analysis of Paul Graham's essays that address the interconnection of wealth creation and technological development. Specifically, in this post, we look at _[Mind the Gap](www.paulgraham.com/gap.html)_, another essay contained in his collection _Hackers & Painters._
 

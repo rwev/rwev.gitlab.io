@@ -1,6 +1,5 @@
 Title: Wealth & Technology: How To
 Category: philosophy/work
-Status: published
 
 A certain breed organization structure fosters the interrelation between wealth and technological innovation. 
 

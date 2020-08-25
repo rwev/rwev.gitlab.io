@@ -1,6 +1,5 @@
 Title: The Power of Web-Based
 Category: oss/development
-Status: published
 
 ###  Portability
 

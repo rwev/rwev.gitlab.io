@@ -3,11 +3,11 @@ Category: design/this
 Tags: code,javascript,ucd
 Status: published
 
-One of the principles honored in the development of this site is the conservation of resources, by cutting out the unnecessary and frivolous, endlessly simplifying and carving down until only the essential information experience remains. 
+One of the principles honored in the development of this site is the conservation of resources, by cutting out the unnecessary and frivolous until only the essential information experience remains. 
 
 An application of this is in the loading of code <code id="script" class="html inline"></code> or styles <code id="link" class="html inline"></code>: they should only be loaded when need is critical and immediate, when the value or functionality they add or extend is directly demanded. 
 
-For example, in the case of code syntax highlighting, the styles and scripts necessary to provide aforesaid functionality are only loaded when a code sample is loaded onto the very page the user is on. Not before, not when they hit site's root, but when they load a page on which code must be highlighting to properly render _information_ to the user. 
+For example, the resources required for code syntax highlighting are loaded only when the user lands on a page with a code sample: not before, not when they hit site's root, but precisely when they load a page on which syntax highlighting enhances the rendition of code _information_ to the user. 
 
 This is done with the assistance of the following functions: 
 

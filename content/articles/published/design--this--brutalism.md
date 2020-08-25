@@ -3,6 +3,12 @@ Category: design/this
 Tags: code,ucd,ui
 Status: published
 
+<!-- TODO
+ https://gregorygundersen.com/blog/2020/06/21/blog-theme/ 
+ https://neustadt.fr/essays/the-small-web/
+ https://neustadt.fr/essays/against-a-user-hostile-web/
+ -->
+
 However simple, this site is rich with [invisible](https://tannerchristensen.com/blog/2019/1/5/your-best-work-will-be-invisible) intention.
 
 In the modern attention economy, websites steadily become more frivolous, confusing, and overstimulating, while losing speed and function. 

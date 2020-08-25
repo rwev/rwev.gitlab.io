@@ -5,4 +5,5 @@
 /public
 /tundra
 *.iml
+*.xml
 /.idea

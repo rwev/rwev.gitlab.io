@@ -3,8 +3,10 @@ Category: data
 Tags: privacy,security
 Status: published
 
+<!-- TODO http://jacek.zlydach.pl/blog/2019-07-31-ads-as-cancer.html -->
+
 To "degoogle" is to procedurally cut Google, and other
-digital imperialists who profit chiefly from mass surveillance and psychological
+digital imperialists profiting chiefly from mass surveillance and psychological
 manipulation at the cost of the individuals privacy and sovereignty, out of one's digital life.
 
 Many of today's best known tech companies once grew from innocent, grassroot beginnings and originally empowered the freewheeling and independent culture of the internet. 
@@ -12,7 +14,7 @@ Many of today's best known tech companies once grew from innocent, grassroot beg
 Those days are long over.
 
 Google, and by extension essentially any private-owned for-profit entity
-providing a use-cost-free service to the masses, don't provide their services
+providing a use-cost-free servicex to the masses, don't provide their services
 as philanthrophy for the good and forwardment of humanity, despite their [heart-tugging marketing](https://invidio.us/watch?v=6xSxXiHwMrg). 
 
 While they have not build their empires by billing the end user, they have by _selling_ the end user.
