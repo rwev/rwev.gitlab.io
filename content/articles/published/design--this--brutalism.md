@@ -3,29 +3,29 @@ Category: design/this
 Tags: code,ucd,ui
 Status: published
 
-<!-- TODO
- https://gregorygundersen.com/blog/2020/06/21/blog-theme/ 
- https://neustadt.fr/essays/the-small-web/
- https://neustadt.fr/essays/against-a-user-hostile-web/
- -->
+In the modern attention economy, websites steadily become more frivolous, confusing, and overstimulating, while losing simplicity, speed, and function. 
+
+Advertisers perpetuate the excess in their exploitation of [dark patterns](https://darkpatterns.org) for monetary ends, while other creators on the web exhibit the general naivety of favoring the progressive and [shiny](https://blog.codinghorror.com/the-magpie-developer/) over the tried and true. 
 
 However simple, this site is rich with [invisible](https://tannerchristensen.com/blog/2019/1/5/your-best-work-will-be-invisible) intention.
 
-In the modern attention economy, websites steadily become more frivolous, confusing, and overstimulating, while losing speed and function. 
+## Spirit of the Internet: Information First
 
-Some of the excess is perpetuated by advertisers and their powerful psychological devices, exploiting [malicious trickery](https://darkpatterns.org) for monetary ends. Other cases result from general naivety favoring the progressive and [shiny](https://blog.codinghorror.com/the-magpie-developer/) over the tried and true. 
+The original vision of the internet was simple: to provide the _interaction with information_ over physical distance. 
 
-## Spirit of the Internet
+Superficial marketing & data-collecting websites now dominate the internet, perpetuated search-engine [gatekeepers](https://neustadt.fr/essays/the-small-web/#modern-gatekeepers) directing traffic to their advertising clients. Overcome by monetized & manipulative design, such sites detract from
+ web's ability to provide an [accessible](https://sourcehut.org/blog/2020-05-27-accessibility-through-simplicity/) and equitable means of accessing and sharing information for multiple reasons. 
+  
+Bloated sites demand more grid power to run data centers and consumer devices, an [environmental](https://www.kentdebruin.com/blog/software-is-polluting-the-world) consequence. 
+ 
+Bloated sites require more data & network bandwidth, a limited and expensive resource for many internet users, the majority of which are on mobile devices. 
+  
+Bloated sites require more computation (parsing and executing loaded code), choking out older devices, harming the web experiences for those of us with lesser means.
 
-Aesthetics-first design introduces complication that detracts from the experience and impedes with the spirit and functionality of the internet: _transparent interaction with information_. 
+The first and primary goal of web design should be to deliver information. Anything that impedes or otherwise detracts from this purpose should be avoided. Most don't venture onto the internet for an animated & personalized experience; instead, they visit _foremost for the
+ information_. 
 
-While trends of superficiality dominate a huge chunk of internet traffic, this tendency contradicts the foremost purpose of the internet: to provide an accessible and equitable means of sharing information. The web itself is a network of information. 
-
-Complicated website designs impede the accessibility and making cross-platform display trickier by requiring more design & development resources. They also requires more power and network bandwidth, choking out older devices and using more grid power, yielding consequences in the realms of equality and environmentalism. 
-
-The first and primary goal of web design should be to deliver information. Anything that impedes or otherwise detracts from this purpose should be avoided. Most don't venture onto the internet for a soothing visual experience; most visit first & foremost for the information. 
-
-Enough with describing the dreary state of the web. What's a better approach? 
+Enough with describing the dreary state of the web. What's a better approach? Design with information first. 
 
 ## Brutalist Design
 
@@ -49,8 +49,6 @@ This means, as quoted,
 
 Brutalism starts and stays simple, relies on built-ins and de-facto specifications, and leaves final form up to the user or their tailored device. Information-centric design relegates decisions in presentation to the end consumer: only they know what is best for them. 
 
-### What You See is What You Get (WYSIWYG)
-
 Composition and mechanics should be clear on the surface with no trickery, facades, or superficiality. No guessing or inference should be expected of the user.
 
 > A website is a hypertext document that allows for two primary forms of interaction: navigating a link to another location, and submitting information back to a server. These functions are performed, respectively, by hyperlinks and buttons. Hyperlinks are underlined and buttons look like buttons.
@@ -67,9 +65,9 @@ Additionally, the browser knows the end user better than any remote server can: 
 
 ### Performance
 
-Let the browser handle as much as possible, which is precompiled from a lower-level language, tried and true, and iterated program built for accessibility and speed. Using the browser for site functionality is fast.  Code in the browser (ultimately JavaScript) will never be as fast as the browser, or as reliable, or provide the same consistent interactive experience across websites. It is dynamically typed and must be parsed by the client, *QED*.
+Let the browser handle as much as possible, which is precompiled from a lower-level language, tried and true, and iterated program built for accessibility and speed. Using the browser for site functionality is fast.  Code in the browser (JavaScript) will never be as fast as the browser, or as reliable, or provide the same consistent interactive experience across websites. It is dynamically typed and must be parsed by the client, *QED*.
  
-That being said, JavaScript definitely has it's place. It can expand the functionality of websites into domains not built into browser. I use it sparingly on this website (link to map) for domain-specific and contained functionality, and it's only loaded on-demand when absolutely necessary. 
+That being said, JavaScript has it's place. It can expand the functionality of websites into domains not built into browser. I use it sparingly on this website  for domain-specific and contained functionality, and it's only loaded on-demand when absolutely necessary. 
 
 > By embracing its nature and materials, a website adhering to Brutalist Web Design is fast. It allows the system of network, browser, content, and operating system to work together smoothly and efficiently, as they were designed to. Even with decoration, advertising, and imagery, a website embracing Brutalist Web Design will respect your visitor's time, bandwidth, and battery. 
 

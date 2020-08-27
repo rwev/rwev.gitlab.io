@@ -36,9 +36,9 @@ struggle, due to the cutting out of convenience in digital habits, for the
 sake of principle. 
 
 The essence of principle is doing right by your values, regardless of the cost
-or convenience.
+or convenience - whether you are a consumer or a [creator](https://drewdevault.com/2020/05/05/We-are-complicit-in-our-employers-deeds.html).    
 
-To "degoogle" is to stand by principles of privacy, sovereignty, autonomy, and self-determination, to demand the de-monetization of basic human right of communication and an open-source, transparent interaction with the systems on which we share much of our lives.    
+To "degoogle" is to stand by principles of privacy, sovereignty, autonomy, and self-determination, to demand the de-monetization of basic human right of communication and an open-source, transparent interaction with the systems on which we share our lives.    
 
 # Alternative Products 
 

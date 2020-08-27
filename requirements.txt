@@ -5,9 +5,8 @@ invoke
 lesscpy
 lxml
 markdown
-pelican
+pelican==4.2.0
 piexif
 pillow
 pycryptodome
-css-html-js-minify
 feedparser
